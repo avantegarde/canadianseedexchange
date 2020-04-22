@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "mace";
+  src:url("iconfont/fonts/mace.eot");
+  src:url("iconfont/fonts/mace.eot?#iefix") format("embedded-opentype"),
+    url("iconfont/fonts/mace.woff") format("woff"),
+    url("iconfont/fonts/mace.ttf") format("truetype"),
+    url("iconfont/fonts/mace.svg#mace") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: "mace" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="mace-iconfont"]:before,
+[class*="mace-iconfont"]:before {
+  font-family: "mace" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mace-youtube-play:before {
+ content: "\e010";
+}
+

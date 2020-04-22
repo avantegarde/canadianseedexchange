@@ -1,0 +1,728 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MediaAce\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2019-06-14 11:54+0000\n"
+"Last-Translator: admin <dev-email@flywheel.local>\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"POT-Creation-Date: 2019-06-14 11:53+0000\n"
+"X-Loco-Version: 2.3.0; wp-5.2.1"
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Facebook App ID"
+msgstr "Identyfikator aplikacji Facebook"
+
+msgid "YouTube App Key"
+msgstr "Klucz aplikacji YouTube"
+
+msgid "MediaAce Settings"
+msgstr "Ustawienia MediaAce"
+
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+msgid ""
+"How do I get my <strong>App ID</strong>? Use the <a href=\"%s\" "
+"target=\"_blank\">Register and Configure an App</a> guide for help."
+msgstr ""
+"Jak uzyskać mój <strong>Identyfikator aplikacji</strong>? Zobacz przewodnik "
+"<a href=\"%s\" target=\"_blank\">Register and Configure an App</a> by "
+"dowiedzieć się więcej."
+
+msgid "Used, for example, for Video Playlist YouTube videos."
+msgstr "Używane np. w liście odtwarzania video dla video z serwisu YouTube."
+
+msgid "Share on Facebook"
+msgstr "Udostępnij na Facebooku"
+
+msgid "Share on Twitter"
+msgstr "Udostępnij na Twiterze"
+
+msgid "Share on Pinterest"
+msgstr "Udostępnij na Pintereście"
+
+msgid "Empty gallery. Add some images."
+msgstr "Pusta galeria. Dodaj jakieś obrazki."
+
+msgid "View Gallery"
+msgstr "Zobacz galerię"
+
+msgid "%s image"
+msgid_plural "%s images"
+msgstr[0] "%s obrazek"
+msgstr[1] "%s obrazki"
+msgstr[2] "%s obrazków"
+
+msgid "Back to slideshow"
+msgstr "Wróc do pokazu slajdów"
+
+msgid "Empty list. None of video urls could be loaded."
+msgstr "Pusta lista. Żadne video nie mogło zostać załadowane."
+
+msgid "Media Ace Settings"
+msgstr "Ustawienia Media Ace"
+
+msgid "Gallery Type"
+msgstr "Typ galerii"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Lightbox"
+msgstr "Lightbox"
+
+msgid "Gallery Title"
+msgstr "Tytuł galerii"
+
+msgid "of"
+msgstr "z"
+
+msgid "MediaAce"
+msgstr "MediaAce"
+
+msgid "Expiry Headers Enabled?"
+msgstr "Włącz nagłówki wygaśnięcia"
+
+msgid ".htaccess content"
+msgstr "zawartość pliku .htaccess"
+
+msgid "Enabled?"
+msgstr "Włączony?"
+
+msgid "Access allowed for URLs"
+msgstr "Dostęp dozwolony dla adresów URL"
+
+msgid "Block direct access to these files"
+msgstr "Zablokuj dostęp bezpośredni do tych plików"
+
+msgid "Direct requests"
+msgstr "Żądania bezpośrednie"
+
+msgid "Redirect blocked request to this URL"
+msgstr "Przekieruj zablokowane zasoby do tego adresu URL"
+
+msgid "Regular expressions allowed."
+msgstr "Dozwolone są wyrażenia regularne."
+
+msgid "Space-separated list of file extensions"
+msgstr "Lista rozszerzeń plików oddzielona spacjami"
+
+msgid ""
+"Some visitors uses a personal firewall or antivirus program, that deletes "
+"the page referer information sent by the web browser. Hotlink protection is "
+"based on this information. If you choose not to allow direct requests, you "
+"will block these users. You will also prevent people from directly accessing "
+"an image by typing in the URL in their browser."
+msgstr ""
+"Niektórzy odwiedzający używają własnego firewalla lub programu "
+"antywirusowego, który usuwa adres strony odsyłającej wysyłany przez "
+"przeglądarkę. Blokowanie podlinkowywania bazuje na tej informacji. Jeśli "
+"zdecydujesz się nie pozwalać na żądania bezpośrednie, zablokujesz tych "
+"użytkowników. Zablokujesz również możliwość dostępu do obrazka po wpisaniu w "
+"przeglądarce jego adresu URL."
+
+msgid "We recommend to check this option."
+msgstr "Zalecany zaznaczenie tej opcji."
+
+msgid "Leave blank to use default image."
+msgstr "Pozostaw puste by użyć domyślnego obrazka."
+
+msgid "Media Ace"
+msgstr "Media Ace"
+
+msgid ""
+"The playlist could not be displayed, please make sure that YouTube API key "
+"is set in the settings."
+msgstr ""
+"Ta lista odtwarzania nie może zostać wyświetlona, upewnij się proszę, że "
+"klucz YouTube API jest podany w ustawieniach."
+
+msgid "Remove"
+msgstr "Usuń"
+
+msgid "Select Image"
+msgstr "Wybierz obrazek"
+
+msgid "Auto Featured Images"
+msgstr "Automatyczne wyróżnione obrazki"
+
+msgid "Auto download embed featured images"
+msgstr "Automatycznie pobieraj wyróżniony obrazek dla mediów osadzonych"
+
+msgid "Replace Images"
+msgstr "Zamień obrazki"
+
+msgid "Image Bulk Replace"
+msgstr "Hurtowa zamiana obrazków"
+
+msgid "Replace multiple images"
+msgstr "Zamień wiele obrazków"
+
+msgid "Choose images to replace"
+msgstr "Wybierz obrazki do zastąpienia"
+
+msgid "Choose to insert (filenames must match)"
+msgstr "Wybierz do wstawienia (nazwy plików muszą się zgadzać)"
+
+msgid "Replace images"
+msgstr "Zamień obrazki"
+
+msgid "Pick"
+msgstr "Wybierz"
+
+msgid "Start"
+msgstr "Rozpocznij"
+
+msgid "Expire Headers"
+msgstr "Nagłówki wygaśnięcia"
+
+msgid "Configure Expire Headers"
+msgstr "Skonfiguruj nagłówki wygaśnięcia"
+
+msgid "Leverage browser cache to improve performance."
+msgstr "Użyj pamięci podręcznej przeglądarki by poprawić wydajność."
+
+msgid ""
+"Please use the global multisite settings to set up the expiry headers for "
+"the whole multisite."
+msgstr ""
+"Użyj proszę globalnych ustawień sieci witryn by skonfigurować nagłówki "
+"wygaśnięcia dla całej sieci witryn."
+
+msgid "Gallery"
+msgstr "Galeria"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Logo HDPI"
+msgstr "Logo w wyższej rozdzielczości"
+
+msgid "Lightbox skin"
+msgstr "Skórka lightboxa"
+
+msgid "Sidebar thumbnails"
+msgstr "Miniaturki paska bocznego"
+
+msgid "Share buttons"
+msgstr "Przyciski udostępniania"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgid "Requires <a href=\"%s\" target=\"_blank\">FB App Id</a>"
+msgstr ""
+"Wymagany <a href=\"%s\" target=\"_blank\">Identyfikator aplikacji "
+"Facebook</a>"
+
+msgid "GIF to MP4"
+msgstr "GIF do MP4"
+
+msgid "GIF to MP4 Conversion"
+msgstr "Konwersja GIF do MP4"
+
+msgid "Cloud Convert API Key"
+msgstr "Klucz API Cloud Convert"
+
+msgid "Store MP4 files"
+msgstr "Składuj pliki MP4"
+
+msgid "Amazon S3 Access Key ID"
+msgstr "Identyfikator klucza dostępu Amazon S3"
+
+msgid "Amazon S3 Access Key"
+msgstr "Klucz dostępu Amazon S3"
+
+msgid "Amazon S3 Bucket"
+msgstr "Pojemnik Amazon S3"
+
+msgid ""
+"The plugin uses the %s service for GIF to MP4 on the fly conversion. "
+"CloudConvert can be used absolutely free! Nevertheless, if your usage "
+"exceeds free plan, you will need to choose one of prepaid packages and "
+"subscriptions."
+msgstr ""
+"Wtyczka używa serwisu %s do natychmiastowej konwersji GIF na MP4. "
+"CloudConvert może być używany całkowicie za darmo! Tym niemniej, jeśli "
+"przekroczysz limit darmowego planu, będziesz musiał dokupić jeden z "
+"przygotowanych pakietów lub planów."
+
+msgid ""
+"Your API key can be found in the Dashboard section of your CloudConvert "
+"account."
+msgstr ""
+"Możesz znaleźć twój klucz API w sekcji Kokpit twojego konta CloudConvert."
+
+msgid "on disk"
+msgstr "na dysku"
+
+msgid "on Amazon S3"
+msgstr "w chmurze Amazon S3"
+
+msgid "Hotlink Protection"
+msgstr "Blokowanie podlinkowywania obrazków"
+
+msgid "Configure Hotlink Protection"
+msgstr "Skonfiguruj blokowanie podlinkowywania"
+
+msgid "Test protection"
+msgstr "Testuj blokowanie"
+
+msgid ""
+"Protect your bandwidth by preventing other sites from using images hosted on "
+"your site."
+msgstr ""
+"Oszczędź transfer przez blokowanie zewnętrznym stronom podlinkowywanie "
+"obrazków na twojej stronie."
+
+msgid ""
+"Please use the global multisite settings to set up the hotlink protection "
+"for the whole multisite."
+msgstr ""
+"Użyj proszę globalnych ustawień sieci witryn by skonfigurować blokowanie "
+"podlinkowywania obrazków dla całej sieci witryn."
+
+msgid "To make sure that hotlink protection works correct, do as follows:"
+msgstr ""
+"Aby upewnić się, że blokowanie podlinkowywania obrazków działa jak należy, "
+"zrób co następuje:"
+
+msgid "Uncheck the \"Direct requests\" option above and save changes."
+msgstr "Odznacz opcję \"Żądania bezpośrednie\" powyżej i zachowaj zmiany."
+
+msgid ""
+"Clear your browser cache (it is enough to purge the Cached Images and Files)."
+msgstr ""
+"Wyczyść pamięć podręczną przeglądarki (wystarczy usunąć pobrane obrazki i "
+"pliki)."
+
+msgid "Copy url of any of your images."
+msgstr "Skopiuj adres URL jednego z twoich obrazków."
+
+msgid "Open that url in new browser tab (or window)."
+msgstr "Otwórz ten adres URL w nowej zakładce przeglądarki (lub nowym oknie)."
+
+msgid ""
+"You should be redirected to the \"Redirect blocked request to this URL\" (if "
+"set) or see forbidden page (if url not set)."
+msgstr ""
+"Powinieneś zostać przekierowany do \"Przekieruj zablokowane żądania do tego "
+"adresu URL\" (jeśli ustawiono) lub zobaczyć zablokowaną stronę (jeśli nie "
+"ustawiono)."
+
+msgid "After finishing, restore the \"Direct requests\" option."
+msgstr "Po zakończeniu, przywróć opcję \"Żądania bezpośrednie\"."
+
+msgid "Image list ready."
+msgstr "Lista obrazków jest gotowa."
+
+msgid "Image thumbnails regenerated."
+msgstr "Miniaturki zostały przegenerowane."
+
+msgid "Watermarks added."
+msgstr "Dodano znaki wodne."
+
+msgid "Watermarks removed."
+msgstr "Usunięto znaki wodne."
+
+msgid "Couldn't find any images."
+msgstr "Nie można znaleźć żadnych obrazków."
+
+msgid "Image Bulk Actions"
+msgstr "Hurtowe akcje obrazków"
+
+msgid "Process all images at once"
+msgstr "Przetwórz wszystkie obrazki jednocześnie"
+
+msgid "Regenerate Thumbnails"
+msgstr "Wygeneruj miniaturki"
+
+msgid "Add Watermarks"
+msgstr "Dodaj znak wodny"
+
+msgid "Remove Watermarks"
+msgstr "Usuń znak wodny"
+
+msgid ""
+"Create thumbnails based on defined %s and clean up disk from old unused "
+"files. This process can take a lot of time (and server CPU/memory) and have "
+"to be run with caution."
+msgstr ""
+"Wygeneruj miniaturki bazując na zdefiniowanych %s i wyczyść dysk ze starych "
+"nieużywanych plików. Przetwarzanie może zająć dłuższy czas (i zasoby "
+"procesora, pamięci na serwerze) i musi być przeprowadzone z uwagą."
+
+msgid "Image Sizes"
+msgstr "Rozmiary obrazka"
+
+msgid "Processing files..."
+msgstr "Przetwarzanie plików..."
+
+msgid "Completed"
+msgstr "Zakończono"
+
+msgid ""
+"Please be patient while the process can take a while (depends on your server "
+"resources)."
+msgstr ""
+"Prosżę o cierpliwość gdyż przetwarzanie może zająć chwilę (zależy od zasobów "
+"twojego serwera)."
+
+msgid "To process"
+msgstr "Do przetworzenia"
+
+msgid "Processed"
+msgstr "Przetworzono"
+
+msgid "Success"
+msgstr "Sukces"
+
+msgid "Failed"
+msgstr "Nie udało się"
+
+msgid "Image size saved."
+msgstr "Rozmiar obrazka zapisany."
+
+msgid "Image size deleted."
+msgstr "Rozmiar obrazka usuniety."
+
+msgid "Image size activated."
+msgstr "Rozmiar obrazka aktywowany."
+
+msgid "This image size can't be deleted!"
+msgstr "Ten rozmiar obrazka nie może zostać usunięty!"
+
+msgid "This image size can't be activated!"
+msgstr "Ten rozmiar obrazka nie może zostać aktywowany!"
+
+msgid "This image size not exists!"
+msgstr "Ten rozmiar obrazka nie istnieje!"
+
+msgid "Manage Image Sizes"
+msgstr "Zarządzaj rozmiarami obrazków"
+
+msgid ""
+"After editing or adding an image size, you have to %s to apply changes to "
+"all existing images."
+msgstr ""
+"Po edycji lub dodaniu rozmiaru obrazków, musisz %s zaaplikować zmiany do "
+"wszystkich obrazków."
+
+msgid "New image size"
+msgstr "Nowy rozmiar obrazków"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Size"
+msgstr "Rozmiar"
+
+msgid "Width"
+msgstr "Szerokość"
+
+msgid "Height"
+msgstr "Wysokość"
+
+msgid "Crop"
+msgstr "Przytnij"
+
+msgid "Crop X"
+msgstr "Przytnij w poziomie"
+
+msgid "Crop Y"
+msgstr "Przytnij w pionie"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "Left"
+msgstr "Lewy"
+
+msgid "Center"
+msgstr "Środek"
+
+msgid "Right"
+msgstr "Prawy"
+
+msgid "Top"
+msgstr "Góra"
+
+msgid "Bottom"
+msgstr "Dół"
+
+msgid "Lazy Load"
+msgstr "Ładowanie z opóźnieniem"
+
+msgid ""
+"Don't load images and embeds until the point at which they are really needed"
+msgstr ""
+"Nie ładuj obrazków i mediów osadzonych dopóty nie są naprawdę potrzebne"
+
+msgid "Lazy load images"
+msgstr "Ładowanie z opóźnieniem obrazków"
+
+msgid "Load image with unveilling effects"
+msgstr "Załaduj obrazki z efektem odsłonięcia"
+
+msgid "Lazy load embeds"
+msgstr "Ładowanie z opóźnieniem mediów osadzonych"
+
+msgid "YouTube player"
+msgstr "Odtwarzacz YouTube"
+
+msgid "For embeds that use iframe embed method (like YouTube or Instagram)."
+msgstr ""
+"Dla mediów osadzonych, które używają osadzania w ramce (jak YouTube czy "
+"Instagram)."
+
+msgid "show related videos when a playback is paused or ended"
+msgstr ""
+"pokaż powiązane video gdy odtwarzanie zostało zatrzymane lub zakończone"
+
+msgid "Image not found."
+msgstr "Nie znaleziono obrazka."
+
+msgid "Invalid image."
+msgstr "Nieprawidłowy obrazek."
+
+msgid "The original image file cannot be found."
+msgstr "Oryginalny plik obrazka nie został znaleziony."
+
+msgid "Metadata was not generated properly."
+msgstr "Metadane nie zostały wygenerowane poprawnie."
+
+msgid "Regenerate thumbnails for this image"
+msgstr "Wygeneruj miniaturki dla tego obrazka"
+
+msgctxt "Settings tab title"
+msgid "Video"
+msgstr "Wideo"
+
+msgctxt "Setting page title"
+msgid "Video"
+msgstr "Wideo"
+
+msgctxt "Setting title"
+msgid "Auto video length"
+msgstr "Automatyczne długość wideo"
+
+msgctxt "Settings page description"
+msgid "Common video tasks."
+msgstr "Ogólne zadania wideo"
+
+msgctxt "Setting description"
+msgid ""
+"Fetch and store video length when video post format is creating and updating."
+msgstr ""
+"Pobierz i zapisz długość wideo gdy wideo post format jest tworzony i "
+"uaktualniany"
+
+msgctxt "YouTube invalid key message"
+msgid ""
+"For YouTube videos, you have to provide YouTube App Key in the Settings tab."
+msgstr ""
+"Dla filmów YouTube, musisz podać klucz aplikacji YouTube w zakładce "
+"Ustawienia"
+
+msgid "Self-hosted video url %s is not a valid attachment url!"
+msgstr ""
+"Adres URL video na własnym hostingu nie jest poprawnym adresem URL "
+"załącznika!"
+
+msgid "Vimeo video url %s is not valid!"
+msgstr "Adres URL video z serwisu Vimeo nie jest poprawny!"
+
+msgid "Vimeo video %s not found!"
+msgstr "Nie znaleziono video %s z serwisu Vimeo!"
+
+msgid "YouTube video url %s is not valid!"
+msgstr "Adres URL video z serwisu YouTube nie jest poprawny!"
+
+msgid "YouTube video %s not found!"
+msgstr "Nie znaleziono video %s z serwisu YouTube!"
+
+msgid "Video %s not loaded. YouTuba API key is not set."
+msgstr "Nie załadowano video %s. Klucz YouTube API nie jest ustawiony."
+
+msgid "Please set the API key in plugin settings."
+msgstr "Ustaw proszę klucz API w ustawieniach wtyczki."
+
+msgid "Image excluded."
+msgstr "Obrazek pominięty."
+
+msgid "Image included."
+msgstr "Obrazek uwzględniony."
+
+msgid "Backup file missing."
+msgstr "Brakuje pliku kopii zapasowej."
+
+msgid "Add watermarks for this image"
+msgstr "Dodaj znaki wodne do tego obrazka"
+
+msgid "Remove watermarks from this image"
+msgstr "Usuń znaki wodne z tego obrazka"
+
+msgid "Allow watermarking for this image"
+msgstr "Pozwól na aplikowanie znaku wodnego do tego obrazka"
+
+msgid "Allow Watermarking"
+msgstr "Pozwól na aplikowanie znaków wodnych"
+
+msgid "Exclude this image from Watermarking"
+msgstr "Pomiń ten obrazek przy dodawaniu znaku wodnego"
+
+msgid "Exclude from Watermarking"
+msgstr "Pomiń przy dodawaniu znaku wodnego"
+
+msgid "Watermarks"
+msgstr "Znaki wodne"
+
+msgid "Image Watermark"
+msgstr "Znaki wodne"
+
+msgid "Watermark image"
+msgstr "Obrazek znaku wodnego"
+
+msgid "Position on image"
+msgstr "Pozycja na obrazku"
+
+msgid "Opacity"
+msgstr "Przezroczystość"
+
+msgid "Advanced options"
+msgstr "Opcje zaawansowane"
+
+msgid "Image sizes"
+msgstr "Rozmiary obrazka"
+
+msgid "Scale"
+msgstr "Skala"
+
+msgid "Offset"
+msgstr "Przesunięcie"
+
+msgid ""
+"Add your logo, stamp or signature to images to protect them and indicate "
+"your ownership."
+msgstr ""
+"Dodaj logo, znaczek lub podpis na obrazki by chronić i oznaczyć twoją "
+"własność."
+
+msgid "To apply watermarks to all existing images, use the %s bulk tool."
+msgstr ""
+"By zaaplikować znaki wodne do wszystkich obrazków, użyj narzędzia hurtowej "
+"zmiany %s."
+
+msgid "Apply Watermarks"
+msgstr "Zaaplikuj znaki wodne"
+
+msgid "Choose sizes to be watermarked"
+msgstr "Wybierz rozmiary do których zaaplikować znak wodny"
+
+msgid "Scale of watermark in relation to image."
+msgstr "Skala znaku wodnego w relacji do obrazka"
+
+msgid ""
+"Move watermark from image edges. Does not apply for the \"center center\" "
+"position."
+msgstr ""
+"Przesuń znak wodny od krawędzi obrazka. Nie dotyczy pozycji \"środek "
+"środek\"."
+
+msgid "Keep copy of original images to be able to remove watermarks."
+msgstr "Zachowaj kopię oryginalnych obrazków by móc usunąć znaki wodne."
+
+msgid "To remove watermarks from all existing images, use the %s bulk tool."
+msgstr ""
+"By usunąć znaki wodne ze wszystkich obrazków, użyj narzędzia hurtowej edycji "
+"%s."
+
+msgid "Width (px)"
+msgstr "Szerokość (w pikselach)"
+
+msgid "Height (px)"
+msgstr "Wysokość (w pikselach)"
+
+msgid "Group"
+msgstr "Grupa"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Modified"
+msgstr "Zmodyfikowany"
+
+msgid "Used"
+msgstr "Użyto"
+
+msgid "All (%d)"
+msgstr "Wszystko (%d)"
+
+msgid "Activated (%d)"
+msgstr "Aktywowany (%d)"
+
+msgid "Deactivated (%d)"
+msgstr "Dezaktywowany (%d)"
+
+msgid "activated"
+msgstr "aktywowany"
+
+msgid "deactivated"
+msgstr "dezaktywowany"
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "yes"
+msgstr "tak"
+
+msgid "no"
+msgstr "nie"
+
+msgid "Quick Edit"
+msgstr "Szybka edycja"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Deactivate"
+msgstr "Dezaktywuj"
+
+msgid "Activate"
+msgstr "Aktywuj"
+
+msgid "Filter by group"
+msgstr "Filtruj po grupie"
+
+msgid "All groups"
+msgstr "Wszystkie grupy"
+
+msgid "Watermark not applied."
+msgstr "Znak wodny nie został zaaplikowany."
+
+msgid "Your media assistant"
+msgstr "Twój asystent obsługi mediów"
+
+msgid "bringthepixel"
+msgstr "bringthepixel"
+
+msgid "http://www.bringthepixel.com"
+msgstr "http://www.bringthepixel.com"

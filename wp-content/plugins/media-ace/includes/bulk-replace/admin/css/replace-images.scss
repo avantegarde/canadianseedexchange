@@ -1,0 +1,26 @@
+.mace-watermarks.mace-in-progress .mace-start { display: none; }
+
+.mace-watermarks .mace-processing-header,
+.mace-watermarks .mace-processed-header,
+.mace-watermarks .mace-stats,
+.mace-watermarks .mace-processed-files { display: none; }
+
+.mace-watermarks .mace-processed-files .mace-details { display: none; }
+.mace-watermarks .mace-processed-files li.mace-expanded .mace-details { display: block; }
+
+.mace-watermarks.mace-in-progress .mace-processed-files,
+.mace-watermarks.mace-finished .mace-processed-files { display: block; }
+
+.mace-watermarks.mace-in-progress .mace-processing-header { display: block; }
+.mace-watermarks.mace-finished .mace-processed-header { display: block; }
+
+.mace-watermarks.mace-in-progress .mace-stats { display: block; }
+.mace-watermarks.mace-finished .mace-stats { display: block; }
+
+.upload-flash-bypass{
+    display:none;
+}
+
+.mace-replace-start-button{
+    margin: 20px auto !important;
+}

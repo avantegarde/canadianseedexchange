@@ -1,0 +1,323 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-4.9.1"
+
+msgid "Some error occurred while voting. Please try again."
+msgstr ""
+
+msgctxt "taxonomy general name"
+msgid "Reactions"
+msgstr ""
+
+msgctxt "taxonomy singular name"
+msgid "Reaction"
+msgstr ""
+
+msgid "Search Reactions"
+msgstr ""
+
+msgid "All Reactions"
+msgstr ""
+
+msgid "Parent Reaction"
+msgstr ""
+
+msgid "Parent Reaction:"
+msgstr ""
+
+msgid "Edit Reaction"
+msgstr ""
+
+msgid "Update Reaction"
+msgstr ""
+
+msgid "Add New Reaction"
+msgstr ""
+
+msgid "New Reaction Name"
+msgstr ""
+
+msgid "Reactions"
+msgstr ""
+
+msgid "View Reaction"
+msgstr ""
+
+msgid "Could not insert new reaction into the database!"
+msgstr ""
+
+msgid "Angry"
+msgstr ""
+
+msgid "Cute"
+msgstr ""
+
+msgid "Cry"
+msgstr ""
+
+msgid "Geeky"
+msgstr ""
+
+msgid "LOL"
+msgstr ""
+
+msgid "LOVE"
+msgstr ""
+
+msgid "OMG"
+msgstr ""
+
+msgid "WIN"
+msgstr ""
+
+msgid "WTF"
+msgstr ""
+
+msgctxt "ajax internal message"
+msgid "Icon id not set!"
+msgstr ""
+
+msgctxt "ajax internal message"
+msgid "This is not an attachment!"
+msgstr ""
+
+msgctxt "ajax internal message"
+msgid "Icon saved successfully."
+msgstr ""
+
+msgid "What's Your Reaction?"
+msgstr ""
+
+msgid ""
+"Browse and manage your reactions from your <a href=\"%s\">Member Profile "
+"Page</a>"
+msgstr ""
+
+msgid "Browse and manage your reactions from your Member Profile Page"
+msgstr ""
+
+msgid "No Reactions"
+msgstr ""
+
+msgid "React on a post and it will show up here."
+msgstr ""
+
+msgid "%s hasn't reacted on any post yet."
+msgstr ""
+
+msgid "Load More"
+msgstr ""
+
+msgid "Anonymous"
+msgstr ""
+
+msgctxt "someone reacted to post"
+msgid "%1$s to"
+msgstr ""
+
+msgid "View all reactions"
+msgstr ""
+
+msgctxt "BuddyPress component name"
+msgid "Reactions"
+msgstr ""
+
+msgctxt "BuddyPress component description"
+msgid ""
+"Allow your users to manage their reactions directly from within their "
+"profiles."
+msgstr ""
+
+msgctxt "form label"
+msgid "Icon"
+msgstr ""
+
+msgctxt "button"
+msgid "Upload New Icon"
+msgstr ""
+
+msgid "The recommended format is SVG."
+msgstr ""
+
+msgctxt "form label"
+msgid "Order"
+msgstr ""
+
+msgctxt "form label"
+msgid "Icon Type"
+msgstr ""
+
+msgctxt "icon type"
+msgid "Text"
+msgstr ""
+
+msgctxt "icon type"
+msgid "Graphic"
+msgstr ""
+
+msgctxt "form label"
+msgid "Icon Text Color"
+msgstr ""
+
+msgctxt "form label"
+msgid "Icon Background Color"
+msgstr ""
+
+msgctxt "form label"
+msgid "Disable?"
+msgstr ""
+
+msgctxt "taxonomy column name"
+msgid "Order"
+msgstr ""
+
+msgctxt "taxonomy column name"
+msgid "Icon"
+msgstr ""
+
+msgctxt "taxonomy column name"
+msgid "Active?"
+msgstr ""
+
+msgctxt "ajax internal message"
+msgid "Post id not set!"
+msgstr ""
+
+msgctxt "ajax internal message"
+msgid "Invalid reaction type!"
+msgstr ""
+
+msgctxt "ajax internal message"
+msgid "User has already voted for that reaction type!"
+msgstr ""
+
+msgctxt "ajax internal message"
+msgid "Failed to vote for post with id %d"
+msgstr ""
+
+msgctxt "ajax internal message"
+msgid "Reaction added successfully."
+msgstr ""
+
+msgid "Latest Reactions"
+msgstr ""
+
+msgid "A list of latest reactions."
+msgstr ""
+
+msgid "Widget title"
+msgstr ""
+
+msgid "The max. number of entries to show"
+msgstr ""
+
+msgid "HTML id attribute (optional)"
+msgstr ""
+
+msgid "HTML class(es) attribute (optional)"
+msgstr ""
+
+msgctxt "myCRED reference"
+msgid "React to a post"
+msgstr ""
+
+msgctxt "myCRED hook name"
+msgid "React to a post"
+msgstr ""
+
+msgctxt "myCRED hook description"
+msgid "Awards for reactions."
+msgstr ""
+
+msgctxt "myCRED hook log"
+msgid "Reacted to %post_title% with: %reaction%"
+msgstr ""
+
+msgctxt "myCRED hook instance"
+msgid "Reacting to a post"
+msgstr ""
+
+msgid "Log template"
+msgstr ""
+
+msgid "required"
+msgstr ""
+
+msgid "What's Your Reaction"
+msgstr ""
+
+msgid "Fake Reactions"
+msgstr ""
+
+msgid "Fake reaction count"
+msgstr ""
+
+msgid "Leave empty to use global settings."
+msgstr ""
+
+msgid "Disable fakes for:"
+msgstr ""
+
+msgid "Nonce incorrect!"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "Fakes"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "Count base"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "Randomize fake reactions?"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "Disable for new submissions?"
+msgstr ""
+
+msgid "What's Your Reaction Settings"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid ""
+"Fake reactions for a post are calculated based on this value and a post "
+"creation date (older posts' reactions are closer to the count base)."
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "Leave empty to not use the \"Fake reactions\" feature."
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "General"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "Show Member Profile Link"
+msgstr ""
+
+msgid "Share your reaction to a post, using nice looking badges"
+msgstr ""
+
+msgid "bringthepixel"
+msgstr ""
+
+msgid "http://www.bringthepixel.com"
+msgstr ""

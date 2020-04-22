@@ -1,0 +1,32 @@
+.g1-gallery-frames{
+    @include display(flex);
+    @include flex-grow(1);
+}
+
+.g1-gallery-frame {
+    display: none;
+    @include flex-direction(column);
+    @include flex-grow(1);
+    border-#{$right}:1px solid #313131;
+    border-bottom:1px solid #313131;
+}
+
+.g1-gallery-frame-visible{
+    @include display(flex);
+}
+
+.g1-gallery-image {
+    position:relative;
+    @include display(flex);
+    @include flex-grow(1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.g1-gallery-image-title {
+    min-height:22px;
+    padding: 8px 0;
+    text-align:center;
+    color:#999999;
+    border-top:1px solid #313131;
+}

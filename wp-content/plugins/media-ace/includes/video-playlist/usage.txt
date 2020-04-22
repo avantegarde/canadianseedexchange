@@ -1,0 +1,26 @@
+Example playlist
+----------------
+
+For quick start, add this shortcode to your post content:
+
+[mace_video_playlist title="Video playlist title"]
+    [mace_video_item]http://www.youtube.com/watch?v=Lt6CUH9bVzI[/mace_video_item]
+    [mace_video_item]https://player.vimeo.com/video/77616537[/mace_video_item]
+    [mace_video_item]http://bimber.snaps/main/wp-content/uploads/sites/14/2018/03/small.mp4[/mace_video_item]
+[/mace_video_playlist]
+
+
+Vimeo restrictions
+------------------
+
+In brief:
+
+To use autoplay option the "?background=1&muted=1&loop=0" parameter is necessary.
+The background parameter is only supported for videos hosted by paid members.
+As a result, the playlist supports only videos from PRO users. But even PRO users' videos
+won't be autoplayed automatically (when one video ends). Autoplay only works when is a result of user interaction.
+Other videos (from free users) can be played and should loaded fine but won't be autoplayed.
+
+Full policy:
+
+https://help.vimeo.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos

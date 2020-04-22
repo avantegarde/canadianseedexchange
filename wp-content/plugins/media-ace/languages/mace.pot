@@ -1,0 +1,645 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-4.9.1"
+
+msgid "Settings"
+msgstr ""
+
+msgid "YouTube App Key"
+msgstr ""
+
+msgid "MediaAce Settings"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Used, for example, for Video Playlist YouTube videos."
+msgstr ""
+
+msgid "Back to slideshow"
+msgstr ""
+
+msgid "Empty gallery. Add some images."
+msgstr ""
+
+msgid "View Gallery"
+msgstr ""
+
+msgid "%s image"
+msgid_plural "%s images"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Empty list. None of video urls could be loaded."
+msgstr ""
+
+msgid ""
+"The playlist could not be displayed, please make sure that YouTube API key "
+"is set in the settings."
+msgstr ""
+
+msgid "Media Ace"
+msgstr ""
+
+msgid "0 to not repeat"
+msgstr ""
+
+msgid "Media Ace Settings"
+msgstr ""
+
+msgid "Gallery Type"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Lightbox"
+msgstr ""
+
+msgid "Gallery Title"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "MediaAce"
+msgstr ""
+
+msgid "Expiry Headers Enabled?"
+msgstr ""
+
+msgid ".htaccess content"
+msgstr ""
+
+msgid "Enabled?"
+msgstr ""
+
+msgid "Access allowed for URLs"
+msgstr ""
+
+msgid "Block direct access to these files"
+msgstr ""
+
+msgid "Direct requests"
+msgstr ""
+
+msgid "Redirect blocked request to this URL"
+msgstr ""
+
+msgid "Regular expressions allowed."
+msgstr ""
+
+msgid "Space-separated list of file extensions"
+msgstr ""
+
+msgid ""
+"Some visitors uses a personal firewall or antivirus program, that deletes "
+"the page referer information sent by the web browser. Hotlink protection is "
+"based on this information. If you choose not to allow direct requests, you "
+"will block these users. You will also prevent people from directly accessing "
+"an image by typing in the URL in their browser."
+msgstr ""
+
+msgid "We recommend to check this option."
+msgstr ""
+
+msgid "Leave blank to use default image."
+msgstr ""
+
+msgctxt "Settings tab title"
+msgid "Video"
+msgstr ""
+
+msgctxt "Setting page title"
+msgid "Video"
+msgstr ""
+
+msgctxt "Setting title"
+msgid "Auto video length"
+msgstr ""
+
+msgctxt "Settings page description"
+msgid "Common video tasks."
+msgstr ""
+
+msgctxt "Setting description"
+msgid ""
+"Fetch and store video length when video post format is creating and updating."
+msgstr ""
+
+msgctxt "YouTube invalid key message"
+msgid ""
+"For YouTube videos, you have to provide YouTube App Key in the Settings tab."
+msgstr ""
+
+msgid "Self-hosted video url %s is not a valid attachment url!"
+msgstr ""
+
+msgid "YouTube video url %s is not valid!"
+msgstr ""
+
+msgid "YouTube video %s not found!"
+msgstr ""
+
+msgid "Video %s not loaded. YouTuba API key is not set."
+msgstr ""
+
+msgid "Please set the API key in plugin settings."
+msgstr ""
+
+msgid "Vimeo video url %s is not valid!"
+msgstr ""
+
+msgid "Vimeo video %s not found!"
+msgstr ""
+
+msgid "Replace Images"
+msgstr ""
+
+msgid "Image Bulk Replace"
+msgstr ""
+
+msgid "Replace multiple images"
+msgstr ""
+
+msgid "Choose images to replace"
+msgstr ""
+
+msgid "Choose to insert (filenames must match)"
+msgstr ""
+
+msgid "Replace images"
+msgstr ""
+
+msgid "Pick"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Hotlink Protection"
+msgstr ""
+
+msgid "Configure Hotlink Protection"
+msgstr ""
+
+msgid "Test protection"
+msgstr ""
+
+msgid ""
+"Protect your bandwidth by preventing other sites from using images hosted on "
+"your site."
+msgstr ""
+
+msgid ""
+"Please use the global multisite settings to set up the hotlink protection "
+"for the whole multisite."
+msgstr ""
+
+msgid "To make sure that hotlink protection works correct, do as follows:"
+msgstr ""
+
+msgid "Uncheck the \"Direct requests\" option above and save changes."
+msgstr ""
+
+msgid ""
+"Clear your browser cache (it is enough to purge the Cached Images and Files)."
+msgstr ""
+
+msgid "Copy url of any of your images."
+msgstr ""
+
+msgid "Open that url in new browser tab (or window)."
+msgstr ""
+
+msgid ""
+"You should be redirected to the \"Redirect blocked request to this URL\" (if "
+"set) or see forbidden page (if url not set)."
+msgstr ""
+
+msgid "After finishing, restore the \"Direct requests\" option."
+msgstr ""
+
+msgid "Gallery"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Logo HDPI"
+msgstr ""
+
+msgid "Lightbox skin"
+msgstr ""
+
+msgid "Sidebar thumbnails"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Select Image"
+msgstr ""
+
+msgid "Lazy Load"
+msgstr ""
+
+msgid ""
+"Don't load images and embeds until the point at which they are really needed"
+msgstr ""
+
+msgid "Lazy load images"
+msgstr ""
+
+msgid "Load image with unveilling effects"
+msgstr ""
+
+msgid "Lazy load embeds"
+msgstr ""
+
+msgid "YouTube player"
+msgstr ""
+
+msgid "For embeds that use iframe embed method (like YouTube or Instagram)."
+msgstr ""
+
+msgid "show related videos when a playback is paused or ended"
+msgstr ""
+
+msgid "Image not found."
+msgstr ""
+
+msgid "Invalid image."
+msgstr ""
+
+msgid "The original image file cannot be found."
+msgstr ""
+
+msgid "Metadata was not generated properly."
+msgstr ""
+
+msgid "Regenerate thumbnails for this image"
+msgstr ""
+
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+msgid "Couldn't find any images."
+msgstr ""
+
+msgid "Image Bulk Actions"
+msgstr ""
+
+msgid "Process all images at once"
+msgstr ""
+
+msgid "Add Watermarks"
+msgstr ""
+
+msgid "Remove Watermarks"
+msgstr ""
+
+msgid ""
+"Create thumbnails based on defined %s and clean up disk from old unused "
+"files. This process can take a lot of time (and server CPU/memory) and have "
+"to be run with caution."
+msgstr ""
+
+msgid "Image Sizes"
+msgstr ""
+
+msgid "Processing files..."
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid ""
+"Please be patient while the process can take a while (depends on your server "
+"resources)."
+msgstr ""
+
+msgid "To process"
+msgstr ""
+
+msgid "Processed"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Image list ready."
+msgstr ""
+
+msgid "Image thumbnails regenerated."
+msgstr ""
+
+msgid "Watermarks added."
+msgstr ""
+
+msgid "Watermarks removed."
+msgstr ""
+
+msgid "GIF to MP4"
+msgstr ""
+
+msgid "GIF to MP4 Conversion"
+msgstr ""
+
+msgid "Cloud Convert API Key"
+msgstr ""
+
+msgid "Store MP4 files"
+msgstr ""
+
+msgid "Amazon S3 Access Key ID"
+msgstr ""
+
+msgid "Amazon S3 Access Key"
+msgstr ""
+
+msgid "Amazon S3 Bucket"
+msgstr ""
+
+msgid ""
+"The plugin uses the %s service for GIF to MP4 on the fly conversion. "
+"CloudConvert can be used absolutely free! Nevertheless, if your usage "
+"exceeds free plan, you will need to choose one of prepaid packages and "
+"subscriptions."
+msgstr ""
+
+msgid ""
+"Your API key can be found in the Dashboard section of your CloudConvert "
+"account."
+msgstr ""
+
+msgid "on disk"
+msgstr ""
+
+msgid "on Amazon S3"
+msgstr ""
+
+msgid "This image size can't be deleted!"
+msgstr ""
+
+msgid "This image size can't be activated!"
+msgstr ""
+
+msgid "This image size not exists!"
+msgstr ""
+
+msgid "Manage Image Sizes"
+msgstr ""
+
+msgid ""
+"After editing or adding an image size, you have to %s to apply changes to "
+"all existing images."
+msgstr ""
+
+msgid "New image size"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Width"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "Crop"
+msgstr ""
+
+msgid "Crop X"
+msgstr ""
+
+msgid "Crop Y"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Center"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Image size saved."
+msgstr ""
+
+msgid "Image size deleted."
+msgstr ""
+
+msgid "Image size activated."
+msgstr ""
+
+msgid "Expire Headers"
+msgstr ""
+
+msgid "Configure Expire Headers"
+msgstr ""
+
+msgid "Leverage browser cache to improve performance."
+msgstr ""
+
+msgid ""
+"Please use the global multisite settings to set up the expiry headers for "
+"the whole multisite."
+msgstr ""
+
+msgid "Backup file missing."
+msgstr ""
+
+msgid "Add watermarks for this image"
+msgstr ""
+
+msgid "Remove watermarks from this image"
+msgstr ""
+
+msgid "Allow watermarking for this image"
+msgstr ""
+
+msgid "Allow Watermarking"
+msgstr ""
+
+msgid "Exclude this image from Watermarking"
+msgstr ""
+
+msgid "Exclude from Watermarking"
+msgstr ""
+
+msgid "Watermarks"
+msgstr ""
+
+msgid "Image Watermark"
+msgstr ""
+
+msgid "Watermark image"
+msgstr ""
+
+msgid "Position on image"
+msgstr ""
+
+msgid "Opacity"
+msgstr ""
+
+msgid "Advanced options"
+msgstr ""
+
+msgid "Image sizes"
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Offset"
+msgstr ""
+
+msgid ""
+"Add your logo, stamp or signature to images to protect them and indicate "
+"your ownership."
+msgstr ""
+
+msgid "To apply watermarks to all existing images, use the %s bulk tool."
+msgstr ""
+
+msgid "Apply Watermarks"
+msgstr ""
+
+msgid "Choose sizes to be watermarked"
+msgstr ""
+
+msgid "Scale of watermark in relation to image."
+msgstr ""
+
+msgid ""
+"Move watermark from image edges. Does not apply for the \"center center\" "
+"position."
+msgstr ""
+
+msgid "Keep copy of original images to be able to remove watermarks."
+msgstr ""
+
+msgid "To remove watermarks from all existing images, use the %s bulk tool."
+msgstr ""
+
+msgid "Image excluded."
+msgstr ""
+
+msgid "Image included."
+msgstr ""
+
+msgid "Auto Featured Images"
+msgstr ""
+
+msgid "Auto download embed featured images"
+msgstr ""
+
+msgid "Width (px)"
+msgstr ""
+
+msgid "Height (px)"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Modified"
+msgstr ""
+
+msgid "In use"
+msgstr ""
+
+msgid "All (%d)"
+msgstr ""
+
+msgid "Activated (%d)"
+msgstr ""
+
+msgid "Deactivated (%d)"
+msgstr ""
+
+msgid "activated"
+msgstr ""
+
+msgid "deactivated"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgctxt "Image Sizes settings"
+msgid "check"
+msgstr ""
+
+msgid "Quick Edit"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Deactivate"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Filter by group"
+msgstr ""
+
+msgid "All groups"
+msgstr ""
+
+msgid "Watermark not applied."
+msgstr ""
+
+msgid "Your media assistant"
+msgstr ""
+
+msgid "bringthepixel"
+msgstr ""
+
+msgid "http://www.bringthepixel.com"
+msgstr ""

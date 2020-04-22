@@ -1,0 +1,46 @@
+.g1-gallery-ad {
+    @include display(flex);
+    @include justify-content(center);
+    @include flex-grow(1);
+    width: 100%;
+    margin: 0;
+
+    text-align: center;
+
+    .adace-slot-wrapper {
+        @include display(flex);
+        @include flex-grow(1);
+        width: 100%;
+    }
+
+    .adace-slot {
+        @include display(flex);
+        @include flex-grow(1);
+        @include align-items(center);
+        @include justify-content(center);
+        width: 100%;
+
+        position: relative;
+
+        > div {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
+
+.g1-gallery-ad-mode {
+    .g1-gallery-sidebar {
+        display: none;
+    }
+    .g1-gallery-frame-ad {
+        @include justify-content(center);
+    }
+}

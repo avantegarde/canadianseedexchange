@@ -1,0 +1,34 @@
+.g1-gallery-light {
+    .g1-gallery{
+        background-color: #fff;
+        color: #1a1a1a;
+    }
+
+    .g1-gallery-header {
+        border-color: #e6e6e6;
+    }
+
+    .g1-gallery-header .g1-gallery-title {
+        color: #1a1a1a;
+     }
+    .g1-gallery-previous-frame,
+    .g1-gallery-next-frame{
+        background-color: #e6e6e6;
+    }
+
+    .g1-gallery-thumbnails-up,
+    .g1-gallery-thumbnails-down {
+        border-color: #fff;
+        background-color: #fff;
+        color: #1a1a1a;
+    }
+
+    .g1-gallery-thumbnails32,
+    .g1-gallery-previous-frame,
+    .g1-gallery-next-frame,
+    .g1-gallery-frame,
+    .g1-gallery-frames .g1-gallery-image-title,
+    .g1-gallery-header-left{
+        border-color: #e6e6e6;
+    }
+}

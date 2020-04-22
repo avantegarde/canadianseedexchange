@@ -1,0 +1,62 @@
+.mace-gallery-teaser-poster {
+    display: block;
+    position: relative;
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.mace-gallery-teaser-button{
+    display: block;
+    $_padding_left: 15px + 24px + 15px;
+    padding: side-values(10px 30px 10px $_padding_left);
+
+    position: absolute;
+    top: 10px;
+    #{$right}: 10px;
+
+    border-radius: 5px;
+
+    background-color: #333333;
+    color: #fff;
+
+    transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out;
+
+    &:before{
+        display: block;
+        margin-top: -0.5em;
+
+        position: absolute;
+        #{$left}: 15px;
+        top: 50%;
+
+        font: 24px/1 "mace";
+
+        content:"\e008";
+    }
+}
+
+.mace-gallery-teaser-button-text {
+    display: block;
+}
+
+.mace-gallery-teaser-button-counter {
+    display: block;
+
+    font-size: 12px;
+    line-height: 14px;
+
+    opacity: 0.666;
+}
+
+.mace-gallery-teaser:hover{
+    .mace-gallery-teaser-button {
+        background-color: #ffffff;
+        color: #1a1a1a;
+
+        transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out;
+    }
+}

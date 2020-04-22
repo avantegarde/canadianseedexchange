@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "adace";
+  src:url("fonts/adace.eot");
+  src:url("fonts/adace.eot?#iefix") format("embedded-opentype"),
+    url("fonts/adace.woff") format("woff"),
+    url("fonts/adace.ttf") format("truetype"),
+    url("fonts/adace.svg#adace") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "adace" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="adace-"]:before,
+[class*=" adace-"]:before {
+  font-family: "adace" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.adace-adblocker-warning:before {
+ content: "\e000";
+}
+.adace-close:before {
+ content: "\e001";
+}

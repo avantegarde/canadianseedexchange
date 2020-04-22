@@ -1,0 +1,3228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Snax\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2019-06-14 12:02+0000\n"
+"Last-Translator: admin <dev-email@flywheel.local>\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"POT-Creation-Date: 2019-06-14 11:55+0000\n"
+"X-Loco-Version: 2.3.0; wp-5.2.1"
+
+msgctxt "post type general name"
+msgid "Snax Items"
+msgstr "Pozycje listy Snax"
+
+msgctxt "post type singular name"
+msgid "Snax Item"
+msgstr "Pozycja na liście Snax"
+
+msgctxt "admin menu"
+msgid "Snax Items"
+msgstr "Pozycje listy Snax"
+
+msgctxt "add new on admin bar"
+msgid "Snax Item"
+msgstr "Pozycja na liście Snax"
+
+msgctxt "snax item"
+msgid "New Item"
+msgstr "Nowa pozycja na liście"
+
+msgid "Add New Item"
+msgstr "Dodaj nowy element listy"
+
+msgid "New Item"
+msgstr "Nowy element listy"
+
+msgid "Edit Item"
+msgstr "Edytuj element listy"
+
+msgid "View Item"
+msgstr "Zobacz element listy"
+
+msgid "All Items"
+msgstr "Wszystki elementy list"
+
+msgid "Search Items"
+msgstr "Szukaj elementów list"
+
+msgid "Parent Items:"
+msgstr "Nadrzędny element listy:"
+
+msgid "No items found."
+msgstr "Nie znaleziono elementów list."
+
+msgid "No items found in Trash."
+msgstr "Nie znaleziono elementów list w koszu."
+
+msgid "Are you sure?"
+msgstr "Jesteś pewien?"
+
+msgid "Passwords don't match."
+msgstr "Hasła nie zgadzają się."
+
+msgid "Your password reset link appears to be invalid or expired."
+msgstr "Link do zmiany hasła jest nieprawidłowy lub wygasł."
+
+msgid "New password has been set"
+msgstr "Nowe hasło zostało ustawione"
+
+msgid ""
+"Duplicate comment detected; it looks as though you&#8217;ve already said "
+"that!"
+msgstr "Wykryto zduplikowany komentarz; wygląda na to, że już to powiedziałeś!"
+
+msgid "Comment Submission Failure"
+msgstr "Dodanie komentarza nie powiodło się"
+
+msgid "See all replies"
+msgstr "Zobacz wszystkie odpowiedzi"
+
+msgid "Please wait. You are logging in&hellip;"
+msgstr "Proszę poczekać. Logowanie w trakcie&hellip;"
+
+msgid "<strong>%d</strong> point"
+msgid_plural "<strong>%d</strong> points"
+msgstr[0] "<strong>%d</strong> punkt"
+msgstr[1] "<strong>%d</strong> punkty"
+msgstr[2] "<strong>%d</strong> punktów"
+
+msgid "You can drop only one file here."
+msgstr "Możesz upuścić tylko jeden plik tutaj."
+
+msgid "Please upload the featured image"
+msgstr "Wgraj proszę wyróżniony obrazek"
+
+msgid "You need to choose at least one file/embed!"
+msgstr "Musisz wybrać przynajmniej jeden plik/medium osadzone!"
+
+msgid "Meme image generation failed!"
+msgstr "Wygenerowanie obrazku mema nie powiodło się!"
+
+msgid "Top text&hellip;"
+msgstr "Górny tekst&hellip;"
+
+msgid "Bottom text&hellip;"
+msgstr "Dolny tekst&hellip;"
+
+msgid "Upload failed. Check if the file is a valid image."
+msgstr "Wgrywanie nie powiodło się. Sprawdź czy plik jest poprawnym obrazkiem."
+
+msgid "Processing page meta data..."
+msgstr "Przetwarzania metadanych strony..."
+
+msgid "Upload failed. Provided URL is not valid."
+msgstr "Wgrywanie nie powiodło się. Podany adres URL nie jest prawidłowy."
+
+msgid "Move Up"
+msgstr "Przesuń w górę"
+
+msgid "Move Down"
+msgstr "Przesuń w dół"
+
+msgid "Title"
+msgstr "Tytuł"
+
+msgid "Enter title&hellip;"
+msgstr "Wpisz tytuł&hellip;"
+
+msgid "Not your original work? Note the source"
+msgstr "To nie jest Twój autorski wpis? Dodaj źródło"
+
+msgid "http://"
+msgstr "http://"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Enter some description&hellip;"
+msgstr "Wpisz opis&hellip;"
+
+msgid "Want to add referral link?"
+msgstr "Chcesz dodać link afiliacyjny?"
+
+msgid "Source"
+msgstr "Źródło"
+
+msgid "Share"
+msgstr "Udostępnij"
+
+msgctxt "button"
+msgid "Close"
+msgstr "Zamknij"
+
+msgctxt "e.g., 3 of 10"
+msgid "%s of %s"
+msgstr "%s z %s"
+
+msgid "Processing files&hellip;"
+msgstr "Przetwarzanie plików&hellip;"
+
+msgid "Drop thumbnail here"
+msgstr "Upuść miniaturkę tutaj"
+
+msgid "Drop Images Here"
+msgstr "Upuść pliki nad tym polem"
+
+msgid "Drop Audio Here"
+msgstr "Upuść audio tutaj"
+
+msgid "Drop Video Here"
+msgstr "Upuść video tutaj"
+
+msgid "Drop Files Here"
+msgstr "Upuść pliki tutaj"
+
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "lub"
+
+msgid "Browse files"
+msgstr "Wybierz pliki"
+
+msgid "Get image from URL"
+msgstr "Pobierz z adresu URL"
+
+msgid "You don't have javascript enabled. Media upload is not possible."
+msgstr ""
+"Nie masz włączonej obsługi JavaScript. Wgrywanie plików nie jest możliwe."
+
+msgid "Back"
+msgstr "Wstecz"
+
+msgid "Maximum upload file size: %s."
+msgstr "Maksymalna wielkość obrazka: %s."
+
+msgid "Forgot password?"
+msgstr "Nie pamiętasz hasła?"
+
+msgid ""
+"Enter your account data and we will send you a link to reset your password."
+msgstr ""
+"Wpisze dane Twojego konta, a my wyślemy Ci link, przy pomocy którego "
+"będziesz mógł zresetować hasło."
+
+msgid "Reset Password"
+msgstr "Zresetuj hasło"
+
+msgid "Back to Login"
+msgstr "Wróć do logowania"
+
+msgid "Share your story"
+msgstr "Podziel się swoim tekstem"
+
+msgid "Publish Options"
+msgstr "Opcje publikacji"
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "Share your link"
+msgstr "Podziel się twoim linkiem"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Enter URL&hellip;"
+msgstr "Wpisz URL&hellip;"
+
+msgid "Add first:"
+msgstr "Dodaj jako pierwsze:"
+
+msgid "Select Meme Template"
+msgstr "Wybierz szablon mema"
+
+msgid "Upload Your Image"
+msgstr "Wgraj swój obrazek"
+
+msgid "--- none ---"
+msgstr "--- żadne ---"
+
+msgid "Log in"
+msgstr "Zaloguj się"
+
+msgid "Privacy Policy"
+msgstr "Polityka Prywatności"
+
+msgid "Accept"
+msgstr "Zaakceptuj"
+
+msgid "Log In"
+msgstr "Zaloguj się"
+
+msgid "With social network:"
+msgstr "Używając serwisu społecznościowego:"
+
+msgid "Or with username:"
+msgstr "Lub nazwy użytkownika:"
+
+msgid "Sign In"
+msgstr "Zaloguj się"
+
+msgid "Don't have an account?"
+msgstr "Nie masz konta?"
+
+msgid "Register"
+msgstr "Zarejestruj się"
+
+msgid "Reset your password"
+msgstr "Zresetuj hasło"
+
+msgid "Set new password"
+msgstr "Ustaw nowe hasło"
+
+msgid "Post draft updated."
+msgstr "Szkic wpisu uaktualniony."
+
+msgid "Please correct all errors before continuing"
+msgstr "Popraw proszę wszystkie błędy, aby kontynuować"
+
+msgid "Anonymous"
+msgstr "Anonimowo"
+
+msgid "%1$s on"
+msgstr "%1$s do"
+
+msgid "View all votes"
+msgstr "Zobacz wszystkie głosy"
+
+msgid "Sorry. No data so far."
+msgstr "Wybacz. Brak danych dotychczas."
+
+msgid "Welcome to Snax"
+msgstr "Poznaj wtyczkę Snax"
+
+msgid "Snax"
+msgstr "Snax"
+
+msgid "Snax Pages"
+msgstr "Snax Strony"
+
+msgid "Snax Lists"
+msgstr "Snax: Listy"
+
+msgid "Snax Quizzes"
+msgstr "Snax Quizy"
+
+msgid "Snax Polls"
+msgstr "Snax: Sondy"
+
+msgid "Snax Stories"
+msgstr "Snax Teksty"
+
+msgid "Snax Memes"
+msgstr "Snax: Memy"
+
+msgid "Snax Audios"
+msgstr "Snax Audio"
+
+msgid "Snax Videos"
+msgstr "Snax: Video"
+
+msgid "Snax Images"
+msgstr "Snax: Obrazki"
+
+msgid "Snax Galleries"
+msgstr "Snax: Galerie"
+
+msgid "Snax Embeds"
+msgstr "Snax Media osadzone"
+
+msgid "Snax Voting"
+msgstr "Snax Głosowanie"
+
+msgid "Snax Limits"
+msgstr "Snax Limity"
+
+msgid "Snax Auth"
+msgstr "Snax Autoryzacja"
+
+msgid "Snax Moderation"
+msgstr "Snax Moderacja"
+
+msgid "Snax Demo"
+msgstr "Snax Demo"
+
+msgid "Snax Embedly"
+msgstr "Snax Embedly"
+
+msgid "Snax Format"
+msgstr "Snax format"
+
+msgid "Submitted to"
+msgstr "Przesłano do"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "Submissions"
+msgstr "Zgłoszenia"
+
+msgid "Voting"
+msgstr "Głosowanie"
+
+msgid "All posts"
+msgstr "Wszystkie wpisy"
+
+msgid "Snax: All formats"
+msgstr "Snax: Wszystkie formaty"
+
+msgid "Snax:"
+msgstr "Snax:"
+
+msgid "All items"
+msgstr "Wszystkie pozycje na liście"
+
+msgid "items"
+msgstr "pozycje na liście"
+
+msgid "Automatic plugin updates"
+msgstr "Automatyczne uaktualnianie wtyczek"
+
+msgid "Install Required Plugins"
+msgstr "Zainstaluj wymagane wtyczki"
+
+msgid "Install Plugins"
+msgstr "Zainstaluj wtyczki"
+
+msgid "Installing Plugin: %s"
+msgstr "Instalowanie wtyczki: %s"
+
+msgid "Something went wrong with the plugin API."
+msgstr "Coś poszło nie tak z API wtyczki."
+
+msgid "This plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] "Ta wtyczka wymaga następującej wtyczki: %1$s."
+msgstr[1] "Ta wtyczka wymaga następujących wtyczek: %1$s."
+msgstr[2] "Ta wtyczka wymaga następujących wtyczek: %1$s."
+
+msgid "This plugin recommends the following plugin: %1$s."
+msgid_plural "This plugin recommends the following plugins: %1$s."
+msgstr[0] "Ta wtyczka zaleca następującą wtyczkę: %1$s."
+msgstr[1] "Ta wtyczka zaleca następujące wtyczki: %1$s."
+msgstr[2] "Ta wtyczka zaleca następujące wtyczki: %1$s."
+
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby zainstalować wtyczkę %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w instalacji "
+"wtyczki."
+msgstr[1] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby zainstalować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w instalacji "
+"wtyczek."
+msgstr[2] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby zainstalować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w instalacji "
+"wtyczek."
+
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Następująca wymagana wtyczka jest obecnie nieaktywna: %1$s."
+msgstr[1] "Następujące wymagane wtyczki są obecnie nieaktywne: %1$s."
+msgstr[2] "Następujące wymagane wtyczki są obecnie nieaktywne: %1$s."
+
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Następująca zalecana wtyczka jest obecnie nieaktywna: %1$s."
+msgstr[1] "Następujące zalecane wtyczki są obecnie nieaktywne: %1$s."
+msgstr[2] "Następujące zalecane wtyczki są obecnie nieaktywne: %1$s."
+
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby aktywować wtyczkę %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w aktywacji "
+"wtyczki."
+msgstr[1] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby aktywować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w aktywacji "
+"wtyczek."
+msgstr[2] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby aktywować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w aktywacji "
+"wtyczek."
+
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgstr[0] ""
+"Następująca wtyczka musi zostać zaktualizowana do najnowszej wersji aby "
+"zapewnić pełną kompatybilność z tą wtyczką: %1$s."
+msgstr[1] ""
+"Następujące wtyczki muszą zostać zaktualizowane do najnowszej wersji aby "
+"zapewnić pełną kompatybilność z tą wtyczką: %1$s."
+msgstr[2] ""
+"Następujące wtyczki muszą zostać zaktualizowane do najnowszej wersji aby "
+"zapewnić pełną kompatybilność z tą wtyczką: %1$s."
+
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby zaktualizować wtyczkę %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w aktualizacji "
+"wtyczki."
+msgstr[1] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby zaktualizować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w aktualizacji "
+"wtyczek."
+msgstr[2] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby zaktualizować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w aktualizacji "
+"wtyczek."
+
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Rozpocznij instalowanie wtyczki"
+msgstr[1] "Rozpocznij instalowanie wtyczek"
+msgstr[2] "Rozpocznij instalowanie wtyczek"
+
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Aktywuj zainstalowaną wtyczkę"
+msgstr[1] "Aktywuj zainstalowane wtyczki"
+msgstr[2] "Aktywuj zainstalowane wtyczki"
+
+msgid "Return to Required Plugins Installer"
+msgstr "Wróć do Instalatora Wymaganych Wtyczek"
+
+msgid "Plugin activated successfully."
+msgstr "Wtyczka została pomyślnie aktywowana."
+
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Wszystkie wtyczki zostały pomyślnie zainstalowane i aktywowane. %s"
+
+msgid "updated"
+msgstr "uaktualniony"
+
+msgctxt "Ajax response message"
+msgid "Added to collection %s"
+msgstr "Dodano do kolekcji %s"
+
+msgctxt "post type general name"
+msgid "Collections"
+msgstr "Kolekcje"
+
+msgctxt "post type singular name"
+msgid "Collection"
+msgstr "Kolekcja"
+
+msgctxt "admin menu"
+msgid "Collections"
+msgstr "Kolekcje"
+
+msgctxt "add new on admin bar"
+msgid "Collection"
+msgstr "Kolekcja"
+
+msgctxt "poll item"
+msgid "Add New"
+msgstr "Dodaj nowy"
+
+msgid "Add New Collection"
+msgstr "Dodaj nową kolekcję"
+
+msgid "New Collection"
+msgstr "Nowa kolekcja"
+
+msgid "Edit Collection"
+msgstr "Edytuj kolekcję"
+
+msgid "View Collection"
+msgstr "Zobacz kolekcje"
+
+msgid "All Collections"
+msgstr "Wszystkie kolekcje"
+
+msgid "Search Collections"
+msgstr "Szukaj kolekcji"
+
+msgid "Parent Collections:"
+msgstr "Kolekcje nadrzędne"
+
+msgid "No collections found."
+msgstr "Nie znaleziono kolekcji."
+
+msgid "No collections found in Trash."
+msgstr "Nie znaleziono kolekcji w koszu."
+
+msgctxt "Collection action message"
+msgid "Entire collection with all items will be removed. Proceed?"
+msgstr "Cała kolekcja wpisów zostanie usunięta. Kontynuować?"
+
+msgctxt "Collection action message"
+msgid "All collection items will be removed. Proceed?"
+msgstr "Wszystkie wpisy w kolekcji zostąną usunięte. Kontynuować?"
+
+msgctxt "Collection action message"
+msgid "Collection has been successfully removed"
+msgstr "Kolekcja została usunięta poprawnie"
+
+msgctxt "Collection action message"
+msgid "Removing collection items..."
+msgstr "Usuwanie pozycji kolekcji..."
+
+msgctxt "Collection type"
+msgid "Custom"
+msgstr "Własna"
+
+msgctxt "Collection type"
+msgid "Predefined"
+msgstr "Predefiniowana"
+
+msgctxt "Settings tab title"
+msgid "Collections"
+msgstr "Kolekcje"
+
+msgctxt "Collections settings page"
+msgid "Built-in Collections"
+msgstr "Wbudowane kolekcje"
+
+msgctxt "Settings page"
+msgid "Custom Collection"
+msgstr "Kolekcja własna"
+
+msgctxt "Settings page"
+msgid "Misc"
+msgstr "Różne"
+
+msgctxt "Collections settings page"
+msgid "Posts per page"
+msgstr "Wpisów na stronie"
+
+msgid "Snax Settings"
+msgstr "Snax Ustawienia"
+
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+msgid "Activate"
+msgstr "Aktywuj"
+
+msgctxt "Collection status"
+msgid "Activated"
+msgstr "Aktywowana"
+
+msgid "View"
+msgstr "Zobacz"
+
+msgid "Edit"
+msgstr "Edytuj"
+
+msgid "Recent Collections"
+msgstr "Ostatnie kolekcje"
+
+msgid "by"
+msgstr "przez"
+
+msgid "Posts by %s"
+msgstr "Wpisy dodane przez %s"
+
+msgid "%d entry"
+msgid_plural "%d entries"
+msgstr[0] "%d wpis"
+msgstr[1] "%d wpisy"
+msgstr[2] "%d wpisów"
+
+msgid "last updated on %s"
+msgstr "ostatnio zaktualizowano %s"
+
+msgctxt "collection visibility"
+msgid "Public"
+msgstr "Publiczna"
+
+msgctxt "collection visibility"
+msgid "Private"
+msgstr "Prywatna"
+
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s temu"
+
+msgid "More"
+msgstr "Więcej"
+
+msgid "Remove from Collection"
+msgstr "Usuń z kolekcji"
+
+msgid "New password sent. Please check your mailbox."
+msgstr "Wysłano nowe hasło. Proszę sprawdź swoją skrzynkę odbiorczą."
+
+msgid "Share on Facebook"
+msgstr "Udostępnij na Facebooku"
+
+msgid "Share on Twitter"
+msgstr "Udostępnij na Twiterze"
+
+msgid "Share on Pinterest"
+msgstr "Udostępnij na Pintereście"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Reload post meta"
+msgstr "Załaduj ponownie informacje meta wpisu"
+
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+msgctxt "Mail notification"
+msgid "New item was submitted."
+msgstr "Nowa pozycja listy została przesłana."
+
+msgctxt "Mail notification"
+msgid "New item (%1$s) awaits approval: %2$s"
+msgstr "Nowa pozycja na liście (%1$s) oczekuje na zatwierdzenie: %2$s"
+
+msgctxt "Mail notification"
+msgid "New item (%1$s) was published: %2$s"
+msgstr "Nowa pozycja na liście (%1$s) została opublikowana: %2$s"
+
+msgctxt "Mail notification"
+msgid "New post was submitted."
+msgstr "Nowy wpis został przesłany."
+
+msgctxt "Mail notification"
+msgid "New post (%1$s) awaits approval: %2$s"
+msgstr "Nowy wpis (%1$s) czeka na zatwierdzenie: %2$s"
+
+msgctxt "Mail notification"
+msgid "New post (%1$s) was published: %2$s"
+msgstr "Nowy wpis (%1$s) został opublikowany: %2$s"
+
+msgctxt "sites you can embed from"
+msgid "Supported services:"
+msgstr "Obsługiwane serwisy"
+
+msgid "DOMDocument parser is not available on your server."
+msgstr "Parser DOMDocument nie jest dostępny na twoim serwerze."
+
+msgid "Page content is empty or not accessible."
+msgstr "Treść strony jest pusta lub niedostępna"
+
+msgid "<strong>ERROR</strong>: The reCAPTCHA you entered is incorrect."
+msgstr "BŁĄD: wprowadzona reCAPTCHA jest niepoprawna."
+
+msgid ""
+"The web browser on your device cannot be used to upload files. You may be "
+"able to use the <a href=\"%s\">native app for your device</a> instead."
+msgstr ""
+"Przeglądarka na twoim urządzeniu nie może zostać użyta do wgrywania plików. "
+"Zamiast niej możesz spróbować użyć <a href=\"%s\">natywnej aplikacji na "
+"twoim urządzeniu</a>."
+
+msgid "Image files"
+msgstr "Pliki obrazków"
+
+msgid "Audio files"
+msgstr "Pliki audio"
+
+msgid "Video files"
+msgstr "Pliki video"
+
+msgid "Upload failed. Image type is not allowed."
+msgstr "Wgrywanie nie powiodło się. Typ obrazka nie jest dozwolony."
+
+msgid "Upload failed. Image file is too big."
+msgstr "Wgrywanie nie powiodło się. Plik obrazka jest za duży."
+
+msgid "Upload failed. Image file is too big or its size couldn't be verified."
+msgstr ""
+"Wgrywanie nie powiodło się. Obrazek jest za duży lub jego rozmiar nie może "
+"zostać odczytany."
+
+msgid "Upload failed. Image couldn't be downloaded from the URL."
+msgstr ""
+"Wgrywanie nie powiodło się. Obrazek nie mógł zostać pobrany z adresu URL."
+
+msgid ""
+"Network activation disabled. Activate this plugin in a single site context\t."
+msgstr ""
+"Aktywacja w sieci witryn jest wyłączona. Aktywuj tę wtyczkę na pojedynczej "
+"witrynie."
+
+msgid "Frontend Submission"
+msgstr "Przesyłanie nowych wpisów"
+
+msgid "source"
+msgstr "źródło"
+
+msgid "Story"
+msgstr "Tekst"
+
+msgctxt "story format description"
+msgid "Mix text with images and embeds"
+msgstr "Mieszaj tekst z obrazkami i mediami osadzonymi"
+
+msgid "Image"
+msgstr "Obrazek"
+
+msgctxt "image format description"
+msgid "JPG, PNG or GIF"
+msgstr "JPG, PNG lub GIF"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "audio format description"
+msgid "MP3 or SoundCloud embed, MixCloud, etc."
+msgstr "MP3 lub media osadzone z serwisów SoundCloud, MixCloud, itp."
+
+msgid "Video"
+msgstr "Video"
+
+msgctxt "video format description"
+msgid "MP4 or YouTube embed, Vimeo, Dailymotion, etc."
+msgstr "MP4 lub media osadzone z serwisów YouTube, Vimeo, Dailymotion, itp"
+
+msgid "Gallery"
+msgstr "Galeria"
+
+msgctxt "gallery format description"
+msgid "A collection of images"
+msgstr "Kolekcja obrazków"
+
+msgid "Embed"
+msgstr "Medium osadzane"
+
+msgctxt "embed format description"
+msgid "Facebook post, Twitter status, etc."
+msgstr "Wpis na Facebooku, status na Twitterze, itp."
+
+msgid "Open list"
+msgstr "Otwarta lista"
+
+msgid "Open List"
+msgstr "Otwarta Lista"
+
+msgctxt "open list format description"
+msgid "Everyone can submit new list items and vote up for the best submission"
+msgstr ""
+"Każdy może przesłać nowe pozycje listy i głosować na najlepsze zgłoszenie"
+
+msgid "Ranked list"
+msgstr "Lista rankingowa"
+
+msgid "Ranked List"
+msgstr "Lista rankingowa"
+
+msgctxt "ranked list format description"
+msgid "Everyone can vote up for the best list item"
+msgstr "Każdy może zagłosować na najlepszą pozycję na liście"
+
+msgid "Classic list"
+msgstr "Lista klasyczna"
+
+msgid "Classic List"
+msgstr "Klasyczna lista"
+
+msgctxt "classic list format description"
+msgid "A list-based article"
+msgstr "Artykuł w formie listy"
+
+msgid "Meme"
+msgstr "Mem"
+
+msgctxt "meme format description"
+msgid "Create a funny pic"
+msgstr "Stwórz śmieszny obrazek"
+
+msgid "Trivia quiz"
+msgstr "Quiz wiedzy"
+
+msgid "Trivia Quiz"
+msgstr "Quiz wiedzy"
+
+msgctxt "trivia quiz format description"
+msgid "What do you know about ...?"
+msgstr "Co wiesz o ...?"
+
+msgid "Personality quiz"
+msgstr "Quiz osobowości"
+
+msgid "Personality Quiz"
+msgstr "Quiz osobowości"
+
+msgctxt "personality quiz format description"
+msgid "What type of person are you?"
+msgstr "Jakim typem osobowości jesteś?"
+
+msgid "Poll"
+msgstr "Sonda"
+
+msgctxt "classic poll format description"
+msgid "One or multiple questions about a subject or person"
+msgstr "Jedno lub kilka pytań odnośnie tematu lub osoby"
+
+msgctxt "versus poll format description"
+msgid "A poll where each question has two competing answers"
+msgstr "Sonda w której każde pytanie ma dwie konkurujące odpowiedzi"
+
+msgid "Hot or Not"
+msgstr "Gorące czy Nie"
+
+msgctxt "hot ot nor format description"
+msgid "A poll where each question has two opposite answers"
+msgstr "Sonda w której każde pytanie ma dwie przeciwne odpowiedzi"
+
+msgctxt "taxonomy general name"
+msgid "Snax Formats"
+msgstr "Snax Formaty"
+
+msgctxt "taxonomy singular name"
+msgid "Snax Format"
+msgstr "Snax Format"
+
+msgid "Search Snax Formats"
+msgstr "Szukaj formatów Snax"
+
+msgid "All Snax Formats"
+msgstr "Wszystkie formaty Snax"
+
+msgid "Parent Snax Format"
+msgstr "Nadrzędny format Snax"
+
+msgid "Parent Snax Format:"
+msgstr "Nadrzędny format Snax:"
+
+msgid "Edit Snax Format"
+msgstr "Edytuj Snax format"
+
+msgid "Update Snax Format"
+msgstr "Zaktualizuj format Snax"
+
+msgid "Add New Snax Format"
+msgstr "Dodaj nowy format Snax"
+
+msgid "New Snax Format Name"
+msgstr "Nazwa nowego formatu Snax"
+
+msgid "Provided URL or embed code is not allowed!"
+msgstr "Podany adres URL lub kod osadzania jest niedozwolony!"
+
+msgid "Cheatin&#8217; uh?"
+msgstr "Oszukujesz co?"
+
+msgid "This field is required"
+msgstr "Pole wymagane"
+
+msgid "Choose format"
+msgstr "Wybierz format"
+
+msgid "Choose valid category"
+msgstr "Wybierz poprawną kategorię"
+
+msgid "Embed %s code"
+msgstr "Osadź kod %s"
+
+msgctxt "post type general name"
+msgid "Meme Templates"
+msgstr "Szablony memów"
+
+msgctxt "post type singular name"
+msgid "Meme Template"
+msgstr "Szablon mema"
+
+msgctxt "admin menu"
+msgid "Meme Templates"
+msgstr "Szablony memów"
+
+msgctxt "add new on admin bar"
+msgid "Meme Template"
+msgstr "Szablon mema"
+
+msgid "Add New Meme Template"
+msgstr "Dodaj nowy szablon mema"
+
+msgid "New Meme Template"
+msgstr "Nowy szablon mema"
+
+msgid "Edit Meme Template"
+msgstr "Edytuj szablon mema"
+
+msgid "View Meme Template"
+msgstr "Zobacz szablon mema"
+
+msgid "All Meme Templates"
+msgstr "Wszystkie szablony memów"
+
+msgid "Search Meme Templates"
+msgstr "Szukaj szablonów memów"
+
+msgid "Parent Meme Templates:"
+msgstr "Nadrzędny szablon mema:"
+
+msgid "No Meme Templates found."
+msgstr "Nie znaleziono szablonów memów."
+
+msgid "No Meme Templates found in Trash."
+msgstr "Nie znaleziono szablonów memów w koszu."
+
+msgid "Memes: "
+msgstr "Memy:"
+
+msgid ""
+"Most popular meme templates can be automatically imported in the <a "
+"href=\"%s\">Snax options panel</a>"
+msgstr ""
+"Najbardziej popularne szablony memów mogą zostać automatycznie zaimportowane "
+"w <a href=\"%s\">Ustawieniach wtyczki Snax</a>"
+
+msgctxt "Item type"
+msgid "embed"
+msgstr "medium osadzone"
+
+msgctxt "Item type"
+msgid "text"
+msgstr "tekst"
+
+msgid "(no title)"
+msgstr "(brak tytułu)"
+
+msgid "(%d/%d)"
+msgstr "(%d/%d)"
+
+msgid "Submitted to: <a href=\"%s\">%s</a>"
+msgstr "Przesłano do: <a href=\"%s\">%s</a>"
+
+msgid "Buy now"
+msgstr "Kup teraz"
+
+msgid "Hey, I would like to report an abuse"
+msgstr "Cześć, chciałbym zgłosić nadużycie"
+
+msgid "Reported link: "
+msgstr "Zgłaszany link:"
+
+msgid "Report"
+msgstr "Zgłoś nadużycie"
+
+msgid "Set as Featured Image"
+msgstr "Ustaw jako obrazek wyróżniający"
+
+msgid "submitted by"
+msgstr "przesłano do"
+
+msgid "Viewing %1$s item"
+msgid_plural "Viewing %1$s items"
+msgstr[0] "Wyświetlanie %1$s pozycji listy"
+msgstr[1] "Wyświetlanie %1$s pozycji listy"
+msgstr[2] "Wyświetlanie %1$s pozycji listy"
+
+msgid "Viewing item %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s items - %2$s through %3$s (of %4$s total)"
+msgstr[0] "Wyświetlanie %2$s pozycji listy (z %4$s łącznie)"
+msgstr[1] "Wyświetlanie %1$s pozycji listy - od %2$s do %3$s (z %4$s łącznie)"
+msgstr[2] "Wyświetlanie %1$s pozycji listy - od %2$s do %3$s (z %4$s łącznie)"
+
+msgid "Images"
+msgstr "Obrazki"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "See more"
+msgstr "Zobacz więcej"
+
+msgid "Write a comment..."
+msgstr "Napisz komentarz..."
+
+msgid "Post"
+msgstr "Wpis"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "After Snax Item"
+msgstr "Za pozycją na liście Snax"
+
+msgid "Classic"
+msgstr "Klasyczny"
+
+msgid "Versus"
+msgstr "Versus"
+
+msgid "Binary"
+msgstr "Binarna"
+
+msgctxt "post type general name"
+msgid "Polls"
+msgstr "Sondy"
+
+msgctxt "post type singular name"
+msgid "Poll"
+msgstr "Sonda"
+
+msgctxt "admin menu"
+msgid "Polls"
+msgstr "Sondy"
+
+msgctxt "add new on admin bar"
+msgid "Poll"
+msgstr "Sonda"
+
+msgid "Add New Poll"
+msgstr "Dodaj nową sondę"
+
+msgid "New Poll"
+msgstr "Nowa sonda"
+
+msgid "Edit Poll"
+msgstr "Edytuj sondę"
+
+msgid "View Poll"
+msgstr "Zobacz sondę"
+
+msgid "All Polls"
+msgstr "Wszystkie sondy"
+
+msgid "Search Polls"
+msgstr "Szukaj sond"
+
+msgid "Parent Polls:"
+msgstr "Nadrzędna sonda:"
+
+msgid "No polls found."
+msgstr "Nie znaleziono sond."
+
+msgid "No polls found in Trash."
+msgstr "Nie znaleziono sond w koszu."
+
+msgid "Could not insert new poll answer into the database!"
+msgstr "Nie udało się dodać nowego pytania sondy do bazy danych!"
+
+msgid "Hot"
+msgstr "Gorące"
+
+msgid "Not"
+msgstr "Nie"
+
+msgid " My choice: "
+msgstr "Mój wybór:"
+
+msgid ". Play!"
+msgstr ". Zagraj!"
+
+msgid " (Open list)"
+msgstr "(Otwarta lista)"
+
+msgid "(%s submission)"
+msgid_plural "(%s submissions)"
+msgstr[0] "(%s zgłoszenie)"
+msgstr[1] "(%s zgłoszenia)"
+msgstr[2] "(%s zgłoszeń)"
+
+msgid "Viewing %1$s post"
+msgid_plural "Viewing %1$s posts"
+msgstr[0] "Wyświetlanie %1$s wpisu"
+msgstr[1] "Wyświetlanie %1$s wpisów"
+msgstr[2] "Wyświetlanie %1$s wpisów"
+
+msgid "Viewing post %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s posts - %2$s through %3$s (of %4$s total)"
+msgstr[0] "Wyświetlanie %2$s wpisu (z %4$s łącznie)"
+msgstr[1] "Wyświetlanie %1$s wpisów - od %2$s do %3$s (z %4$s łącznie)"
+msgstr[2] "Wyświetlanie %1$s wpisów - od %2$s do %3$s (z %4$s łącznie)"
+
+msgctxt "post type general name"
+msgid "Quizzes"
+msgstr "Quizy"
+
+msgctxt "post type singular name"
+msgid "Quiz"
+msgstr "Quiz"
+
+msgctxt "admin menu"
+msgid "Quizzes"
+msgstr "Quizy"
+
+msgctxt "add new on admin bar"
+msgid "Quiz"
+msgstr "Quiz"
+
+msgctxt "quizzard item"
+msgid "Add New"
+msgstr "Dodaj nowy"
+
+msgid "Add New Quiz"
+msgstr "Dodaj nowy quiz"
+
+msgid "New Quiz"
+msgstr "Nowy quiz"
+
+msgid "Edit Quiz"
+msgstr "Edytuj quiz"
+
+msgid "View Quiz"
+msgstr "Zobacz quiz"
+
+msgid "All Quizzes"
+msgstr "Wszystkie quizy"
+
+msgid "Search Quizzes"
+msgstr "Szukaj quizów"
+
+msgid "Parent Quizzes:"
+msgstr "Nadrzędny quiz"
+
+msgid "No quizzes found."
+msgstr "Nie znaleziono quizów."
+
+msgid "No quizzes found in Trash."
+msgstr "Nie znaleziono quizów w koszu."
+
+msgid "You have to define and assign personalities first!"
+msgstr "Najpierw musisz zdefiniować i przypisać osobowości!"
+
+msgctxt "Trivia quiz score"
+msgid "Bad day, right?"
+msgstr "Zły dzień, co?"
+
+msgctxt "Trivia quiz score"
+msgid "Could be better"
+msgstr "Mogłoby być lepiej"
+
+msgctxt "Trivia quiz score"
+msgid "Not so bad"
+msgstr "Nie tak źle"
+
+msgctxt "Trivia quiz score"
+msgid "Great"
+msgstr "Świetnie"
+
+msgctxt "Trivia quiz score"
+msgid "Perfect. You rock!"
+msgstr "Doskonale. Wymiatasz!"
+
+msgid "Snax Author"
+msgstr "Snax Autor"
+
+msgid "User has not voted!"
+msgstr "Użytkownik nie głosował!"
+
+msgid "Could not insert new vote into the database!"
+msgstr "Nie udało się dodać nowego głosu do bazy danych!"
+
+msgid "User has not voted for this item!"
+msgstr "Użytkownik nie zagłosował na tę pozycję na liście!"
+
+msgid "User vote could not be removed!"
+msgstr "Głos użytkownika nie mógł zostać usunięty!"
+
+msgid ""
+"Browse and manage your votes from your <a href=\"%s\">Member Profile Page</a>"
+msgstr ""
+"Przeglądaj i zarządzaj swoimi głosami na stronie <a href=\"%s\">Profilu "
+"Użytkownika</a>"
+
+msgid "Browse and manage your votes from your Member Profile Page"
+msgstr "Przeglądaj i zarządzaj swoimi głosami na stronie Profilu Użytkownika"
+
+msgid "Upvote"
+msgstr "Łapka w górę"
+
+msgid "Downvote"
+msgstr "Łapka w dół"
+
+msgid "Viewing %1$s vote"
+msgid_plural "Viewing %1$s votes"
+msgstr[0] "Wyświetlanie %1$s głosu"
+msgstr[1] "Wyświetlanie %1$s głosów"
+msgstr[2] "Wyświetlanie %1$s głosów"
+
+msgid "Viewing vote %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s votes - %2$s through %3$s (of %4$s total)"
+msgstr[0] "Wyświetlanie %2$s głosu (z %4$s łącznie)"
+msgstr[1] "Wyświetlanie %1$s głosów - od %2$s do %3$s (z %4$s łącznie)"
+msgstr[2] "Wyświetlanie %1$s głosów - od %2$s do %3$s (z %4$s łącznie)"
+
+msgid "Add your submission"
+msgstr "Dodaj swoją propozycję"
+
+msgid "Leave a Reply"
+msgstr "Zostaw odpowiedź"
+
+msgid "Take the poll"
+msgstr "Zagraj w sondę"
+
+msgid "Let's play"
+msgstr "Zagraj"
+
+msgid "View full list"
+msgstr "Zobacz pełną listę"
+
+msgid "Add a description"
+msgstr "Dodaj opis"
+
+msgid "Clear All"
+msgstr "Wyczyść wszystko"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Describe your collection&hellip;"
+msgstr "Opisz swoją kolekcję&hellip;"
+
+msgid "Visibility"
+msgstr "Widoczność"
+
+msgid ""
+"Please log in to use Custom Collections and organize posts into collections."
+msgstr ""
+"Proszę się zalogować aby dodać własną kolekcje i dodawać posty do kolekcji"
+
+msgid "How Does It Work?"
+msgstr "Jak to działa?"
+
+msgid ""
+"Custom Collections are only available to logged in users, so please log in "
+"or register now."
+msgstr ""
+"Kolekcje własne są dostępne tylko dla zalogowanych użytkowników, proszę się "
+"zalogować lub zarejestrować."
+
+msgid "Add Posts to Collections"
+msgstr "Dodaj posty do kolekcji"
+
+msgid ""
+"Pick up posts you like and add them to various collections, you've created "
+"before."
+msgstr ""
+"Wybierz posty które lubisz i dodawaj je do różnych kolekcji, które wcześniej "
+"stworzyłeś."
+
+msgid "You can delete individual items, clear and delete entire collections."
+msgstr "Może usuwać pojedyncze elementy, czyścić i usuwać całe kolekcje."
+
+msgid "Browse Your Collections"
+msgstr "Przeglądaj Swoje Kolekcje"
+
+msgid "Easily find posts you've previously organized into collections."
+msgstr "Znaduj łatwo posty wcześnie dodane do kolekcji"
+
+msgid ""
+"Other users won't have access to your Custom Collections though, unless you "
+"make them Public."
+msgstr ""
+"Inni użytkownicy nie mają dostęp do twoich kolekcji, chyba że uczynisz je "
+"Publicznymi."
+
+msgid ""
+"Please log in to use the Favourites Collection and find posts you recently "
+"bookmarked."
+msgstr ""
+"Zaloguj się, by używać kolekcji Ulubione i znaleźć ostatnio polubione posty."
+
+msgid ""
+"The Favourites Collection is only available to logged in users, so please "
+"log in or register now."
+msgstr ""
+"Kolekcja Ulubione dostępna jest tylko dla zalogowanych użytkowników, więc "
+"zaloguj się lub zarejestruj teraz."
+
+msgid "Add Posts to Favourites"
+msgstr "Dodaj posty do Ulubionych"
+
+msgid "Pick up posts you like and add them to Favourites."
+msgstr "Wybierz posty, które Ci się podobają i  dodaj je do Ulubionych."
+
+msgid "You can delete individual items or clear your entire collection."
+msgstr "Możesz usunąć pojedyncze wpisy lub opróżnić całą twoją kolekcję. "
+
+msgid "Check Your Favourites"
+msgstr "Sprawdź ulubione posty"
+
+msgid "Easily find recently bookmarked posts."
+msgstr "Z łatwością znajdź ostatnio polubione posty."
+
+msgid "Other users won't have access to your Favourites Collection though."
+msgstr ""
+"Jednakże inni użytkownicy nie będą mieli dostępu do twojej kolekcji Ulubione."
+
+msgid "Please log in to use the History and find posts you recently saw."
+msgstr "Zaloguj się, by używać Historii i znaleźć ostatnio przeglądane posty."
+
+msgid ""
+"The History is only available to logged in users, so please log in or "
+"register now."
+msgstr ""
+"Historia dostępna jest tylko dla zalogowanych użytkowników, więc zaloguj się "
+"lub zarejestruj teraz."
+
+msgid "Browse Posts"
+msgstr "Przeglądaj wpisy"
+
+msgid "Every visited post will be tracked now."
+msgstr "Każdy odwiedzony post będzie teraz zapisany."
+
+msgid "You can delete individual items or clear your entire history."
+msgstr "Możesz usunąć pojedyncze wpisy lub opróżnić całą twoją historię."
+
+msgid "Check Your History"
+msgstr "Sprawdź historię przeglądania"
+
+msgid "Easily find recently viewed posts."
+msgstr "Z łatwością znajdź ostatnio przeglądane posty."
+
+msgid "Other users won't have access to your History though."
+msgstr "Jednakże inni użytkownicy nie będą mieli dostępu do twojej Historii."
+
+msgid ""
+"Please log in to use the Read Later Collection and find posts you would like "
+"to read in the future."
+msgstr ""
+"Zaloguj się, by używać kolekcji Przeczytaj Później i znaleźć posty do "
+"przeczytania w przyszłości."
+
+msgid ""
+"The Read Later Collection is only available to logged in users, so please "
+"log in or register now."
+msgstr ""
+"Kolekcja Przeczytaj Później dostępna jest tylko dla zalogowanych "
+"użytkowników, więc zaloguj się lub zarejestruj teraz."
+
+msgid "Add Posts to Read Later"
+msgstr "Dodaj posty do Przeczytaj Później"
+
+msgid ""
+"Pick up posts you would like to read in the future and add them to Read "
+"Later."
+msgstr ""
+"Wybierz posty, które chciałbyś przeczytać w przyszłości i dodaj je do "
+"Przeczytaj Później."
+
+msgid "Check Posts to Read Later"
+msgstr "Sprawdź posty do przeczytania"
+
+msgid "Easily find posts you would like to read in the future."
+msgstr ""
+"Z łatwością znajdź posty, które zostawiłeś do przeczytania w przyszłości."
+
+msgid "Other users won't have access to your Read Later Collection though."
+msgstr ""
+"Jednakże inni użytkownicy nie będą mieli dostępu do twojej kolekcji "
+"Przeczytaj Później."
+
+msgid "Collection is empty"
+msgstr "Kolekcja jest pusta"
+
+msgid "Add new or search&hellip;"
+msgstr "Dodaj nową lub wyszukaj&hellip;"
+
+msgid "Add new&hellip;"
+msgstr "Dodaj nowy&hellip;"
+
+msgid "Add to Collection"
+msgstr "Dodaj do kolekcji"
+
+msgid "Add new or search"
+msgstr "Dodaj nową lub wyszukaj"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "No Collections"
+msgstr "Brak kolekcji"
+
+msgid "Here you'll find all collections you've created before."
+msgstr "Tutaj znajdziesz wszystkie wcześniej stworzone kolekcje."
+
+msgid "Start with example"
+msgstr "Rozpocznij na przykładzie"
+
+msgid "or"
+msgstr "lub"
+
+msgid "Add New Audio"
+msgstr "Dodaj nowe audio"
+
+msgid "Processing..."
+msgstr "Przetwarzanie..."
+
+msgid "Publish"
+msgstr "Opublikuj"
+
+msgid "Submit for Review"
+msgstr "Zapisz do przeglądu"
+
+msgid "Add New Embed"
+msgstr "Dodaj nowe medium osadzone"
+
+msgid "Embed URL"
+msgstr "Adres URL medium osadzanego"
+
+msgid "Paste link or embed code&hellip;"
+msgstr "Wklej link lub kod osadzania&hellip;"
+
+msgid "e.g.: https://www.youtube.com/watch?v=WwoKkq685Hk"
+msgstr "e.g.: https://www.youtube.com/watch?v=WwoKkq685Hk"
+
+msgid "Add New Image"
+msgstr "Dodaj nowy obrazek"
+
+msgid "Add New Text"
+msgstr "Dodaj nowy tekst"
+
+msgid "Add New Video"
+msgstr "Dodaj nowe video"
+
+msgid "This list is closed for submission."
+msgstr "Lista jest zamknięta na zgłoszenia."
+
+msgid "You don't have sufficient permissions to submit new item."
+msgstr "Nie masz odpowiednich uprawnień aby przesyłąć nowe elementy list."
+
+msgid "You've reached the limit for adding new items"
+msgstr "Osiągnąłeś dzienny limit dodawania nowych pozycji na liście."
+
+msgid "Item navigation"
+msgstr "Nawigacja pozycji na liście"
+
+msgid "Previous"
+msgstr "Poprzednia"
+
+msgid "Next"
+msgstr "Następny"
+
+msgid "You've submitted your first item!"
+msgstr "Przesłałeś pierwszy element listy!"
+
+msgid "Thank you for submitting!"
+msgstr "Dziękujemy za przesłanie!"
+
+msgid "Your item is awaiting moderation."
+msgstr "Twój element listy czeka na moderację."
+
+msgid ""
+"You can check the status of your submission on <a href=\"%s\">your profile "
+"page</a>."
+msgstr ""
+"Możesz sprawdzić status twojego zgłoszenia na <a href=\"%s\">twojej stronie "
+"profilowej</a>."
+
+msgid ""
+"You can view all your submissions on <a href=\"%s\">your profile page</a>."
+msgstr ""
+"Możesz przejrzeć wszystkie swoje zgłoszenia na <a href=\"%s\">twojej stronie "
+"profilowej</a>."
+
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Nie masz odpowiednich uprawnień by uzyskać dostęp do tej strony."
+
+msgid "Please contact with site's owner to get access."
+msgstr "Aby uzyskać dostęp skontaktuj się proszę z właścicielem strony."
+
+msgid "You don't have sufficient permissions to perform this action."
+msgstr "Nie masz odpowiednich uprawnień by wykonać tę akcję."
+
+msgid "You've reached the limit for adding new items to this post"
+msgstr "Osiągnąłeś dzienny limit dodawania nowych pozycji do tego wpisu"
+
+msgid "Remove existing items to add new ones."
+msgstr "Usuń istniejące elementy listy aby dodać nowe."
+
+msgid "You've reached the daily limit for adding new content"
+msgstr "Osiągnąłeś dzienny limit dodawania nowych treści."
+
+msgid "But there's nothing to worry about, you can add more tomorrow."
+msgstr "Ale nie ma się czym martwić, możesz dodać więcej jutro."
+
+msgid "The uploads directory is not writable."
+msgstr "Katalog do wgrywania nie jest zapisywalny."
+
+msgid "Please contact with site's owner."
+msgstr "Skontaktuj się proszę z właścicielem strony."
+
+msgid "Please make the below directory writable for your web server:."
+msgstr "Ustaw proszę poniższe katalogi na twoim serwerze jako zapisywalne:."
+
+msgid "Read more about correct file permissions."
+msgstr "Przeczytaj więcej o odpowiednich prawach plików."
+
+msgid "The first front-end uploader with open lists."
+msgstr "Edytor treści viralowych z otwartymi listami."
+
+msgid "Getting Started with Snax"
+msgstr "Rozpoczęcie pracy z wtyczką Snax"
+
+msgid "Create first post"
+msgstr "Stwórz pierwszy wpis"
+
+msgid "Administration area"
+msgstr "Panel administratora"
+
+msgid "Support"
+msgstr "Pomoc techniczna"
+
+msgid "Share to see poll results"
+msgstr "Udostępnij sondę by zobaczyć rezultaty"
+
+msgid "Classic Poll"
+msgstr "Klasyczna sonda"
+
+msgid "Hot or Not, Funny or Die"
+msgstr "Gorący czy nie, Śmieszne czy nudne"
+
+msgid "Next question"
+msgstr "Następne pytanie"
+
+msgid "Please login/register to play"
+msgstr "Proszę zaloguj/zarejestruj się by zagrać"
+
+msgid "Check your answers:"
+msgstr "Sprawdź swoje odpowiedzi"
+
+msgid "%.0f%%"
+msgstr "%.Z%%"
+
+msgid "Recaption this meme"
+msgstr "Stwórz własną wersję tego mema"
+
+msgid "Show %s memes using this template"
+msgstr "Pokaż %s memów opartych o ten szblon"
+
+msgid "Your post has been deleted"
+msgstr "Twój post został usunięty"
+
+msgid "Back to all your posts on <a href=\"%s\">your profile page</a>."
+msgstr "Wróć do swoich postów na stronie profilu."
+
+msgid "You've submitted your first post!"
+msgstr "Dodałeś pierwszy post!"
+
+msgid "Your post is awaiting moderation."
+msgstr "Twój wpis czeka na moderację"
+
+msgid ""
+"You can check the status of your post on <a href=\"%s\">your profile page</a>"
+"."
+msgstr ""
+"Możesz sprawdzić status swojego wpisu na <a href=\"%s\">twojej stronie "
+"profilowej</a>."
+
+msgid "You can view all your posts on <a href=\"%s\">your profile page</a>."
+msgstr ""
+"Możesz przejrzeć wszystkie swoje wpisy na <a href=\"%s\">twojej stronie "
+"profilowej</a>."
+
+msgid "This post was created with our nice and easy submission form."
+msgstr ""
+"Ten wpis został stworzony w naszym świetnym, łatwym do używania formularzu "
+"przesyłania wpisów."
+
+msgid "Create your post!"
+msgstr "Stwórz swój wpis!"
+
+msgid "Leave your vote"
+msgstr "Zostaw swój głos"
+
+msgid "Play again"
+msgstr "Zagraj jeszcze raz"
+
+msgid "Share the quiz to view your results!"
+msgstr "Udostępnij quiz by zobaczyć rezultaty!"
+
+msgid ""
+"Series of questions with right and wrong answers that intends to check "
+"knowledge"
+msgstr ""
+"Seria pytań z prawidłowymi oraz nieprawidłowymi odpowiedziami których "
+"zamierzeniem jest sprawdzenie wiedzy"
+
+msgid ""
+"Series of questions that intends to reveal something about the personality"
+msgstr "Seria pytań których zamierzeniem jest odkrycie prawdy o osobowości"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Share your vote on"
+msgstr "Udostępnij swój głos na"
+
+msgid "Not?"
+msgstr "Nie?"
+
+msgid "Vs"
+msgstr "Vs"
+
+msgid "Fake Votes"
+msgstr "Pozorowane głosy"
+
+msgid "Fake vote count"
+msgstr "Licznik pozorowanych głosów"
+
+msgid ""
+"Leave empty to use <a href=\"%s\" target=\"_blank\">global settings</a> or "
+"use a positive number (inclusive 0) to override them."
+msgstr ""
+"Pozostaw puste by użyć <a href=\"%s\" target=\"_blank\">ustawień "
+"globalnych</a> lub użyj dodatniej liczby (włączając 0) by je nadpisać."
+
+msgid "Nonce incorrect!"
+msgstr "Nieprawidłowy nonce!"
+
+msgid "Logged-In"
+msgstr "Zalogowany"
+
+msgid "Links visible only for logged in users."
+msgstr "Linki widoczne tylko dla zalogowanych użytkowników."
+
+msgid "Log Out"
+msgstr "Wyloguj"
+
+msgid "Logged-Out"
+msgstr "Wylogowany"
+
+msgid "Links visible only for logged out users."
+msgstr "Linki widoczne tylko dla wylogowanych użytkowników."
+
+msgid "Waiting Room"
+msgstr "Poczekalnia"
+
+msgid "Show all pending posts."
+msgstr "Pokaż wszystkie oczekujące wpisy."
+
+msgid "Collections"
+msgstr "Kolekcje"
+
+msgctxt "Menu item title"
+msgid "My Collections"
+msgstr "Moje kolekcje"
+
+msgid "No active collections. Please activate them in %s settings."
+msgstr "Brak aktywnych kolekcji. Aktywuj je proszę w ustawieniach %s."
+
+msgid "General"
+msgstr "Główne"
+
+msgid "Pages"
+msgstr "Strony"
+
+msgid "Formats"
+msgstr "Formaty"
+
+msgid "Lists"
+msgstr "Listy"
+
+msgid "Quizzes"
+msgstr "Quizy"
+
+msgid "Polls"
+msgstr "Sondy"
+
+msgid "Stories"
+msgstr "Teksty"
+
+msgid "Memes"
+msgstr "Memy"
+
+msgid "Audios"
+msgstr "Audio"
+
+msgid "Videos"
+msgstr "Video"
+
+msgid "Galleries"
+msgstr "Galerie"
+
+msgid "Embeds"
+msgstr "Media osadzane"
+
+msgid "Links"
+msgstr "Linki"
+
+msgid "Auth"
+msgstr "Autoryzacja"
+
+msgid "Moderation"
+msgstr "Moderacja"
+
+msgid "Facebook App ID"
+msgstr "Identyfikator aplikacji Facebook"
+
+msgid "reCaptcha protection"
+msgstr "Ochrona reCaptcha"
+
+msgid "reCaptcha Version"
+msgstr "reCaptcha wersja"
+
+msgid "reCaptcha Site Key"
+msgstr "reCaptcha klucz witryny"
+
+msgid "reCaptcha Secret"
+msgstr "reCaptcha poufny klucz"
+
+msgid ""
+"How do I get my <strong>reCaptcha API key pair</strong>? Use the <a "
+"href=\"%s\" target=\"_blank\">reCaptcha Getting Started</a> guide for help."
+msgstr ""
+"Jak mogę zdobyć swoją <strong>parę kluczy reCaptcha API</strong>? Użyj "
+"przewodnika <a href=\"%s\" target=\"_blank\">reCaptcha Getting Started</a> "
+"by dowiedzieć się więcej."
+
+msgid "Active formats"
+msgstr "Aktywne formaty"
+
+msgid "(drag to reorder)"
+msgstr "(przeciągnij by zmienić kolejność)"
+
+msgid ""
+"Show the \"This post was created with our nice and easy submission form.\" "
+"text"
+msgstr ""
+"Pokaż tekst \"Ten wpis został stworzony w naszym świetnym, łatwym do "
+"używania formularzu przesyłania wpisów.\""
+
+msgid "Disable admin bar for non-administrators"
+msgstr ""
+"Wyłącz pasek administratora dla użytkowników nie będących administratorami"
+
+msgid "Disable Dashboard access for non-administrators"
+msgstr ""
+"Wyłącz dostęp do Kokpitu dla użytkowników nie będących administratorami"
+
+msgid "Disable WP login form"
+msgstr "Wyłącz formularz logowania WP"
+
+msgid "Enable the login popup "
+msgstr "Włącz wyskakujące okienko logowania"
+
+msgid "Allow rich editor for post description"
+msgstr "Zezwól na użycie rozszerzonego edytora dla pola opisu artyukłu"
+
+msgid "Allow rich editor for item description"
+msgstr "Zezwól na użycie rozszerzonego edytora dla pola opisu elementu listy"
+
+msgid "Limits"
+msgstr "Limity"
+
+msgid "User can submit"
+msgstr "Użytkownik może przesłać"
+
+msgid "Tags"
+msgstr "Tagi"
+
+msgid "Title length"
+msgstr "Długość tytułu"
+
+msgid "Description length"
+msgstr "Długość opisu"
+
+msgid ""
+"Maximum size can be set to %dMB, which is your server's upload limit (set in "
+"php.ini)."
+msgstr ""
+"Maksymalny rozmiar może wynieść %dMB, co jest limitem na twoim serwerze "
+"(ustawionym w pliku php.ini)."
+
+msgctxt "Limit option"
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d post"
+msgstr[1] "%d posty"
+msgstr[2] "%d postów"
+
+msgid "unlimited posts"
+msgstr "nielimitowana ilość wpisów"
+
+msgid "per day."
+msgstr "na dzień."
+
+msgctxt "Limit option"
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d element"
+msgstr[1] "%d elementy"
+msgstr[2] "%d elementów"
+
+msgid "unlimited items"
+msgstr "nieskończenie wiele elementów listy"
+
+msgid "while creating a new list/gallery. Applies also to Story format images."
+msgstr ""
+"podczas tworzenia nowej listy/galerii. Dotyczy również obrazków dla formatu "
+"Tekst."
+
+msgid ""
+"How do I get my <strong>App ID</strong>? Use the <a href=\"%s\" "
+"target=\"_blank\">Register and Configure an App</a> guide for help."
+msgstr ""
+"Jak mogę uzyskać mój <strong>identyfikator aplikacji</strong>? Użyj "
+"przewodnika <a href=\"%s\" target=\"_blank\">Register and Configure an "
+"App</a> by dowiedzieć się więcej."
+
+msgid "yes"
+msgstr "tak"
+
+msgid "no"
+msgstr "nie"
+
+msgid "For lists and galleries"
+msgstr "Dla list i galerii"
+
+msgid "- None -"
+msgstr "- Żadne -"
+
+msgid "Choose an Image post"
+msgstr "Wybierz obrazek dla wpisu"
+
+msgid "Maximum number of tags user can assign to a post during new submission."
+msgstr ""
+"Maksymalna ilość tagów jaką użytkownik może przypisać do nowo przesłanego "
+"posta."
+
+msgid "to an existing list."
+msgstr "do istniejącej listy."
+
+msgid "Users' content"
+msgstr "Treść użytkowników"
+
+msgid "Moderate new posts?"
+msgstr "Czy moderować nowe wpisy?"
+
+msgid "Can users edit own posts?"
+msgstr "Użytkownik może edytować swoje artykuły?"
+
+msgid "Can users delete own posts?"
+msgstr "Użytkownik może usuwać swoje artykuły?"
+
+msgid "Keep post status?"
+msgstr "Zachowaj status artykułu?"
+
+msgid "Reporting"
+msgstr "Raportowanie"
+
+msgid "Allow users to report a post abuse?"
+msgstr "Czy pozwolić użytkownikom zgłaszać nadużycia we wpisach?"
+
+msgid "Report abuse to"
+msgstr "Zgłoś nadużycie do"
+
+msgid "Notifications"
+msgstr "Powiadomienia"
+
+msgid "Send mail to admin when new post/item was added?"
+msgstr ""
+"Czy wysłać maila do administratora gdy nowy wpis/pozycja listy zostaną "
+"dodane?"
+
+msgctxt "Moderation settings"
+msgid "New content has to be approved by a moderator before going live"
+msgstr "Nowa treść musi został zatwierdzona przez moderator przed publikacją"
+
+msgctxt "Moderation settings"
+msgid ""
+"Leave a post status as it was before edition or require moderation after "
+"each change"
+msgstr ""
+"Zachowaj taki sam status artykułu jak przed edycją albo wymuś moderacje po "
+"każdej zmianie"
+
+msgid "enabled"
+msgstr "włączone"
+
+msgid "disabled"
+msgstr "wyłączony"
+
+msgctxt "Moderation settings"
+msgid "Allow users to browse pending posts"
+msgstr "Zezwól użytkownikom na przeglądanie oczekujących artykułów"
+
+msgctxt "Moderation, e-mail example"
+msgid "user@domain.com"
+msgstr "user@domain.com"
+
+msgid "Leave empty to use site's admin e-mail (%s)."
+msgstr "Pozostaw puste by wykorzystać adres email administratora witryny (%s)."
+
+msgid "Terms and Conditions"
+msgstr "Warunki użytkowania"
+
+msgctxt "Permalink Settings"
+msgid "Snax"
+msgstr "Snax"
+
+msgid "Item URL"
+msgstr "Adres URL pozycji na liście"
+
+msgid "URL variable"
+msgstr "Zmienna adresu URL"
+
+msgid "Enable voting?"
+msgstr "Włącz głosowanie?"
+
+msgid "Guests can vote?"
+msgstr "Czy goście mogą głosować?"
+
+msgid "Allow users to vote on post types"
+msgstr "Czy pozwolić użytkownikom głosować na wpisy?"
+
+msgid "Fake votes"
+msgstr "Pozorowane głosy"
+
+msgid "Count base"
+msgstr "Baza licznika"
+
+msgid "Disable for new submissions"
+msgstr "Wyłącz dla nowych zgłoszeń"
+
+msgid "e.g. 1000"
+msgstr "np. 1000"
+
+msgid ""
+"Fake votes for a post are calculated based on this value and a post creation "
+"date (older posts' votes are closer to the count base)."
+msgstr ""
+"Pozorowane głosy są wyliczane na podstawie tej wartości i daty utworzenia "
+"wpisu (głosy starszych wpisów są bliżej tej wartości)."
+
+msgid "Leave empty to not use \"Fake votes\" feature."
+msgstr "Pozostaw puste by nie używać funkcji \"Pozorowane głosy\"."
+
+msgid "New users' submitted posts won't be affected with fake votes"
+msgstr ""
+"Pozorowane głosy nie będą zaaplikowane do nowo przesłanych przez "
+"użytkowników wpisów"
+
+msgctxt "Built-in collection title"
+msgid "Favourites"
+msgstr "Ulubione"
+
+msgctxt "Add to collection label"
+msgid "Add to Favourites"
+msgstr "Dodaj do Ulubionych"
+
+msgctxt "Add to abstract collection label"
+msgid "Add to %s"
+msgstr "Dodaj do %s"
+
+msgctxt "Built-in collection title"
+msgid "History"
+msgstr "Historia"
+
+msgctxt "Built-in collection title"
+msgid "Read Later"
+msgstr "Przeczytaj później"
+
+msgctxt "Add to collection label"
+msgid "Read Later"
+msgstr "Przeczytaj później"
+
+msgctxt "Custom collection title"
+msgid "Custom Collection"
+msgstr "Kolekcja własna"
+
+msgctxt "Add to custom collection label"
+msgid "Add to Collection"
+msgstr "Dodaj do kolekcji"
+
+msgctxt "Collection error message"
+msgid "Abstract collection not defined!"
+msgstr "Kolekcja abstrakcyjna nie została zdefiniowana!"
+
+msgctxt "Collection error message"
+msgid "Collection ID does not refer to any valid collection!"
+msgstr "Identyfikator kolekcji nie odnosi się do żadnej poprawnej kolekcji!"
+
+msgctxt "Collection error message"
+msgid "Could not find a collection!"
+msgstr "Nie znaleziono kolekcji!"
+
+msgctxt "Collection error message"
+msgid "Post not exists!"
+msgstr "Wpis nie istnieje!"
+
+msgctxt "Collection error message"
+msgid "Post type not allowed!"
+msgstr "Typ wpisu nie jest dozwolony!"
+
+msgctxt "Collection error message"
+msgid "Could not insert into the collection!"
+msgstr "Nie udało się wstawić wpisu do kolekcji!"
+
+msgctxt "Collection error message"
+msgid "Could not delete collection post!"
+msgstr "Nie udało się usunąć wpisu z kolekcji!"
+
+msgctxt "Collection error message"
+msgid "Could not delete collection posts!"
+msgstr "Nie udało się usunąć wpisów z kolekcji!"
+
+msgctxt "Collection error message"
+msgid "Could not delete collection!"
+msgstr "Nie udało się usunąć kolekcji!"
+
+msgid "Button with link to the Frontend Submission page"
+msgstr "Przycisk z linkiem do strony przesyłania nowych wpisów"
+
+msgid "Snax Call To Action Button"
+msgstr "Snax Przycisk wezwania do akcji"
+
+msgid "Widget title"
+msgstr "Tytuł widżetu"
+
+msgid "Button label"
+msgstr "Etykieta przycisku"
+
+msgid "HTML id attribute (optional)"
+msgstr "Atrybut id dokumentu HTML (opcjonalnie)"
+
+msgid "HTML class attribute (optional)"
+msgstr "Atrybut class dokumentu HTML (opcjonalnie)"
+
+msgid "Link to:"
+msgstr "Link do:"
+
+msgid "Create"
+msgstr "Stwórz"
+
+msgid "Box with link to the Frontend Submission page"
+msgstr "Ramka z linkiem do strony przesyłania nowych wpisów"
+
+msgid "Snax Call To Action"
+msgstr "Snax Wezwanie do akcji"
+
+msgid "Call To Action text"
+msgstr "Tekst wezwania do akcji"
+
+msgid "Unleash your creativity and share you story with us!"
+msgstr "Obudź w sobie kreatywność i podziel się z nami swoim tekstem!"
+
+msgid "User latest votes"
+msgstr "Ostatnie głosy użytkownika"
+
+msgid "Snax Latest Votes"
+msgstr "Snax: Ostatnie głosy "
+
+msgid "The max. number of entries to show"
+msgstr "Maksymalna ilość wpisów do pokazania"
+
+msgid "Latest votes"
+msgstr "Ostatnie głosy"
+
+msgid "Recently created, updated, closed lists"
+msgstr "Ostatnio utworzone, uaktualnione, zamknięte listy"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Recently created lists"
+msgstr "Ostatnio utworzone listy"
+
+msgid "Recently added"
+msgstr "Ostatnio dodane"
+
+msgid "Recently modified (eg. when new item was added)"
+msgstr "Ostatnie modyfikowane (np. nowa pozycja została dodana)"
+
+msgid "Open for submission (recently opened first)"
+msgstr "Otwarte na zgłoszenia (ostatnio otwarte jako pierwsze)"
+
+msgid "Closed for submission (recently closed first)"
+msgstr "Zamknięte na zgłoszenia (ostatnio zamknięte jako pierwsze)"
+
+msgid "Open for voting (recently opened first)"
+msgstr "Otwarte na głosowanie (ostatnio otwarte jako pierwsze)"
+
+msgid "Closed for voting (recently closed first)"
+msgstr "Zamknięte na głosowanie (ostatnie zamknięte jako pierwsze)"
+
+msgid "A post teaser"
+msgstr "Zajawka wpisu"
+
+msgid "Snax Teaser"
+msgstr "Snax Zajawka"
+
+msgid "Some errors occured while creating image."
+msgstr "Wystąpiły błędy podczas tworzenia obrazka."
+
+msgid "Frontend Form"
+msgstr "Formularz widoczny dla użytkowników"
+
+msgid "Featured Image"
+msgstr "Wyróżniony obrazek"
+
+msgid "Category"
+msgstr "Kategoria"
+
+msgid "Multiple categories selection?"
+msgstr "Czy można zaznaczyć wiele kategorii?"
+
+msgid "Category whitelist"
+msgstr "Lista dozwolonych kategorii"
+
+msgid "Auto assign to categories"
+msgstr "Automatycznie przypisz do kategorii"
+
+msgid "Referral link"
+msgstr "Link afiliacyjny"
+
+msgid "Single Post"
+msgstr "Pojedynczy wpis"
+
+msgid "Show Featured Media"
+msgstr "Pokaż wyróżnione media"
+
+msgid "Allowed?"
+msgstr "Dozwolone?"
+
+msgid "Maximum file size"
+msgstr "Maksymalny rozmiar pliku"
+
+msgid "Allowed types"
+msgstr "Dozwolone typy"
+
+msgctxt "Setting label"
+msgid "Texts"
+msgstr "Teksty"
+
+msgctxt "Setting label"
+msgid "Singular name"
+msgstr "Pojedyncza nazwa"
+
+msgctxt "Setting label"
+msgid "Add new"
+msgstr "Dodaj nowy"
+
+msgctxt "Setting label"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "Setting label"
+msgid "Overview"
+msgstr "Podsumowanie"
+
+msgid "required"
+msgstr "wymagane"
+
+msgid "optional"
+msgstr "opcjonalnie"
+
+msgid "- Allow all -"
+msgstr "- Dozwól wszystkie -"
+
+msgid "Categories allowed for user while creating a new post."
+msgstr "Kategorie dostępne dla użytkownika podczas dodawania nowego wpisu."
+
+msgid "- Not assign -"
+msgstr "- Nie przypisano -"
+
+msgid "show"
+msgstr "pokaż"
+
+msgid "hide"
+msgstr "schowaj"
+
+msgid "Applies only to Snax Authors"
+msgstr "Dotyczny tylko autorów Snax"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Audio"
+msgstr "np. audio"
+
+msgctxt "Setting description"
+msgid "Leave empty to use default."
+msgstr "Pozostaw puste by użyć domyślnej wartości."
+
+msgctxt "Setting placeholder"
+msgid "e.g. Upload Your Audio"
+msgstr "np. Wgraj twoje audio"
+
+msgctxt "Setting placeholder"
+msgid "e.g. MP3 or SoundCloud embed, MixCloud, etc."
+msgstr "np. M3 lub media osadzone z serwisów SoundCloud, MixCloud, itp."
+
+msgid "Some errors occured while creating embed."
+msgstr "Wystąpiły błędy podczas tworzenia medium osadzonego."
+
+msgid "Embedly"
+msgstr "Embedly"
+
+msgid "ok"
+msgstr "ok"
+
+msgid "Enable Embedly support?"
+msgstr "Włącz wsparcie Embedly?"
+
+msgid "Dark skin"
+msgstr "Ciemna skórka"
+
+msgid "Share buttons"
+msgstr "Przyciski udostępniania"
+
+msgid "Width"
+msgstr "Szerokość"
+
+msgid "Alignment"
+msgstr "Wyrównanie"
+
+msgid "Embedly cards API key"
+msgstr "Klucz Embedly cards API"
+
+msgid "Example Embed"
+msgstr "Przykładowe medium osadzone"
+
+msgid ""
+"<a href=\"http://Embedly.com\" target=\"_blank\">Embedly</a> is an "
+"alternative embed handler for Snax. It allows you to have unified, beautiful "
+"embeds on your site with more than 400 services supported. Free plan does "
+"not require any API key - just enable and enjoy!"
+msgstr ""
+"<a href=\"http://Embedly.com\" target=\"_blank\">Embedly</a> to alternatywny "
+"sposób osadzania mediów dostępny w Snax. It allows you to have Wyświetla "
+"ujednolicone, ładne media osadzone na twojej stronie i obsługuje ponad 400 "
+"serwisów. Darmowy plan nie wymaga żadnego klucza API - po prostu włącz i "
+"używaj!"
+
+msgid "e.g. 500px"
+msgstr "np. 500px"
+
+msgid "Leave empty for responsive."
+msgstr "Pozostaw puste dla responsywny."
+
+msgid "center"
+msgstr "środek"
+
+msgid "left"
+msgstr "lewy"
+
+msgid "right"
+msgstr "prawy"
+
+msgid "&#10004;"
+msgstr "&#10004;"
+
+msgid "&#10006;"
+msgstr "&#10006;"
+
+msgid ""
+"Get your Embedly API key at <a href=\"%s\" target=\"_blank\">Embed."
+"ly/cards</a>"
+msgstr ""
+"Zdobądź klucz Embedly API ze strony <a href=\"%s\" target=\"_blank\">Embed."
+"ly/cards</a>"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Embed"
+msgstr "np. Medium osadzone"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Facebook post, Twitter status, etc."
+msgstr "np. Wpis na Facebooku, status na Twitterze, tp."
+
+msgid "Some errors occured while creating gallery."
+msgstr "Wystąpiły błędy podczas tworzenia galerii."
+
+msgid "Example Gallery"
+msgstr "Przykładowa galeria"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Gallery"
+msgstr "np. Galeria"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Create Your Gallery"
+msgstr "np. Stwórz swoją galerię"
+
+msgctxt "Setting placeholder"
+msgid "e.g. A collection of images"
+msgstr "np. Kolekcja obrazków"
+
+msgid "Example Image"
+msgstr "Przykładowy obrazek"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Image"
+msgstr "np. Obrazek"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Upload Your Image"
+msgstr "np. Wgraj twój obrazek"
+
+msgctxt "Setting placeholder"
+msgid "e.g. JPG, PNG or GIF"
+msgstr "np. JPG, PNG lub GIF"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "External site's link"
+msgstr "Link do strony zewnętrznej"
+
+msgid "Some errors occured while creating link."
+msgstr "Wystąpiły błędy podczas tworzenia linku."
+
+msgid "Meta data could not be processed. Please fill the form manually."
+msgstr ""
+"Meta dane nie mogły zostać przetworzone. Proszę wypełnił formularz ręcznie."
+
+msgid "Title not found."
+msgstr "Nie znaleziono tytułu."
+
+msgid "Description not found."
+msgstr "Nie znaleziono opisu."
+
+msgid "Image not found."
+msgstr "Nie znaleziono obrazka."
+
+msgid ""
+"This page prevents access or doesn't support Open Graph protocol. We "
+"couldn't read any data from it. Please fill the form manually."
+msgstr ""
+"Ta strona blokuje dostęp lub nie wspiera protokołu Open Graph. Żadne dane "
+"nie mogły zostać z niej odczytane. Wypełnij zatem proszę formularz."
+
+msgid ""
+"We were not able to read all data.<br />%s<br /> Please fill the missing "
+"data manually."
+msgstr ""
+"Nie udało się odczytać wszystkich danych.<br />%s<br /> Wypełnij proszę "
+"brakujące dane."
+
+msgid "Snax Links"
+msgstr "Snax Linki"
+
+msgid "Demo"
+msgstr "Demo"
+
+msgid "Example Links"
+msgstr "Przykładowe linki"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Link"
+msgstr "np. Link"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Submit Your Link"
+msgstr "np. Prześlij swój link"
+
+msgctxt "Setting placeholder"
+msgid "e.g. External site's link"
+msgstr "np. Link do zewnętrznej strony"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Just paste external site's URL, we will do the rest."
+msgstr "np. Po prostu wklej link do zewnętrznej strony, a my zrobimy resztę."
+
+msgid "Some errors occured while creating post."
+msgstr "Wystąpiły błędy podczas tworzenia wpisu."
+
+msgid "Item referral link"
+msgstr "Link odsyłający pozycji na liście"
+
+msgid "Item forms"
+msgstr "Formularze pozycji na liście"
+
+msgid "Link to single item from list"
+msgstr "Linkuj do strony pojedynczej pozycji listy z listy"
+
+msgid "Show list status in title"
+msgstr "Pokaż status listy w tytule"
+
+msgid "Show items count in title"
+msgstr "Pokaż ilość pozycji na liście w tytule"
+
+msgid "Display items comments on list view "
+msgstr "Wyświetl komentarze do pozycji na liście w widoku listy"
+
+msgid "List items per page"
+msgstr "Liczba pozycji listy na stronie"
+
+msgid "Source length"
+msgstr "Długość źródła"
+
+msgid "Referral link length"
+msgstr "Długość linku afiliacyjnego"
+
+msgctxt "Setting label"
+msgid "Texts > Open Lists"
+msgstr "Teksty > Otwarte listy"
+
+msgctxt "Setting label"
+msgid "Texts > Ranked List"
+msgstr "Teksty > Lista rankingowa"
+
+msgctxt "Setting label"
+msgid "Texts > Classic List"
+msgstr "Teksty > Klasyczna lista"
+
+msgid "Example List"
+msgstr "Przykładowa lista"
+
+msgid "Allow guest users without accounts to submit new items."
+msgstr "Pozwól użytkownikom bez konta dodawać nowe pozycje na liście."
+
+msgctxt "Setting placeholder"
+msgid "e.g. Open List"
+msgstr "np. Otwarta lista"
+
+msgctxt "Setting placeholder"
+msgid ""
+"e.g. Everyone can submit new list items and vote up for the best submission"
+msgstr ""
+"np. Każdy może przesłać nowe pozycje listy i głosować na najlepsze zgłoszenie"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Ranked List"
+msgstr "np. Lista rankingowa"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Everyone can vote up for the best list item"
+msgstr "np. Każdy może głosować na najlepszą pozycję listy"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Classic List"
+msgstr "np. Klasyczna lista"
+
+msgctxt "Setting placeholder"
+msgid "e.g. A list-based article"
+msgstr "np. Artykuł oparty o listę"
+
+msgid "Some errors occured while creating meme."
+msgstr "Wystąpiły błędy podczas tworzenia mema."
+
+msgid "Enable post content field"
+msgstr "Włącz pole treść wpisu"
+
+msgid "Enable \"Recaption this meme\" button"
+msgstr "Włącz przycisk \"Stwórz własną wersję tego mema\""
+
+msgid "Example Meme"
+msgstr "Przykładowy mem"
+
+msgid "Import popular meme templates"
+msgstr "Zaimportuj popularne szablony memów"
+
+msgid ""
+"The meme templates are imported from <a target=\"_blank\" href=\"https://api."
+"imgflip.com/\">https://api.imgflip.com/</a>"
+msgstr ""
+"Szablony memów są importowane z <a target=\"_blank\" href=\"https://api."
+"imgflip.com/\">https://api.imgflip.com/</a>"
+
+msgid ""
+"Already imported templates will be skipped - if any errors occur during "
+"import you can re-run it and only misssing memes will be downloaded."
+msgstr ""
+"Zaimportowane wcześniej szablony zostaną pominięte - jeśli wystąpi jakiś "
+"błąd podczas importowania może uruchomić je ponownie i tylko brakujące "
+"szablony zostaną pobrane."
+
+msgctxt "Setting placeholder"
+msgid "e.g. Meme"
+msgstr "np. Mem"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Create Your Meme"
+msgstr "np. Stwórz swojego mema"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Create a funny pic"
+msgstr "np. Stwórz śmieszny obrazek"
+
+msgid "User draft poll not exists!."
+msgstr "Szkice sond użytkownika nie istnieją!"
+
+msgid "Allow guests to play"
+msgstr "Pozwól odwiedzającym zagrać"
+
+msgid "Votes per user"
+msgstr "Liczba głosów na użytkownika"
+
+msgctxt "Setting label"
+msgid "Texts > Poll"
+msgstr "Teksty > Sonda"
+
+msgctxt "Setting label"
+msgid "Texts > Versus"
+msgstr "Teksty > Versus"
+
+msgctxt "Setting label"
+msgid "Texts > Hot or Not"
+msgstr "Teksty > Gorące czy Nie"
+
+msgid "one vote"
+msgstr "jeden głos"
+
+msgid "unlimited votes"
+msgstr "nielimitowana ilość głosów"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Poll"
+msgstr "np. Sonda"
+
+msgctxt "Setting placeholder"
+msgid "e.g. One or multiple questions about a subject or person"
+msgstr "np. Jedno lub więcej pytań odnośnie tematu lub osoby"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Versus"
+msgstr "np. Versus"
+
+msgctxt "Setting placeholder"
+msgid "e.g. A poll where each question has two competing answers"
+msgstr "np. Sonda w której każde pytanie ma dwie konkurujące odpowiedzi"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Hot or Not"
+msgstr "np. Gorące czy nie"
+
+msgctxt "Setting placeholder"
+msgid "e.g. A poll where each question has two opposite answers"
+msgstr "np. Sonda w której każde pytanie ma dwie przeciwne odpowiedzi"
+
+msgid "User draft quiz not exists!."
+msgstr "Szkic quizów użytkownika nie istnieją!"
+
+msgctxt "Setting label"
+msgid "Texts > Trivia Quiz"
+msgstr "Teksty > Quiz wiedzy"
+
+msgctxt "Setting label"
+msgid "Texts > Personality quiz"
+msgstr "Teksty > Quiz osobowości"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Trivia Quiz"
+msgstr "np. Quiz wiedzy"
+
+msgctxt "Setting placeholder"
+msgid "e.g. What do you know about ...?"
+msgstr "np. Co wiesz o ...?"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Personality Quiz"
+msgstr "np. Quiz osobowości"
+
+msgctxt "Setting placeholder"
+msgid "e.g. What type of person are you?"
+msgstr "np. Jakim typem osobowości jesteś?"
+
+msgid "Some errors occured while creating text."
+msgstr "Wystąpiły błędy podczas tworzenia tekstu."
+
+msgid "Content length"
+msgstr "Długość treści"
+
+msgid "For Story format."
+msgstr "Dla formatu Tekst."
+
+msgctxt "Setting placeholder"
+msgid "e.g. Story"
+msgstr "Np. Tekst"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Tell Your Story"
+msgstr "np. Dodaj swój tekst"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Mix text with images and embeds"
+msgstr "np. Mixuj tekst z obrazkami i mediami osadzonymi"
+
+msgctxt "Setting placeholder"
+msgid ""
+"e.g. Submit you story the way you like. Don't worry about formatting. We "
+"will do any necessary changes before publishing."
+msgstr ""
+"np. Prześlij swój tekst jak lubisz. Nie przejmuj się formatowaniem. "
+"Wprowadzimy niezbędne zmiany przed publikacją."
+
+msgid "Video adding method"
+msgstr "Metoda dodawania video"
+
+msgctxt "Video adding method"
+msgid "Upload & Embed"
+msgstr "Wgrywanie i osadzanie"
+
+msgctxt "Video adding method"
+msgid "Upload"
+msgstr "Wgrywanie"
+
+msgctxt "Video adding method"
+msgid "Embed"
+msgstr "Medium osadzone"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Video"
+msgstr "np. Video"
+
+msgctxt "Setting placeholder"
+msgid "e.g. Upload Your Video"
+msgstr "np. Wgraj twoje video"
+
+msgctxt "Setting placeholder"
+msgid "e.g. MP4 or YouTube embed, Vimeo, Dailymotion, etc."
+msgstr ""
+"np. MP4 lub media osadzone z serwisów YouTube, Vimeo, Dailymotion, itp."
+
+msgctxt "BuddyPress activity: new item added"
+msgid ""
+"<a href=\"%s\">%s</a> added new %s <a href=\"%s\">%s</a> to <a href=\"%s\">"
+"%s</a>"
+msgstr ""
+"<a href=\"%s\">%s</a> dodał/a nowy %s <a href=\"%s\">%s</a> do <a "
+"href=\"%s\">%s</a>"
+
+msgid "upvoted"
+msgstr "zagłosowano na tak"
+
+msgid "downvoted"
+msgstr "zagłosowano na nie"
+
+msgid "post"
+msgstr "wpis"
+
+msgctxt "BuddyPress activity: new vote added"
+msgid "<a href=\"%s\">%s</a> %s for <a href=\"%s\">%s</a>"
+msgstr "<a href=\"%s\">%s</a> %s na <a href=\"%s\">%s</a>"
+
+msgid "Snax Posts"
+msgstr "Snax Wpisy"
+
+msgctxt "BuddyPress component description"
+msgid ""
+"Allow your users to manage their posts directly from within their profiles."
+msgstr ""
+"Zezwól Twoim użytkownikom na zarządzanie postami bezpośrednio z poziomu ich "
+"profili.\n"
+"\t\n"
+"\n"
+
+msgid "Snax Submissions"
+msgstr "Snax Zgłoszenia"
+
+msgctxt "BuddyPress component description"
+msgid ""
+"Allow your users to manage their list submissions directly from within their "
+"profiles."
+msgstr ""
+"Zezwól Twoim użytkownikom na zarządzanie wpisami na listach bezpośrednio z "
+"poziomu ich profili."
+
+msgid "Snax Votes"
+msgstr "Snax: Głosy"
+
+msgctxt "BuddyPress component description"
+msgid ""
+"Allow your users to manage their votes directly from within their profiles."
+msgstr ""
+"Zezwól Twoim użytkownikom na zarządzanie głosami bezpośrednio z poziomu ich "
+"profili."
+
+msgid "Show:"
+msgstr "Pokaż:"
+
+msgid "All"
+msgstr "Wszystko"
+
+msgid "Go"
+msgstr "Idź"
+
+msgid "Please fill the recaptcha"
+msgstr "Wypełnij proszę pole recaptcha"
+
+msgid "%s added new <a href=\"%s\">item</a> to the <a href=\"%s\">%s</a> post."
+msgstr ""
+"%s dodał/a nową <a href=\"%s\">pozycję</a> do listy <a href=\"%s\">%s</a>."
+
+msgid "Your item <a href=\"%s\">%s</a> was approved by %s."
+msgstr "Twoje zgłoszenie <a href=\"%s\">%s</a> zostało zaakceptowane przez %s."
+
+msgid "Your item <a href=\"%s\">%s</a> was rejected by %s."
+msgstr "Twoje zgłoszenie <a href=\"%s\">%s</a> zostało odrzucone przez %s."
+
+msgid "Your post <a href=\"%s\">%s</a> was approved by %s."
+msgstr "Twój wpis <a href=\"%s\">%s</a> zaakceptował(a) %s."
+
+msgid "Your post <a href=\"%s\">%s</a> was rejected by %s."
+msgstr "Twój post <a href=\"%s\">%s</a> odrzucił(a) %s."
+
+msgid "voted"
+msgstr "zagłosowano"
+
+msgid "%s %s for your post %s."
+msgstr "%s %s za twój wpis %s."
+
+msgid "Vote"
+msgstr "Zagłosuj"
+
+msgid "Quiz"
+msgstr "Quiz"
+
+msgid "Publishing "
+msgstr "Publikowanie"
+
+msgid "Awards for voting."
+msgstr "Nagrody za głosowanie."
+
+msgid "Awards for adding Snax Formats."
+msgstr "Nagrody za dodanie formatów Snax."
+
+msgid "Voting for a post"
+msgstr "Głosowanie na post"
+
+msgid "Log template"
+msgstr "Szablonu wpisu w rejestrze"
+
+msgid "Voting for an item"
+msgstr "Głosowanie na pozycję listy"
+
+msgid "Publishing"
+msgstr "Publikowanie"
+
+msgid "Publishing new list item"
+msgstr "Publikowanie nowego elementu listy"
+
+msgid "votes"
+msgstr "głosy"
+
+msgid "k"
+msgstr "tys."
+
+msgid "Share your vote"
+msgstr "Udostępnij swój głos"
+
+msgid "There are no items yet"
+msgstr "Nie ma jeszcze pozycji na liście"
+
+msgid "There are no collections yet"
+msgstr "Nie ma jeszcze kolekcji"
+
+msgid "There are no posts yet"
+msgstr "Nie ma jeszcze wpisów"
+
+msgid "There are no votes yet"
+msgstr "Nie ma jeszcze głosów"
+
+msgid "Posted"
+msgstr "Dodany"
+
+msgid "I agree with the terms and conditions."
+msgstr "Zgadzam się z postanowieniami regulaminu."
+
+msgctxt "before poll answers"
+msgid "Tell us what you think:"
+msgstr "Powiedz co myślisz:"
+
+msgid "You got <strong>%d</strong> out of <strong>%d</strong> right!"
+msgstr "Masz dobre odpowiedzi na <strong>%d</strong> z <strong>%d</strong>!"
+
+msgid "Share your result"
+msgstr "Udostępnij swój rezultat"
+
+msgid "I got %1$d out of %2$d right! How do you measure up?"
+msgstr "Mam %1$d z %2$d dobrze! Jak ty wypadniesz?"
+
+msgid "e.g.: https://soundcloud.com/community/fellowship-wrapup"
+msgstr "e.g.: https://soundcloud.com/community/fellowship-wrapup"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "Paste the URL"
+msgstr "Wklej adres URL"
+
+msgid "Paste link URL"
+msgstr "Wklej adres URL linku"
+
+msgid "or use our example URL"
+msgstr "lub użyk naszego przykładowego adresu URL"
+
+msgid "Use this example URL"
+msgstr "Użyj przykładowego adresu URL"
+
+msgid "- Select category -"
+msgstr "- Wybierz kategorię -"
+
+msgid "Enter title here&hellip;"
+msgstr "Wpisz tutaj tytuł&hellip;"
+
+msgid "Enter some text&hellip;"
+msgstr "Wpisz jakiś tekst&hellip;"
+
+msgid "Save Draft"
+msgstr "Zapisz szkic"
+
+msgid "Preview"
+msgstr "Podejrzyj"
+
+msgid "Open for submissions"
+msgstr "Otwarta na zgłoszenia"
+
+msgid "Open for voting"
+msgstr "Otwarta na głosowanie"
+
+msgid "Add tags&hellip;"
+msgstr "Dodaj tagi&hellip;"
+
+msgid "Separate tags with Enter"
+msgstr "Oddzwiel tagi klawiszem Enter"
+
+msgid "You got: %s"
+msgstr "Twój wynik to: %s"
+
+msgid "I got %s"
+msgstr "Mój wynik to %s"
+
+msgid "Items Per Page"
+msgstr "Ilość pozycji na liście"
+
+msgid "Leave empty to use <a href=\"%s\">global settings</a>."
+msgstr "Pozostaw puste by użyć <a href=\"%s\">ustawień globalnych</a>."
+
+msgid "Make this post a list"
+msgstr "Przekształć ten wpis w listę"
+
+msgid "Submission Start Date"
+msgstr "Data rozpoczęcia zgłoszeń"
+
+msgid "Submission End Date"
+msgstr "Data zakończenia zgłoszeń"
+
+msgid "Close Submission"
+msgstr "Zamknij zgłoszenia"
+
+msgid "Close submission automatically after"
+msgstr "Automatycznie zamknij zgłoszenia po"
+
+msgid "published items."
+msgstr "opublikowane pozycje."
+
+msgid "Change default forms"
+msgstr "Zmień domyślne formularze"
+
+msgid "Voting Start Date"
+msgstr "Data rozpoczęcia głosowania"
+
+msgid "Voting End Date"
+msgstr "Data zakończenia głosowania"
+
+msgid "Close Voting"
+msgstr "Zamknij głosowanie"
+
+msgid "Items per page"
+msgstr "Ilość pozycji na liście"
+
+msgid ""
+"Leave empty to use <a href=\"%s\" target=\"_blank\">global settings</a>."
+msgstr ""
+"Pozostaw puste by użyć <a href=\"%s\" target=\"_blank\">ustawień "
+"globalnych</a>."
+
+msgid "Meme Template"
+msgstr "Szablon mema"
+
+msgid "Top Text"
+msgstr "Górny tekst"
+
+msgid "Bottom Text"
+msgstr "Tekst dolny"
+
+msgctxt "BuddyPress compoment title"
+msgid "Snax Collections"
+msgstr "Kolekcje Snax"
+
+msgctxt "BuddyPress component description"
+msgid ""
+"Allow your users to manage their collections directly from within their "
+"profiles."
+msgstr ""
+"Pozwól twoim użytkownikom zarządzać ich kolekcjami bezpośrednio ze strony "
+"profilu."
+
+msgid "Viewing %1$s collection"
+msgid_plural "Viewing %1$s collections"
+msgstr[0] "Przeglądanie %1$s kolekcji"
+msgstr[1] "Przeglądanie %1$s kolekcji"
+msgstr[2] "Przeglądanie %1$s kolekcji"
+
+msgid "Viewing collection %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s collections - %2$s through %3$s (of %4$s total)"
+msgstr[0] "Wyświetlanie %2$s kolekcji (z %4$s łącznie)"
+msgstr[1] "Wyświetlanie %1$s kolekcji - od %2$s do %3$s (z %4$s łącznie)"
+msgstr[2] "Wyświetlanie %1$s kolekcji - od %2$s do %3$s (z %4$s łącznie)"
+
+msgid "Search Submissions..."
+msgstr "Szukaj zgłoszeń..."
+
+msgid "Approved"
+msgstr "Zaakceptowany"
+
+msgid "Pending"
+msgstr "Oczekujący"
+
+msgid "Posts"
+msgstr "Wpisy"
+
+msgid "Search Posts..."
+msgstr "Szukaj wpisów..."
+
+msgid "Drafts"
+msgstr "Szkice"
+
+msgid "Votes"
+msgstr "Głosy"
+
+msgid "Search Votes..."
+msgstr "Szukaj głosów..."
+
+msgid "Upvotes"
+msgstr "Głosy na tak"
+
+msgid "Downvotes"
+msgstr "Głosy na nie"
+
+msgid "Leave empty to use the default value."
+msgstr "Pozostaw puste by użyć wartości domyślnej."
+
+msgid "Data"
+msgstr "Dane"
+
+msgid "Maximum items"
+msgstr "Maksymalna ilość pozycji na liście"
+
+msgid "Set max limit for items or enter -1 to display all."
+msgstr ""
+"Ustaw maksymalną ilość pozycji listy lub wpisz -1 by wyświetlić wszystkie."
+
+msgid "Collection IDs"
+msgstr "Identyfikatory kolekcji"
+
+msgid "Comma-separated list of collection ids."
+msgstr "Lista identyfikatorów kolekcji oddzielonych przecinkami."
+
+msgid "Snax Collections"
+msgstr "Kolekcje"
+
+msgctxt "Placeholder"
+msgid "Enter next answer&hellip;"
+msgstr "Wpisz następną odpowiedź&hellip;"
+
+msgid "Questions"
+msgstr "Pytania"
+
+msgid "Results"
+msgstr "Rezultaty"
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Answers"
+msgstr "Odpowiedzi"
+
+msgid "Yes or No"
+msgstr "Tak czy Nie"
+
+msgid "Collapse all"
+msgstr "Zwiń wszystko"
+
+msgid "Expand all"
+msgstr "Rozwiń wszystko"
+
+msgctxt "Placeholder"
+msgid "Enter first question&hellip;"
+msgstr "Wpisz pierwsze pytanie&hellip;"
+
+msgctxt "Placeholder"
+msgid "Enter next question&hellip;"
+msgstr "Wpisz następne pytanie&hellip;"
+
+msgctxt "Placeholder"
+msgid "Enter question here"
+msgstr "Wpisz pytanie tutaj"
+
+msgid "Collapse | Expand"
+msgstr "Zwiń | Rozwiń"
+
+msgid "Hide question title, it is presented on this image"
+msgstr "Schowaj tytuł pytania, jest on już obecny na obrazku"
+
+msgid "Users voted %d times."
+msgstr "Użytkownik zagłosował %d razy."
+
+msgid "No user voted so far."
+msgstr "Żaden użytkownik jeszcze nie zagłosował."
+
+msgid "Reveal results"
+msgstr "Odsłoń wyniki"
+
+msgid "right after user answers a question"
+msgstr "zaraz po udzieleniu przez użytkownika odpowiedzi na pytanie"
+
+msgid "at the end of the poll"
+msgstr "na końcu sondy"
+
+msgid "One question per page?"
+msgstr "Jedno pytanie na stronę?"
+
+msgid "Shuffle questions?"
+msgstr "Wymieszać pytania?"
+
+msgid "Questions per poll"
+msgstr "Liczba pytań w sondzie"
+
+msgid "Leave empty to show all available questions"
+msgstr "Pozostaw puste by pokazać wszystkie pytania"
+
+msgid "works only with \"Shuffle questions\" options enabled"
+msgstr "działa tylko z włączoną opcją \"Mieszaj pytania\""
+
+msgid "Shuffle answers?"
+msgstr "Wymieszać odpowiedzi?"
+
+msgid "Allow users to share results?"
+msgstr "Zezwolić użytkownikom na udostępnianie rezultatów?"
+
+msgid "User have to share the poll to see results?"
+msgstr "Czy użytkownik musi udostępnić sondę by zobaczyć swój rezultat?"
+
+msgctxt "result collection"
+msgid "Results"
+msgstr "Rezultaty"
+
+msgid "Generate"
+msgstr "Wygeneruj"
+
+msgid "Edit Questions"
+msgstr "Edytuj pytania"
+
+msgid "Edit Results"
+msgstr "Edytuj rezultaty"
+
+msgctxt "Placeholder"
+msgid "Enter first result&hellip;"
+msgstr "Wpisz pierwszy rezultat&hellip;"
+
+msgctxt "Placeholder"
+msgid "Enter next result&hellip;"
+msgstr "Wpisz następny rezultat&hellip;"
+
+msgctxt "Placeholder"
+msgid "Enter result here"
+msgstr "Wpisz rezultat tutaj"
+
+msgid "Type some description"
+msgstr "Wpisz jakiś opis"
+
+msgid "2 images"
+msgstr "2 obrazki"
+
+msgid "3 images"
+msgstr "3 obrazki"
+
+msgid "Hide answers labels, they are presented on images"
+msgstr "Schowaj etykiety odpowiedzi, są już obecne na obrazkach"
+
+msgid "View Results"
+msgstr "Zobacz rezultaty"
+
+msgid "Is this answer correct?"
+msgstr "Czy to jest poprawna odpowiedź?"
+
+msgid "+1 for "
+msgstr "+1 za"
+
+msgid "Personalities"
+msgstr "Osobowości"
+
+msgctxt "Placeholder"
+msgid "Enter first personality&hellip;"
+msgstr "Wpisz pierwszą osobowość&hellip;"
+
+msgctxt "Placeholder"
+msgid "Enter next personality&hellip;"
+msgstr "Wpisz następną osobowość&hellip;"
+
+msgid "Questions per quiz"
+msgstr "Liczba pytań w quizie"
+
+msgid "\"Start Quiz\" button?"
+msgstr "Przycisk \"Rozpocznij Quiz\"?"
+
+msgid "\"Play again\" button?"
+msgstr "Przycisk \"Zagraj jeszcze raz\"?"
+
+msgid "User have to share the quiz to see results?"
+msgstr "Czy użytkownik musi udostępnić quiz by zobaczyć swój rezultat?"
+
+msgid "Edit Personalities"
+msgstr "Edytuj osobowości"
+
+msgid "Correct"
+msgstr "Poprawnie"
+
+msgid "Reveal correct/wrong answers"
+msgstr "Odsłoń poprawne/niepoprawne odpowiedzi"
+
+msgid "at the end of the quiz"
+msgstr "na końcu quizu"
+
+msgid "Search Collections..."
+msgstr "Szukaj kolekcji..."
+
+msgctxt "BuddyPress tab title"
+msgid "Collections"
+msgstr "Kolekcje"
+
+msgctxt "Collection type"
+msgid "Public"
+msgstr "Publiczna"
+
+msgctxt "Collection type"
+msgid "Private"
+msgstr "Prywatna"
+
+msgid ""
+"Snax lets site visitors (via frontend) and editors (via backend) create "
+"quizzes, polls, lists, memes and other viral content."
+msgstr ""
+"Snax pozwala odwiedzającym stronę oraz edytorom na tworzenie quizów, sond, "
+"list, memów i innych viralowych treści."
+
+msgid "http://www.snax.bringthepixel.com"
+msgstr "http://www.snax.bringthepixel.com"
+
+msgid "bringthepixel"
+msgstr "bringthepixel"
+
+msgid "http://www.bringthepixel.com"
+msgstr "http://www.bringthepixel.com"

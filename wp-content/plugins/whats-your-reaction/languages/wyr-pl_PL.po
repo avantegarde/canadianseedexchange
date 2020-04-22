@@ -1,0 +1,272 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: What's Your Reaction?\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2019-03-09 16:26+0000\n"
+"Last-Translator: admin <luke.wesolowski@gmail.com>\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"POT-Creation-Date: 2019-03-09 16:01+0000\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+msgctxt "ajax internal message"
+msgid "Icon id not set!"
+msgstr "Identyfikator ikonki nie ustawiony!"
+
+msgctxt "ajax internal message"
+msgid "This is not an attachment!"
+msgstr "To nie jest załącznik!"
+
+msgctxt "ajax internal message"
+msgid "Icon saved successfully."
+msgstr "Ikonka zapisana pomyślnie."
+
+msgid "Some error occurred while voting. Please try again."
+msgstr "Wystąpił błąd podczas głosowania. Spróbuj proszę ponownie."
+
+msgctxt "taxonomy general name"
+msgid "Reactions"
+msgstr "Reakcje"
+
+msgctxt "taxonomy singular name"
+msgid "Reaction"
+msgstr "Reakcja"
+
+msgid "Search Reactions"
+msgstr "Szukaj reakcji"
+
+msgid "All Reactions"
+msgstr "Wszystkie reakcje"
+
+msgid "Parent Reaction"
+msgstr "Nadrzędna reakcja"
+
+msgid "Parent Reaction:"
+msgstr "Nadrzędna reakcja:"
+
+msgid "Edit Reaction"
+msgstr "Edytuj reakcję"
+
+msgid "Update Reaction"
+msgstr "Uaktualnij reakcję"
+
+msgid "Add New Reaction"
+msgstr "Dodaj nową reakcję"
+
+msgid "New Reaction Name"
+msgstr "Nazwa nowej reakcji"
+
+msgid "Reactions"
+msgstr "Reakcje"
+
+msgid "View Reaction"
+msgstr "Zobacz reakcję"
+
+msgid "Could not insert new reaction into the database!"
+msgstr "Nowa reakcja nie mogła zostać zapisana w bazie danych!"
+
+msgid "Angry"
+msgstr "Angry"
+
+msgid "Cute"
+msgstr "Cute"
+
+msgid "Cry"
+msgstr "Cry"
+
+msgid "Geeky"
+msgstr "Geeky"
+
+msgid "LOL"
+msgstr "LOL"
+
+msgid "LOVE"
+msgstr "LOVE"
+
+msgid "OMG"
+msgstr "OMG"
+
+msgid "WIN"
+msgstr "WIN"
+
+msgid "WTF"
+msgstr "WTF"
+
+msgid "Load More"
+msgstr "Załaduj więcej"
+
+msgid "Sorry. No data so far."
+msgstr "Wybacz. Brak danych dotychczas."
+
+msgid "What's your reaction?"
+msgstr "Jaka jest twoja reakcja?"
+
+msgid "Anonymous"
+msgstr "Anonim"
+
+msgctxt "someone reacted to post"
+msgid "%1$s to"
+msgstr "%1$s do"
+
+msgid "View all reactions"
+msgstr "Zobacz wszystkie reakcje"
+
+msgctxt "ajax internal message"
+msgid "Post id not set!"
+msgstr "Nie ustawiono identyfikatora wpisu!"
+
+msgctxt "ajax internal message"
+msgid "Invalid reaction type!"
+msgstr "Nieprawidłowy typ reakcji!"
+
+msgctxt "ajax internal message"
+msgid "User has already voted for that reaction type!"
+msgstr "Użytkownik już zagłosował na ten typ reakcji!"
+
+msgctxt "ajax internal message"
+msgid "Failed to vote for post with id %d"
+msgstr "Nie udało się zagłosować na wpis o identyfikatorze %d"
+
+msgctxt "ajax internal message"
+msgid "Reaction added successfully."
+msgstr "Reakcja została dodana pomyślnie."
+
+msgctxt "form label"
+msgid "Icon"
+msgstr "Ikona"
+
+msgctxt "button"
+msgid "Upload New Icon"
+msgstr "Wgraj nową ikonkę"
+
+msgid "The recommended format is SVG."
+msgstr "Zalecany format to SVG."
+
+msgctxt "form label"
+msgid "Order"
+msgstr "Kolejność"
+
+msgctxt "form label"
+msgid "Icon Type"
+msgstr "Typ ikony"
+
+msgctxt "icon type"
+msgid "Text"
+msgstr "Tekstowa"
+
+msgctxt "icon type"
+msgid "Graphic"
+msgstr "Graficzna"
+
+msgctxt "form label"
+msgid "Icon Text Color"
+msgstr "Kolor ikonki"
+
+msgctxt "form label"
+msgid "Icon Background Color"
+msgstr "Kolor tła ikonki"
+
+msgctxt "form label"
+msgid "Disable?"
+msgstr "Wyłącz?"
+
+msgctxt "taxonomy column name"
+msgid "Order"
+msgstr "Kolejność"
+
+msgctxt "taxonomy column name"
+msgid "Icon"
+msgstr "Ikonka"
+
+msgctxt "taxonomy column name"
+msgid "Active?"
+msgstr "Aktywny?"
+
+msgctxt "BuddyPress component name"
+msgid "Reactions"
+msgstr "Reakcje"
+
+msgctxt "BuddyPress component description"
+msgid ""
+"Allow your users to manage their reactions directly from within their "
+"profiles."
+msgstr ""
+"Zezwól Twoim użytkownikom na zarządzanie reakcjami bezpośrednio z poziomu "
+"ich profili."
+
+msgid "Latest Reactions"
+msgstr "Ostatnie reakcje"
+
+msgid "A list of latest reactions."
+msgstr "Lista ostatnich reakcji."
+
+msgid "Widget title"
+msgstr "Tytuł widżetu"
+
+msgid "The max. number of entries to show"
+msgstr "Maksymalna ilość wpisów do wyświetlenia."
+
+msgid "HTML id attribute (optional)"
+msgstr "Atrybut id elementu HTML (opcjonalnie)"
+
+msgid "HTML class(es) attribute (optional)"
+msgstr "Atrybut class elementu HTML (opcjonalnie)"
+
+msgid "Fake Reactions"
+msgstr "Pozorowane reakcje"
+
+msgid "Fake reaction count"
+msgstr "Licznik pozorowanych reakcji"
+
+msgid "Leave empty to use global settings."
+msgstr "Pozostaw puste, aby użyć ustawień globalnych."
+
+msgid "Disable fakes for:"
+msgstr "Wyłącz pozorowane reakcje dla:"
+
+msgid "Nonce incorrect!"
+msgstr "Nieprawidłowy nonce!"
+
+msgctxt "myCRED reference"
+msgid "React to a post"
+msgstr "Zareaguj na wpis"
+
+msgctxt "myCRED hook name"
+msgid "React to a post"
+msgstr "Zareaguj na wpis"
+
+msgctxt "myCRED hook description"
+msgid "Awards for reactions."
+msgstr "Nagrody za reakcje."
+
+msgctxt "myCRED hook log"
+msgid "Reacted to %post_title% with: %reaction%"
+msgstr "Dodał/a reakcję %reaction% na %post_title% "
+
+msgctxt "myCRED hook instance"
+msgid "Reacting to a post"
+msgstr "Reagowanie na wpis"
+
+msgid "Log template"
+msgstr "Szablon dziennika rejestru"
+
+msgid "required"
+msgstr "wymagane"
+
+msgid "What's Your Reaction?"
+msgstr "What's Your Reaction?"
+
+msgid "Share your reaction to a post, using nice looking badges"
+msgstr "Zareaguj na posta, używając sympatycznych symboli"
+
+msgid "bringthepixel"
+msgstr "bringthepixel"
+
+msgid "http://www.bringthepixel.com"
+msgstr "http://www.bringthepixel.com"

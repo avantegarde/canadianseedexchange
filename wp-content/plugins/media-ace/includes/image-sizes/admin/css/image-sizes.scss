@@ -1,0 +1,13 @@
+.crop .mace-value:before { content: "no"; }
+.crop .mace-value.mace-checked:before { content: "yes"; }
+
+.mace-value { display: inline; }
+.mace-edit { display: none; }
+.mace-editing .mace-edit { display: inline; }
+.mace-editing .mace-value { display: none; }
+.mace-editing .row-actions { display: none; }
+
+
+
+.mace-image-size-new-form {  clear: both; }
+.mace-hidden { display: none; }

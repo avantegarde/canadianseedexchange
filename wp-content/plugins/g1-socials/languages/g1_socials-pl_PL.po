@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: G1 Socials\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2019-02-15 10:23+0000\n"
+"Last-Translator: admin <we@bringthepixel.com>\n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"POT-Creation-Date: 2019-02-14 10:21+0000\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+msgid "label"
+msgstr "etykieta"
+
+msgid "caption"
+msgstr "podpis"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Label"
+msgstr "Etykieta"
+
+msgid "Caption"
+msgstr "Podpis"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "label&hellip;"
+msgstr "etykieta&hellip;"
+
+msgid "caption&hellip;"
+msgstr "podpis&hellip;"
+
+msgid "link&hellip;"
+msgstr "link&hellip;"
+
+msgid "G1 Socials"
+msgstr "G1 Socials"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nie masz odpowiednich uprawnień by uzyskać dostęp do tej strony."
+
+msgid "Socials"
+msgstr "Socials"
+
+msgid "G1 Socials Options"
+msgstr "G1 Socials Opcje"
+
+msgid "Fill a social channel row to make it active. Drag and drop to reorder."
+msgstr ""
+"Uzupełnij kanał społecznościowy by był aktywny. Przeciągnij i upuść by "
+"zmienić kolejność."
+
+msgid "Like my blog?"
+msgstr "Lubisz mój blog?"
+
+msgid "Donate via Patreon to&nbsp;support me.<br />Thank You!"
+msgstr "Wesprzyj mnie przez Patreon.<br />Dziękuję!"
+
+msgid "Social media"
+msgstr "Media społecznościowe"
+
+msgid "Subscribe"
+msgstr "Subskrybuj"
+
+msgid "G1 Socials Facebook"
+msgstr "G1 Socials Facebook"
+
+msgid "Easily embed and promote any Facebook Page on your website."
+msgstr ""
+"Z łatwością osadź i promuj stronę na Facebooku na twojej stronie "
+"internetowej."
+
+msgid "Find us on Facebook"
+msgstr "Znajdź nas na Facebooku"
+
+msgid "Loading..."
+msgstr "Ładowanie..."
+
+msgid "Widget title"
+msgstr "Tytuł widżetu"
+
+msgid "Facebook page url"
+msgstr "Adres URL strony na Facebooku"
+
+msgid "Small header"
+msgstr "Mały nagłówek"
+
+msgid "no"
+msgstr "nie"
+
+msgid "yes"
+msgstr "tak"
+
+msgid "Hide cover"
+msgstr "Schowaj okładkę"
+
+msgid "Show facepile"
+msgstr "Pokaż zestaw zdjęć profilowych"
+
+msgid "Show posts"
+msgstr "Pokaż wpisy"
+
+msgid "Delay load"
+msgstr "Opóźnij ładowanie"
+
+msgid "HTML id attribute (optional)"
+msgstr "Atrybut id dokumentu HTML (opcjonalnie) "
+
+msgid "HTML class attribute (optional)"
+msgstr "Atrybut class dokumentu HTML (opcjonalnie) "
+
+msgid "Instagram did not return any data."
+msgstr "Instagram nie zwrócił żadnych danych."
+
+msgid "Unable to communicate with Instagram."
+msgstr "Nie udało się skomunikować z Instagramem."
+
+msgid "Instagram did not return a 200."
+msgstr "Instagram nie zwrócił kodu 200."
+
+msgid "Instagram has returned invalid data."
+msgstr "Instagram zwrócił niepoprawne dane."
+
+msgid "Instagram has returned invalid JSON."
+msgstr "Instagram zwrócił nieprawidłowe dane JSON."
+
+msgid "Instagram data is not an array."
+msgstr "Dane Instagrama nie są tablicą."
+
+msgid "list-vertical"
+msgstr "lista wertykalna"
+
+msgid "list-horizontal"
+msgstr "lista horyzontalna"
+
+msgid "G1 Socials Snapchat"
+msgstr "G1 Socials Snapchat"
+
+msgid "Display Snapcode, an easy way to gain followers on Snapchat"
+msgstr ""
+"Wyświetl Snapcode, łatwy sposób na pozyskanie obserwujących w serwisie "
+"Snapchat"
+
+msgid "Find me on Snapchat"
+msgstr "Znajdź mnie na Snapchat"
+
+msgid "Title:"
+msgstr "Tytuł:"
+
+msgid "Display name:"
+msgstr "Nazwa wyświetlana"
+
+msgid "Username:"
+msgstr "Nazwa użytkownika:"
+
+msgid "Avatar:"
+msgstr "Awatar:"
+
+msgid "Avatar HDPI:"
+msgstr "Awatar w wyższej rozdzielczości:"
+
+msgid "User snapcode."
+msgstr "Snapcode użytkownika."
+
+msgid "Reply"
+msgstr "Odpowiedz"
+
+msgid "Retweet"
+msgstr "Retweetnij"
+
+msgid "Like"
+msgstr "Polub"
+
+msgctxt "Twitter Popup Window"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid ""
+"In order to get the Twitter feed working you need to provide access API keys "
+"and tokens."
+msgstr ""
+"Aby uruchomić kanał Twitter musisz podać klucze dostępu API oraz tokeny."
+
+msgid "To get your API keys and tokens please do as follows:"
+msgstr "Aby otrzymać twoje klucze API oraz tokeny zrób proszę co następuje:"
+
+msgid "Go to the %s (log in if necessary)"
+msgstr "Przejdź do %s (zaloguj się jeśli potrzeba)"
+
+msgid "Enter all required fields"
+msgstr "Wprowadź wszystkie wymagane pola"
+
+msgid "Accept the Terms of Service and submit the form"
+msgstr "Zaakceptuj treść Regulaminu i wyślij formularz"
+
+msgid "Your keys will be in the Keys and Access Tokens tab"
+msgstr "Twoje klucze będą dostępne w zakładce Klucze i tokeny dostępu"
+
+msgid "A Socials Widget"
+msgstr "A Socials Widget"
+
+msgid "Widget Title"
+msgstr "Tytuł widżetu"
+
+msgid "Include (optional)"
+msgstr "Uwzględnij (opcjonalnie)"
+
+msgid ""
+"Include only specified icons (eg. facebook,twitter). Leave empty to include "
+"all."
+msgstr ""
+"Uwzględnij tylko podane ikony (np. facebook, twitter). Pozostaw puste by "
+"uwzględnić wszystkie."
+
+msgid "Exclude (optional)"
+msgstr "Wyklucz (opcjonalnie)"
+
+msgid "Exclude specified icons (eg. facebook,twitter)."
+msgstr "Pomiń podane ikonki (np. facebook, twitter)."
+
+msgid "Template"
+msgstr "Szablon"
+
+msgid "grid"
+msgstr "siatka"
+
+msgid "Icon size"
+msgstr "Rozmiar ikonki"
+
+msgid "32px"
+msgstr "32px"
+
+msgid "48px"
+msgstr "48px"
+
+msgid "64px"
+msgstr "64px"
+
+msgid "Icon color"
+msgstr "Kolor ikonki"
+
+msgid "original"
+msgstr "oryginalny"
+
+msgid "text"
+msgstr "tekst"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "Follow"
+msgstr "Obserwuj"
+
+msgid "Please fill the username and %s."
+msgstr "Wypełnij proszę nazwę użytkownika i %s."
+
+msgid "Twitter access keys and tokens"
+msgstr "Klucze dostępu oraz tokeny Twittera"
+
+msgid "G1 Socials Instagram"
+msgstr "G1 Socials Instagram"
+
+msgid "Promote your Instagram."
+msgstr "Promuj swój profil na Instagramie."
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "@username or #tag"
+msgstr "@nazwa_uzytkownika lub #tag"
+
+msgid "Number of photos"
+msgstr "Liczba zdjęć"
+
+msgid "Photo size"
+msgstr "Rozmiar zdjęcia"
+
+msgid "Thumbnail"
+msgstr "Miniaturka"
+
+msgid "Small"
+msgstr "Mały"
+
+msgid "Large"
+msgstr "Duży"
+
+msgid "Original"
+msgstr "Oryginalny"
+
+msgid "Open links in"
+msgstr "Otwórz linki w"
+
+msgid "Current window"
+msgstr "Aktualne okienko"
+
+msgid "New window"
+msgstr "Nowe okienko"
+
+msgid "Link text"
+msgstr "Tekst linku"
+
+msgid "Cache time (in minutes)"
+msgstr "Czas obowiązywania pamięci podręcznej (w minutach)"
+
+msgid "Please fill the username field"
+msgstr "Wypełnij proszę pole nazwa użytkownika"
+
+msgid ""
+"Feed is empty. Please check if the %s Instagram channel is still available."
+msgstr ""
+"Kanał jest pusty. Sprawdź proszę czy kanał na Instagramie %s jest wciąż "
+"dostępny."
+
+msgid "G1 Socials Twitter"
+msgstr "G1 Socials Twitter"
+
+msgid "Display recent tweets."
+msgstr "Wyświetl ostatnie tweety."
+
+msgid "Recent Tweets"
+msgstr "Ostatnie tweety"
+
+msgid ""
+"Your Twitter access keys and tokens are not set. Please enter them on the %s"
+msgstr ""
+"Twoje klucze dostępy i tokeny Twittera nie są ustawione. Wprowadź je proszę "
+"w %s"
+
+msgid "Twitter settings page"
+msgstr "Strona ustawień Twittera"
+
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+msgid "Number of Tweets to Show"
+msgstr "Libcza tweetów do wyświetlenia"
+
+msgid "Exclude Replies"
+msgstr "Pomiń odpowiedzi"
+
+msgid "G1 Socials YouTube"
+msgstr "G1 Socials YouTube"
+
+msgid "Displays YouTube profile overview."
+msgstr "Wyświetl podsumowanie profilu na YouTube."
+
+msgid "Find me on YouTube"
+msgstr "Znajdź mnie na YouTube"
+
+msgid "Channel Name:"
+msgstr "Nazwa kanału"
+
+msgid "Channel Id:"
+msgstr "Identyfikator kanału:"
+
+msgid "Create icon links to your social channels."
+msgstr "Utwórz linki z ikonkami do twoich profili społecznościowych."
+
+msgid "http://www.bringthepixel.com"
+msgstr "http://www.bringthepixel.com"
+
+msgid "bringthepixel"
+msgstr "bringthepixel"

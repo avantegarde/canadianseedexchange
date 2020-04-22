@@ -1,0 +1,428 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-4.9.1"
+
+msgid "G1 Socials"
+msgstr ""
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+msgid "Socials"
+msgstr ""
+
+msgid "G1 Socials Options"
+msgstr ""
+
+msgid "Fill a social channel row to make it active. Drag and drop to reorder."
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Caption"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "label&hellip;"
+msgstr ""
+
+msgid "caption&hellip;"
+msgstr ""
+
+msgid "link&hellip;"
+msgstr ""
+
+msgid "label"
+msgstr ""
+
+msgid "caption"
+msgstr ""
+
+msgid "Like my blog?"
+msgstr ""
+
+msgid "Donate via Patreon to&nbsp;support me.<br />Thank You!"
+msgstr ""
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "Social media"
+msgstr ""
+
+msgid "Twitter"
+msgstr ""
+
+msgid ""
+"In order to get the Twitter feed working you need to provide access API keys "
+"and tokens."
+msgstr ""
+
+msgid "To get your API keys and tokens please do as follows:"
+msgstr ""
+
+msgid "Go to the %s (log in if necessary)"
+msgstr ""
+
+msgid "Enter all required fields"
+msgstr ""
+
+msgid "Accept the Terms of Service and submit the form"
+msgstr ""
+
+msgid "Your keys will be in the Keys and Access Tokens tab"
+msgstr ""
+
+msgid "Reply"
+msgstr ""
+
+msgid "Retweet"
+msgstr ""
+
+msgid "Like"
+msgstr ""
+
+msgctxt "Twitter Popup Window"
+msgid "Twitter"
+msgstr ""
+
+msgid "Social Media Profiles"
+msgstr ""
+
+msgid "YouTube"
+msgstr ""
+
+msgid "list-vertical"
+msgstr ""
+
+msgid "list-horizontal"
+msgstr ""
+
+msgid "G1 Socials Facebook"
+msgstr ""
+
+msgid "Easily embed and promote any Facebook Page on your website."
+msgstr ""
+
+msgid "Find us on Facebook"
+msgstr ""
+
+msgid "Widget title"
+msgstr ""
+
+msgid "Facebook page url"
+msgstr ""
+
+msgid "Small header"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "Hide cover"
+msgstr ""
+
+msgid "Show facepile"
+msgstr ""
+
+msgid "Show posts"
+msgstr ""
+
+msgid "Lazy load"
+msgstr ""
+
+msgid "Enable MediaAce Lazy Load module to use this option"
+msgstr ""
+
+msgid "HTML id attribute (optional)"
+msgstr ""
+
+msgid "HTML class attribute (optional)"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Enable User Profiles"
+msgstr ""
+
+msgid "Instagram"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "App ID"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "App Secret"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "Access Token"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "Follow text"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "Open links in"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "Cache time"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "Where do I get this info?"
+msgstr ""
+
+msgid ""
+"To get the App ID and App Secret, you will need to register a new "
+"application. This step-by-step <a href=\"%s\" target=\"_blank\">guide</a> "
+"will walk you through the whole process."
+msgstr ""
+
+msgid ""
+"During the application creation, you will be asked to provide this <strong>"
+"Valid OAuth Redirect URIs</strong>:"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "Get token"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "The token is associated to account @%s"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "Follow Me"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid ""
+"If not empty, the follow button to your Instagram account will be displayed"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "New window"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid "Current window"
+msgstr ""
+
+msgctxt "Instagram Settings"
+msgid ""
+"In case of problems, set to 0 to disable cache. Cache can be disabled for "
+"testing purposes only"
+msgstr ""
+
+msgctxt "Instagram"
+msgid "Wrong response data. Access Token is missing."
+msgstr ""
+
+msgid "Instagram did not return any data."
+msgstr ""
+
+msgid "Please fill in the Instagram Access Token in the plugin settings"
+msgstr ""
+
+msgid "Instagram data is not an array."
+msgstr ""
+
+msgid "G1 Socials Snapchat"
+msgstr ""
+
+msgid "Display Snapcode, an easy way to gain followers on Snapchat"
+msgstr ""
+
+msgid "Find me on Snapchat"
+msgstr ""
+
+msgid "Title:"
+msgstr ""
+
+msgid "Display name:"
+msgstr ""
+
+msgid "Username:"
+msgstr ""
+
+msgid "Avatar:"
+msgstr ""
+
+msgid "Avatar HDPI:"
+msgstr ""
+
+msgid "User snapcode."
+msgstr ""
+
+msgid "A Socials Widget"
+msgstr ""
+
+msgid "Widget Title"
+msgstr ""
+
+msgid "Include (optional)"
+msgstr ""
+
+msgid ""
+"Include only specified icons (eg. facebook,twitter). Leave empty to include "
+"all."
+msgstr ""
+
+msgid "Exclude (optional)"
+msgstr ""
+
+msgid "Exclude specified icons (eg. facebook,twitter)."
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "grid"
+msgstr ""
+
+msgid "Icon size"
+msgstr ""
+
+msgid "32px"
+msgstr ""
+
+msgid "48px"
+msgstr ""
+
+msgid "64px"
+msgstr ""
+
+msgid "Icon color"
+msgstr ""
+
+msgid "original"
+msgstr ""
+
+msgid "text"
+msgstr ""
+
+msgid "Please fill the username and %s."
+msgstr ""
+
+msgid "Twitter access keys and tokens"
+msgstr ""
+
+msgid "Follow"
+msgstr ""
+
+msgid "G1 Socials Twitter"
+msgstr ""
+
+msgid "Display recent tweets."
+msgstr ""
+
+msgid "Recent Tweets"
+msgstr ""
+
+msgid ""
+"Your Twitter access keys and tokens are not set. Please enter them on the %s"
+msgstr ""
+
+msgid "Twitter settings page"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Number of Tweets to Show"
+msgstr ""
+
+msgid "Cache time (in minutes)"
+msgstr ""
+
+msgid "Exclude Replies"
+msgstr ""
+
+msgid "G1 Socials YouTube"
+msgstr ""
+
+msgid "Displays YouTube profile overview."
+msgstr ""
+
+msgid "Find me on YouTube"
+msgstr ""
+
+msgid "Channel Name:"
+msgstr ""
+
+msgid "Channel Id:"
+msgstr ""
+
+msgid "G1 Socials Instagram"
+msgstr ""
+
+msgid "Promote your Instagram."
+msgstr ""
+
+msgid "Number of photos"
+msgstr ""
+
+msgid "Photo size"
+msgstr ""
+
+msgid "Thumbnail"
+msgstr ""
+
+msgid "Small"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Original"
+msgstr ""
+
+msgctxt "Instagram widget"
+msgid ""
+"The Instagram cache is disabled (cache time = 0). Please enable the cache "
+"before going live. This info is only visible for administrator"
+msgstr ""
+
+msgid ""
+"Feed is empty. Please check if the provided token is associated with correct "
+"account."
+msgstr ""
+
+msgid "Create icon links to your social channels."
+msgstr ""
+
+msgid "http://www.bringthepixel.com"
+msgstr ""
+
+msgid "bringthepixel"
+msgstr ""

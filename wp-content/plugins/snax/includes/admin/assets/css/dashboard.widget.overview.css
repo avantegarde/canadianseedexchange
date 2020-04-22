@@ -1,0 +1,27 @@
+#snax_dashboard_widget_overview li {
+    display: inline-block;
+    vertical-align: top;
+
+    color: #ddd;
+}
+
+#snax_dashboard_widget_overview li:after {
+    margin: 0 .5em;
+    content: "|";
+}
+
+#snax_dashboard_widget_overview li:last-child:after {
+    content: "";
+}
+
+#snax_dashboard_widget_overview li .count {
+    color: #72777c;
+}
+
+#snax_dashboard_widget_overview li .count:before {
+    content: "(";
+}
+
+#snax_dashboard_widget_overview li .count:after {
+    content: ")";
+}

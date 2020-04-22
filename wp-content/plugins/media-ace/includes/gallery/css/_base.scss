@@ -1,0 +1,273 @@
+@import "compass/css3";
+@import "lib.directional";
+@import "tools.mixins";
+
+$_thumb_arrow_size: 30px;
+
+@font-face {
+    font-family: "mace";
+    src:url("./../../../assets/iconfont/fonts/mace.eot");
+    src:url("./../../../assets/iconfont/fonts/mace.eot?#iefix") format("embedded-opentype"),
+    url("./../../../assets/iconfont/fonts/mace.woff") format("woff"),
+    url("./../../../assets/iconfont/fonts/mace.ttf") format("truetype"),
+    url("./../../../assets/iconfont/fonts/mace.svg#mace") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@import "components.teaser";
+
+
+.g1-gallery-wrapper {
+    @include display(flex);
+    visibility: hidden;
+
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    z-index: 99999;
+    top: 0;
+    #{$left}: 0;
+
+    opacity: 0;
+    background-color: rgba(0,0,0,0.5);
+
+    transition: visibility 0s 0.375s, opacity 0.375s ease-in-out, transform 0.375s ease-in-out;
+}
+
+
+
+
+.g1-gallery{
+    @include display(flex);
+    @include flex-direction(column);
+    visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    #{$left}: 0;
+    #{$right}: 0;
+
+    opacity: 0;
+
+    @include transform( scale(0.85) );
+
+    background-color: #1a1a1a;
+    color: #fff;
+
+    transition: visibility 0s 0.375s, opacity 0.375s ease-in-out, transform 0.375s ease-in-out;
+}
+
+@import "components.header";
+
+
+.g1-gallery-body {
+    @include display(flex);
+    @include flex(1 0 auto);
+    @include flex-direction(column);
+
+    .g1-gallery-thumbnails32{
+        display:none;
+        @include flex-grow(1);
+        border-#{$right}: 1px solid #313131;
+
+        .g1-gallery-thumbnails-collection {
+            box-sizing: content-box;
+            width: 100%;
+            padding: 10px 5px;
+
+            counter-reset: section;
+
+            .g1-gallery-thumbnail {
+                display: inline-block;
+
+                padding: 0 5px;
+                margin: 0 0 10px;
+
+                position: relative;
+
+                vertical-align: top;
+
+                img {
+                    display: block;
+                }
+
+                &:after{
+                    position: absolute;
+                    #{$right}: 12px;
+                    bottom: 6px;
+
+                    font-size: 14px;
+                    font-weight: 600;
+                    
+                    counter-increment: section;
+                    content: counter(section);
+                }
+            }
+        }
+    }
+}
+
+@supports (display:grid) {
+    .g1-gallery-body {
+        .g1-gallery-thumbnails32 {
+            .g1-gallery-thumbnails-collection {
+                display: grid;
+                grid-template-columns: repeat( auto-fill, minmax(135px, 1fr) );
+                grid-template-rows: repeat( auto-fit, minmax(90px, max-content) );
+                grid-gap: 10px;
+                padding: 10px;
+
+                .g1-gallery-thumbnail {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and ( min-width: 1025px ) {
+    .g1-gallery-body {
+        @include display(flex);
+        @include flex-direction(row);
+    }
+}
+
+
+@import "components.frames";
+@import "components.sidebar";
+
+
+
+.g1-gallery-thumbnails-up {
+    display: inline-block;
+    width: $_thumb_arrow_size;
+
+    position: absolute;
+    z-index: 3;
+    top: 5px;
+    #{$left}: auto;
+    #{$right}: 5px;
+
+    font: 16px/#{$_thumb_arrow_size} "mace";
+
+    border-radius: 50% 50% 0 0;
+
+    background-color: #1a1a1a;
+
+    transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out;
+
+    &:before{
+        content: "\e021";
+    }
+}
+.g1-gallery-thumbnails-down{
+    display: inline-block;
+    width: $_thumb_arrow_size;
+
+    position: absolute;
+    z-index: 3;
+    top: 5px + $_thumb_arrow_size;
+    #{$left}: auto;
+    #{$right}: 5px;
+
+    font: 16px/#{$_thumb_arrow_size} "mace";
+
+    border-radius: 0 0 50% 50%;
+
+    background-color: #1a1a1a;
+
+    transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out;
+
+    &:before{
+        content: "\e020";
+    }
+}
+
+.g1-gallery-thumbnails-up:hover,
+.g1-gallery-thumbnails-down:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+.g1-gallery-thumbnail{
+    img{
+        opacity: 0.333;
+        transition: opacity 0.375s ease-in-out;
+    }
+}
+.g1-gallery-thumbnail:hover,
+.g1-gallery-thumbnail-active{
+    img{
+        opacity: 0.999;
+        transition: opacity 0.375s ease-in-out;
+    }
+}
+
+@import "components.ad";
+@import "components.shares";
+@import "components.nav";
+
+
+
+.g1-gallery-thumbnails-mode{
+    .g1-gallery-header-right .g1-gallery-back-to-slideshow{
+        display:block;
+    }
+    .g1-gallery-thumbnails32{
+        @include display(flex);
+    }
+    .g1-gallery-sidebar .g1-gallery-thumbnails,
+    .g1-gallery-frames,
+    .g1-gallery-thumbs-button,
+    .g1-gallery-numerator{
+        display: none;
+    }
+}
+
+
+.g1-gallery-back-to-slideshow,
+.g1-gallery-thumbs-button,
+.g1-gallery-close-button,
+.g1-gallery-thumbnails-up,
+.g1-gallery-thumbnails-down,
+.g1-gallery-thumbnail{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+.g1-gallery-visible{
+    .g1-gallery-wrapper {
+        visibility: visible;
+        opacity: 1;
+
+        transition: visibility 0s, opacity 0.375s ease-in-out, transform 0.375s ease-in-out;
+    }
+    .g1-gallery{
+        visibility: visible;
+        opacity: 1;
+        @include transform( scale(1) );
+
+        transition: visibility 0s, opacity 0.375s ease-in-out, transform 0.375s ease-in-out;
+    }
+}
+
+#fb-root .fb_dialog{
+    z-index:999999 !important;
+}
+
+@import "components.color-schemes";

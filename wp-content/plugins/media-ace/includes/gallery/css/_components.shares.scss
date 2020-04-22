@@ -1,0 +1,59 @@
+.g1-gallery-shares {
+    @include display(flex);
+}
+
+.g1-gallery-share {
+    display: block;
+    @include flex-grow(1);
+    height: 36px;
+
+    position: relative;
+    font-size: 0;
+
+    color: #fff;
+
+    &:before {
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+        top: 0;
+        #{$left}: 0;
+        #{$right}: auto;
+
+        text-align: center;
+        font: 16px/36px bimber;
+    }
+}
+
+.g1-gallery-share-fb {
+    background-color: #3b5998;
+
+    &:before{
+        content: "\e040";
+    }
+}
+
+.g1-gallery-share-twitter {
+    background-color: #00aced;
+
+    &:before {
+        content: "\e041";
+    }
+}
+
+.g1-gallery-share-pinterest {
+    background-color: #c92228;
+
+    &:before {
+        content: "\e042";
+    }
+}
+
+@media only screen and ( min-width: 1025px ) {
+    .g1-gallery-shares {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+

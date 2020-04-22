@@ -1,0 +1,14 @@
+@import "lib.flexbox";
+
+
+@mixin if-stack( $_s ) {
+    @if $_s == $stack {
+        @content;
+    }
+}
+
+@mixin if-not-stack( $_s ) {
+    @if $_s != $stack {
+        @content;
+    }
+}
