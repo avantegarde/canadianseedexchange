@@ -14,6 +14,16 @@ function bimber_childtheme_setup() {
 
 add_action( 'after_setup_theme', 'bimber_childtheme_setup' );
 
+/******************************************************************************/
+/* Enqueue Styles and Scripts */
+/******************************************************************************/
+function cse_enqueue_custom_scripts() {
+	// ** CSS **
+	wp_enqueue_style('cse-style', get_stylesheet_directory_uri().'/custom.css', array(), '1.0.2');
+
+}
+add_action('wp_enqueue_scripts', 'cse_enqueue_custom_scripts');
+
 /**
  * Filter User Statistics and change points to "Trades"
  */
@@ -183,7 +193,7 @@ function yz_get_md_mycred_statistics_trades( $user_id ) {
 	?>
 
     <?php if ( 'on' == yz_option( 'yz_enable_md_user_points_statistics', 'on' ) ) :  ?>
-				 <?php
+				<?php
 					$points = mycred_get_users_balance( $user_id );
 					$trades_num = (int)$points;
 				?>

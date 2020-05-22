@@ -1,0 +1,183 @@
+/* Place all your CSS modifications below */
+.trades-flair {
+  display: inline-block;
+  padding: 2px 5px 0 5px;
+  background-color: #edeff1;
+  border-color: #edeff1;
+  border-radius: 2px;
+  font-size: 10px;
+  text-transform: none;
+  color: #000000;
+}
+/*--- Category list ---*/
+.entry-category {
+  padding: 2px 8px 2px 8px;
+}
+/*--- Comment Signature ---*/
+.comment .comment-signature {
+  display: block;
+  padding: 0;
+  border: 1px solid #eaeaea;
+  margin-top: -1.25em;
+  margin-bottom: 1.25em;
+}
+.comment .comment-signature .title {
+  display: none;
+  padding: 5px;
+  background: rgba(0,0,0,0.05);
+}
+.comment .comment-signature .signature-content {
+  display: block;
+  padding: 5px;
+}
+/*--- Register Field Styles override ---*/
+.registration #logy_signup_form input[type=email],
+.registration #logy_signup_form input[type=number],
+.registration #logy_signup_form input[type=password],
+.registration #logy_signup_form input[type=text] {
+  border-color: #cccccc !important;
+}
+/*.registration #profile-details-section .field_2 {
+  display: none !important;
+}*/
+/*--- Members Feed ---*/
+#yz-members-list li:nth-of-type(3n+1) {
+  clear: both;
+}
+#yz-members-list .item-meta {
+  margin-bottom: 10px;
+}
+#yz-members-list .yz-name {
+  margin-top: 5px;
+}
+.yzm-user-statistics .prime-member {
+  display: inline-block;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  background: goldenrod;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.yzm-user-statistics .yz-data-item.trades-points > span {
+  background-color: #006b27;
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  #yz-members-list li:nth-of-type(3n+1) {
+    clear: none;
+  }
+  #yz-members-list li:nth-of-type(odd) {
+    clear: both;
+  }
+}
+/*--- Trusted Members List ---*/
+.trusted-members-content .pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 0 17px 0;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+}
+.trusted-members-content #pag-bottom.pagination {
+  padding: 15px 0 15px 0;
+  border-bottom: none;
+  border-top: 1px solid #cccccc;
+}
+.trusted-members-content .pagination .pagination-links {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.trusted-members-content .pagination .pagination-links > a,
+.trusted-members-content .pagination .pagination-links > span {
+  display: inline-block;
+  margin: 0;
+  padding: 2px 5px;
+}
+.trusted-members-content .pagination .pagination-links > .current {
+  background-color: #006b27;
+  border-radius: 4px;
+}
+ul.trusted-members {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.trusted-members:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ul.trusted-members > li {
+  display: block;
+  width: 50%;
+  margin: 5px 0;
+  padding: 10px;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+ul.trusted-members > li:nth-of-type(odd) {
+  clear: both;
+}
+ul.trusted-members > li .clear {
+  display: block;
+  clear: both;
+}
+ul.trusted-members > li .item-avatar {
+  display: block;
+  width: 50px;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+ul.trusted-members > li .item-avatar {
+  display: block;
+  width: 50px;
+  float: left;
+}
+ul.trusted-members > li .item {
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 50px);
+  float: left;
+  padding-left: 15px;
+}
+ul.trusted-members > li .item-title {
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 0 5px 0;
+}
+ul.trusted-members > li .member-trades {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 12px;
+}
+ul.trusted-members > li .member-trades .prime-member,
+ul.trusted-members > li .member-trades .trade-points {
+  display: inline-block;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  background: goldenrod;
+  border-radius: 4px;
+  color: #ffffff;
+}
+ul.trusted-members > li .member-trades .trade-points {
+  background-color: #006b27;
+}
+@media screen and (max-width: 600px) {
+  ul.trusted-members > li {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+}
