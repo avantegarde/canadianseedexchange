@@ -44,6 +44,8 @@ add_filter( 'bimber_popular_entry_settings',    'bimber_dm_special_collection_de
 // VC Collection element.
 add_filter( 'bimber_vc_collection_params', 'bimber_dm_vc_collection_params', 11 );
 
+// Admin page status.
+add_filter( 'display_post_states',          'bimber_dm_add_display_post_states', 10, 2 );
 
 /**
  * Return view count
@@ -315,4 +317,22 @@ function bimber_dlm_enqueue_head_styles() {
 	// Global styles.
 	wp_enqueue_style( 'bimber-dlm', $uri . 'css/' . bimber_get_css_theme_ver_directory() . '/styles/' . $stack . '/dlm-' . $skin . '.min.css', array(), $version );
 	wp_style_add_data( 'bimber-dlm', 'rtl', 'replace' );
+}
+
+/**
+ * Add a post display state for DM special pages in the page list table
+ *
+ * @param array   $post_states  An array of post display states.
+ * @param WP_Post $post         The current post object.
+ *
+ * @return array
+ */
+function bimber_dm_add_display_post_states( $post_states, $post ) {
+    if ( 'download_page' === bimber_dm_get_download_method() && bimber_dm_get_download_page_id() === $post->ID ) {
+        $post_states['bimber_dm_download_landing_page'] = _x( 'Bimber, Download landing page', 'Admin page label', 'bimber' );
+    }
+
+
+
+    return $post_states;
 }

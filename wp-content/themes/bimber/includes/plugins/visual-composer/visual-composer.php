@@ -30,7 +30,8 @@ add_action( 'bimber_home_before_main_collection', 					'bimber_vc_render_home_st
 add_filter( 'bimber_sidebar',										'bimber_vc_home_static_sidebar' );
 add_action( 'save_post', 'bimber_vc_yoast_fix', 1,0 );
 
-
+// Admin page status.
+add_filter( 'display_post_states',          'bimber_vc_add_display_post_states', 10, 2 );
 
 /**
  * Add custom attribute to the vc_row shortcode
@@ -283,3 +284,18 @@ function bimber_vc_enqueue_head_styles() {
 	wp_style_add_data( 'bimber-vc', 'rtl', 'replace' );
 }
 
+/**
+ * Add a post display state for VC special pages in the page list table
+ *
+ * @param array   $post_states  An array of post display states.
+ * @param WP_Post $post         The current post object.
+ *
+ * @return array
+ */
+function bimber_vc_add_display_post_states( $post_states, $post ) {
+    if ( (int) bimber_get_theme_option( 'home', 'vc_page_id' ) === $post->ID ) {
+        $post_states['bimber_vc_home_injected_page'] = _x( 'Bimber, WP Bakery Home Injected Page', 'Admin page label', 'bimber' );
+    }
+
+    return $post_states;
+}

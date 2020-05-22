@@ -867,11 +867,20 @@ function bimber_woocommerce_add_snax_items_to_search_results( $query ) {
  * @return str
  */
 function bimber_snax_cut_embedly_scripts( $content ) {
+    if (  ! function_exists( 'snax_is_embedly_enabled' )) {
+        return $content;
+    }
+
+    if ( ! snax_is_embedly_enabled() ) {
+        return $content;
+    }
+
 	$embedly_script = apply_filters( 'snax_embedly_script_code', '<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>' );
 	if ( snax_is_format( 'list' ) && substr_count( $content, $embedly_script ) > 0 ) {
 		$content = str_replace( $embedly_script, '', $content );
 		$content .= '<div class="bimber-snax-embedly-script-placeholder"></div>';
 	}
+
 	return $content;
 }
 

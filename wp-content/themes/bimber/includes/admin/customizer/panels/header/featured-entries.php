@@ -42,6 +42,8 @@ $wp_customize->add_control( new Bimber_Customize_Multi_Checkbox_Control( $wp_cus
 ) ) );
 
 
+
+
 // Template.
 $wp_customize->add_setting( $bimber_option_name . '[featured_entries_template]', array(
 	'default'               => $bimber_customizer_defaults['featured_entries_template'],
@@ -67,6 +69,22 @@ $wp_customize->add_control( 'bimber_featured_entries_template', array(
 	),
 ) );
 
+
+// Above header.
+$wp_customize->add_setting( $bimber_option_name . '[featured_entries_above_header]', array(
+	'default'           => $bimber_customizer_defaults['featured_entries_above_header'],
+	'type'              => 'option',
+	'capability'        => 'edit_theme_options',
+	'sanitize_callback' => 'sanitize_text_field',
+	'transport'         => 'postMessage',
+) );
+
+$wp_customize->add_control( 'bimber_featured_entries_above_header', array(
+	'label'    => __( 'Display above header', 'bimber' ),
+	'section'  => 'bimber_featured_entries_section',
+	'settings' => $bimber_option_name . '[featured_entries_above_header]',
+	'type'     => 'checkbox',
+) );
 
 
 // Full width.
@@ -96,18 +114,21 @@ $wp_customize->add_setting( $bimber_option_name . '[featured_entries_size]', arr
 ) );
 
 
-$wp_customize->add_control( 'bimber_featured_entries_size', array(
-	'label'    => __( 'Size', 'bimber' ),
+$wp_customize->add_control( new Bimber_Customize_Custom_Radio_Control( $wp_customize,  'bimber_featured_entries_size', array(
+	'label'    => __( 'Grid Size', 'bimber' ),
 	'section'  => 'bimber_featured_entries_section',
 	'settings' => $bimber_option_name . '[featured_entries_size]',
-	'type'     => 'select',
+	'type'     => 'radio',
+	'input_attrs' => array(
+		'row-class' => 'radio-single-line',
+	),
 	'choices'  => array(
-		'xs'      	=> __( 'Small', 'bimber' ),
-		'xs-5'    	=> __( 'Medium', 'bimber' ),
-		'xs-4'      => __( 'Large', 'bimber' ),
+		'xs'      	=> 'S',
+		'xs-5'    	=> 'M',
+		'xs-4'      => 'L',
 	),
 	'active_callback' => 'bimber_is_featured_entries_size_active',
-) );
+) ) );
 
 /**
  * Is featured entries size active.
@@ -121,87 +142,6 @@ function bimber_is_featured_entries_size_active( $control ) {
 	return $active;
 }
 
-// Number.
-$wp_customize->add_setting( $bimber_option_name . '[featured_entries_number]', array(
-	'default'           => $bimber_customizer_defaults['featured_entries_number'],
-	'type'              => 'option',
-	'capability'        => 'edit_theme_options',
-	'sanitize_callback' => 'sanitize_text_field',
-	'transport'         => 'postMessage',
-) );
-$wp_customize->add_control( 'bimber_featured_entries_number', array(
-	'label'    => __( 'Number of Entries', 'bimber' ),
-	'section'  => 'bimber_featured_entries_section',
-	'settings' => $bimber_option_name . '[featured_entries_number]',
-	'type'     => 'number',
-	'input_attrs' => array(
-		'min' => 3,
-		'max' => 20,
-		'class' => 'small-text',
-	),
-	'active_callback' => 'bimber_is_featured_entries_number_active',
-) );
-
-// Number - bunchy.
-$wp_customize->add_setting( $bimber_option_name . '[featured_entries_number_bunchy]', array(
-	'default'           => $bimber_customizer_defaults['featured_entries_number_bunchy'],
-	'type'              => 'option',
-	'capability'        => 'edit_theme_options',
-	'sanitize_callback' => 'sanitize_text_field',
-	'transport'         => 'postMessage',
-) );
-$wp_customize->add_control( 'bimber_featured_entries_number_bunchy', array(
-	'label'    => __( 'Number of Entries', 'bimber' ),
-	'section'  => 'bimber_featured_entries_section',
-	'settings' => $bimber_option_name . '[featured_entries_number_bunchy]',
-	'type'     => 'number',
-	'input_attrs' => array(
-		'min' => 3,
-		'max' => 4,
-		'class' => 'small-text',
-	),
-	'active_callback' => 'bimber_is_featured_entries_number_bunchy_active',
-) );
-
-/**
- * Is featured entries number active.
- *
- * @param WP_Customize_Control $control     Control instance for which this callback is executed.
- * @return bool
- */
-function bimber_is_featured_entries_number_active( $control ) {
-	$template = bimber_get_theme_option( 'featured_entries', 'template' );
-	$active = 'grid' === $template || 'list' === $template;
-	return $active;
-}
-
-/**
- * Is featured entries number active.
- *
- * @param WP_Customize_Control $control     Control instance for which this callback is executed.
- * @return bool
- */
-function bimber_is_featured_entries_number_bunchy_active( $control ) {
-	$template = bimber_get_theme_option( 'featured_entries', 'template' );
-	$active = 'bunchy' === $template;
-	return $active;
-}
-
-// Above header.
-$wp_customize->add_setting( $bimber_option_name . '[featured_entries_above_header]', array(
-	'default'           => $bimber_customizer_defaults['featured_entries_above_header'],
-	'type'              => 'option',
-	'capability'        => 'edit_theme_options',
-	'sanitize_callback' => 'sanitize_text_field',
-	'transport'         => 'postMessage',
-) );
-
-$wp_customize->add_control( 'bimber_featured_entries_above_header', array(
-	'label'    => __( 'Display above header', 'bimber' ),
-	'section'  => 'bimber_featured_entries_section',
-	'settings' => $bimber_option_name . '[featured_entries_above_header]',
-	'type'     => 'checkbox',
-) );
 
 // Grid Gutter.
 $wp_customize->add_setting( $bimber_option_name . '[featured_entries_gutter]', array(
@@ -218,6 +158,8 @@ $wp_customize->add_control( 'bimber_featured_entries_gutter', array(
 	'settings' => $bimber_option_name . '[featured_entries_gutter]',
 	'type'     => 'checkbox',
 ) );
+
+
 
 
 
@@ -292,6 +234,73 @@ $wp_customize->add_control( 'bimber_featured_entries_type', array(
 	),
 ) );
 
+
+// Number.
+$wp_customize->add_setting( $bimber_option_name . '[featured_entries_number]', array(
+	'default'           => $bimber_customizer_defaults['featured_entries_number'],
+	'type'              => 'option',
+	'capability'        => 'edit_theme_options',
+	'sanitize_callback' => 'sanitize_text_field',
+	'transport'         => 'postMessage',
+) );
+$wp_customize->add_control( 'bimber_featured_entries_number', array(
+	'label'    => __( 'Number of Entries', 'bimber' ),
+	'section'  => 'bimber_featured_entries_section',
+	'settings' => $bimber_option_name . '[featured_entries_number]',
+	'type'     => 'number',
+	'input_attrs' => array(
+		'min' => 3,
+		'max' => 20,
+		'class' => 'small-text',
+	),
+	'active_callback' => 'bimber_is_featured_entries_number_active',
+) );
+
+// Number - bunchy.
+$wp_customize->add_setting( $bimber_option_name . '[featured_entries_number_bunchy]', array(
+	'default'           => $bimber_customizer_defaults['featured_entries_number_bunchy'],
+	'type'              => 'option',
+	'capability'        => 'edit_theme_options',
+	'sanitize_callback' => 'sanitize_text_field',
+	'transport'         => 'postMessage',
+) );
+$wp_customize->add_control( 'bimber_featured_entries_number_bunchy', array(
+	'label'    => __( 'Number of Entries', 'bimber' ),
+	'section'  => 'bimber_featured_entries_section',
+	'settings' => $bimber_option_name . '[featured_entries_number_bunchy]',
+	'type'     => 'number',
+	'input_attrs' => array(
+		'min' => 3,
+		'max' => 4,
+		'class' => 'small-text',
+	),
+	'active_callback' => 'bimber_is_featured_entries_number_bunchy_active',
+) );
+
+/**
+ * Is featured entries number active.
+ *
+ * @param WP_Customize_Control $control     Control instance for which this callback is executed.
+ * @return bool
+ */
+function bimber_is_featured_entries_number_active( $control ) {
+	$template = bimber_get_theme_option( 'featured_entries', 'template' );
+	$active = 'grid' === $template || 'list' === $template;
+	return $active;
+}
+
+/**
+ * Is featured entries number active.
+ *
+ * @param WP_Customize_Control $control     Control instance for which this callback is executed.
+ * @return bool
+ */
+function bimber_is_featured_entries_number_bunchy_active( $control ) {
+	$template = bimber_get_theme_option( 'featured_entries', 'template' );
+	$active = 'bunchy' === $template;
+	return $active;
+}
+
 // Show in main loop?
 $wp_customize->add_setting( $bimber_option_name . '[featured_entries_exclude_from_main_loop]', array(
 	'default'           => $bimber_customizer_defaults['featured_entries_exclude_from_main_loop'],
@@ -356,7 +365,7 @@ $wp_customize->add_setting( $bimber_option_name . '[featured_entries_category]',
 ) );
 
 $wp_customize->add_control( new Bimber_Customize_Multi_Checkbox_Control( $wp_customize, 'bimber_featured_entries_category', array(
-	'label'           => __( 'Categories', 'bimber' ),
+	'label'           => __( 'Filter by Categories', 'bimber' ),
 	'section'         => 'bimber_featured_entries_section',
 	'settings'        => $bimber_option_name . '[featured_entries_category]',
 	'choices'         => bimber_customizer_get_category_choices(),
@@ -374,7 +383,7 @@ $wp_customize->add_setting( $bimber_option_name . '[featured_entries_tag]', arra
 ) );
 
 $wp_customize->add_control( new Bimber_Customize_Tag_Select_Control( $wp_customize, 'bimber_featured_entries_tag', array(
-	'label'           => __( 'Tags', 'bimber' ),
+	'label'           => __( 'Filter by Tags', 'bimber' ),
 	'section'         => 'bimber_featured_entries_section',
 	'settings'        => $bimber_option_name . '[featured_entries_tag]',
 	'active_callback' => 'bimber_customizer_global_featured_entries_tag_is_active',

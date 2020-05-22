@@ -38,7 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<nav class="<?php echo implode( ' ', array_map( 'sanitize_html_class', $bimber_class ) ); ?>">
 		<ul class="g1-quick-nav-menu">
 			<?php if ( 'separate' === bimber_get_theme_option( 'posts', 'top_in_menu' ) ) : ?>
-				<?php if ( strlen( bimber_get_latest_page_url() ) ) : ?>
+                <?php if ( bimber_is_latest_page_enabled() ) : ?>
 					<li class="menu-item menu-item-type-g1-latest <?php if ( bimber_is_latest_page() ) {
 						echo sanitize_html_class( 'current-menu-item' ); } ?>">
 						<a href="<?php echo esc_url( bimber_get_latest_page_url() ); ?>">

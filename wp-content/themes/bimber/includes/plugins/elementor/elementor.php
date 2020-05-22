@@ -19,6 +19,8 @@ require_once BIMBER_PLUGINS_DIR . 'elementor/extensions/class-elementor-bimber-e
 add_action( 'bimber_home_before_main_collection', 'bimber_elementor_render_home_static' );
 add_action( 'woocommerce_archive_description', 'bimber_elementor_render_woocommerce_home_static' );
 
+// Admin page status.
+add_filter( 'display_post_states',          'bimber_elementor_add_display_post_states', 10, 2 );
 
 function bimber_elementor_get_home_page_id() {
 	$page_id = bimber_get_theme_option( 'home', 'elementor_page_id' );
@@ -28,7 +30,7 @@ function bimber_elementor_get_home_page_id() {
 
 	$is_page = ( $page && 'page' === $page->post_type );
 
-	return $is_page ? $page_id : false;
+	return $is_page ? (int) $page_id : false;
 }
 
 
@@ -95,4 +97,20 @@ function bimber_elementor_disable_quads_content_ads( $content ) {
 	$content .= '<!--OffAds-->';
 
 	return $content;
+}
+
+/**
+ * Add a post display state for Elementor special pages in the page list table
+ *
+ * @param array   $post_states  An array of post display states.
+ * @param WP_Post $post         The current post object.
+ *
+ * @return array
+ */
+function bimber_elementor_add_display_post_states( $post_states, $post ) {
+    if ( bimber_elementor_get_home_page_id() === $post->ID ) {
+        $post_states['bimber_elementor_home_injected_page'] = _x( 'Bimber, Elementor Home Injected Page', 'Admin page label', 'bimber' );
+    }
+
+    return $post_states;
 }

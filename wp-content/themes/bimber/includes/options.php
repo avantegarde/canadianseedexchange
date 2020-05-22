@@ -110,6 +110,15 @@ function bimber_get_collection_templates() {
 			'label' => 'List XXSmall Mod11',
 			'path'  => $uri . 'list-xxs-mod11.png',
 		),
+		'txtlist' => array(
+			'label' => 'Text List',
+			'path'  => $uri . 'txtlist.png',
+		),
+		'txtlist' => array(
+			'label' => 'Text List',
+			'path'  => $uri . 'txtlist.png',
+			'path'  => $uri . 'txtlist.png',
+		),
 		'txtlist-mod01' => array(
 			'label' => 'Text List Mod01',
 			'path'  => $uri . 'txtlist-mod01.png',
@@ -419,7 +428,6 @@ function bimber_get_archive_elements_to_hide() {
 	return apply_filters( 'bimber_archive_hide_elements_choices', array(
 		'featured_media' => esc_html__( 'Featured Media', 'bimber' ),
 		'categories'     => esc_html__( 'Categories', 'bimber' ),
-		'title'          => esc_html__( 'Title', 'bimber' ),
 		'subtitle'       => esc_html__( 'Subtitle', 'bimber' ),
 		'summary'        => esc_html__( 'Summary', 'bimber' ),
 		'author'         => esc_html__( 'Author', 'bimber' ),

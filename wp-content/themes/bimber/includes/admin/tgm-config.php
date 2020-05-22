@@ -105,7 +105,7 @@ function bimber_get_theme_plugins_config() {
 			// The plugin source.
 			'required'           => false,
 			// If false, the plugin is only 'recommended' instead of required.
-			'version'            => '1.71',
+			'version'            => '1.72',
 			// E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented.
 			'force_activation'   => false,
 			// If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -126,7 +126,7 @@ function bimber_get_theme_plugins_config() {
 			// The plugin source.
 			'required'           => false,
 			// If false, the plugin is only 'recommended' instead of required.
-			'version'            => '1.2.20',
+			'version'            => '1.2.21',
 			// E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented.
 			'force_activation'   => false,
 			// If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -147,7 +147,7 @@ function bimber_get_theme_plugins_config() {
 			// The plugin source.
 			'required'           => false,
 			// If false, the plugin is only 'recommended' instead of required.
-			'version'            => '1.3.7',
+			'version'            => '1.3.8',
 			// E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented.
 			'force_activation'   => false,
 			// If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -168,7 +168,7 @@ function bimber_get_theme_plugins_config() {
 			// The plugin source.
 			'required'           => false,
 			// If false, the plugin is only 'recommended' instead of required.
-			'version'            => '1.4.4',
+			'version'            => '1.4.5',
 			// E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented.
 			'force_activation'   => false,
 			// If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -189,7 +189,7 @@ function bimber_get_theme_plugins_config() {
 			// The plugin source.
 			'required'           => false,
 			// If false, the plugin is only 'recommended' instead of required.
-			'version'            => '1.3.10',
+			'version'            => '1.3.11',
 			// E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented.
 			'force_activation'   => false,
 			// If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -231,7 +231,7 @@ function bimber_get_theme_plugins_config() {
 			// The plugin source.
 			'required'           => false,
 			// If false, the plugin is only 'recommended' instead of required.
-			'version'            => '6.1',
+			'version'            => '6.2.0',
 			// E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented.
 			'force_activation'   => false,
 			// If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -302,7 +302,7 @@ function bimber_get_theme_plugins_config() {
 			// The plugin source.
 			'required'           => false,
 			// If false, the plugin is only 'recommended' instead of required.
-			'version'            => '7.0.1',
+			'version'            => '7.1.1',
 			// E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented.
 			'force_activation'   => false,
 			// If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -321,7 +321,7 @@ function bimber_get_theme_plugins_config() {
 			// The plugin source.
 			'required'           => false,
 			// If false, the plugin is only 'recommended' instead of required.
-			'version'            => '2.4.7',
+			'version'            => '2.4.8',
 			// E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented.
 			'force_activation'   => false,
 			// If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.

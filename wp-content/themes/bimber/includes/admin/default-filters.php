@@ -19,6 +19,7 @@ add_action( 'manage_posts_custom_column',   'bimber_post_list_render_id_column' 
 add_filter( 'manage_posts_columns',         'bimber_post_list_custom_columns' );
 add_action( 'manage_posts_custom_column',   'bimber_post_list_custom_columns_data', 10, 2 );
 add_action( 'admin_head', 					'bimber_post_list_styles' );
+add_filter( 'display_post_states',          'bimber_add_display_post_states', 10, 2 );
 
 // Category.
 add_action( 'category_edit_form_fields', 	'bimber_category_add_custom_fields', 10, 2 );

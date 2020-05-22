@@ -39,12 +39,11 @@ add_action( 'wp_loaded', 'bimber_bp_setup_xprofile_fields' );
 add_action( 'bp_after_profile_field_content', 'bimber_bp_profile_elements', 9 );
 
 // Groups.
+add_action( 'bp_before_groups_loop', 'bimber_bp_before_groups_loop' );
+add_action( 'bp_after_groups_loop', 'bimber_bp_after_groups_loop' );
 add_filter( 'bp_directory_groups_search_form', 'bimber_bp_directory_search_form' );
 add_action( 'bp_group_header_actions', 'bimber_bp_group_add_button_class_filters', 1 );
 add_action( 'bp_group_header_actions', 'bimber_bp_group_remove_button_class_filters', 9999 );
-
-
-
 add_filter( 'bp_before_xprofile_cover_image_settings_parse_args', 'bimber_cover_image_css', 10, 1 );
 add_filter( 'bp_before_groups_cover_image_settings_parse_args', 'bimber_cover_image_css', 10, 1 );
 
@@ -1139,14 +1138,19 @@ function bimber_bp_get_prev_user_id() {
 }
 
 
-add_action( 'bp_before_group_members_list', 'bimber_bp_before_group_members_list' );
-function bimber_bp_before_group_members_list() {
 
+function bimber_bp_before_groups_loop() {
+	add_filter( 'bp_get_group_join_button', 'bimber_bp_get_group_join_button', 10, 2 );
+}
+
+
+function bimber_bp_after_groups_loop() {
+	remove_filter( 'bp_get_group_join_button', 'bimber_bp_get_group_join_button', 10, 2 );
 }
 
 
 
-add_filter( 'bp_get_group_join_button', 'bimber_bp_get_group_join_button', 10, 2 );
+
 function bimber_bp_get_group_join_button( $button, $group ) {
 	$button['link_class'] .= ' g1-button g1-button-simple g1-button-xs';
 

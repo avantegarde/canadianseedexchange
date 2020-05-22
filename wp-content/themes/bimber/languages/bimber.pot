@@ -538,9 +538,6 @@ msgstr ""
 msgid "Categories"
 msgstr ""
 
-msgid "Title"
-msgstr ""
-
 msgid "Subtitle"
 msgstr ""
 
@@ -566,6 +563,9 @@ msgid "Archive Image"
 msgstr ""
 
 msgid "Breadcrumbs"
+msgstr ""
+
+msgid "Title"
 msgstr ""
 
 msgid "Description"
@@ -1142,6 +1142,26 @@ msgctxt "sidebar location"
 msgid "Right"
 msgstr ""
 
+msgctxt "Admin page label"
+msgid "Bimber, Link Landing Page"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Top Posts Page"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Trending Posts Page"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Hot Posts Page"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Popular Posts Page"
+msgstr ""
+
 msgctxt "Spartan font: on or off"
 msgid "on"
 msgstr ""
@@ -1674,6 +1694,10 @@ msgstr ""
 msgid "Show if highlighted"
 msgstr ""
 
+msgctxt "Admin page label"
+msgid "Bimber, Download landing page"
+msgstr ""
+
 msgid "Here are my links!"
 msgstr ""
 
@@ -1791,6 +1815,10 @@ msgstr ""
 msgid ""
 "Please install and activate the Elementor Page Builder plugin to edit your "
 "homepage."
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Elementor Home Injected Page"
 msgstr ""
 
 msgctxt "Easy Social Share Buttons integration"
@@ -1922,6 +1950,10 @@ msgid "Dark"
 msgstr ""
 
 msgid "WPBakery Page Builder Home Static"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, WP Bakery Home Injected Page"
 msgstr ""
 
 msgid "WPBakery Page Builder Content"
@@ -3531,19 +3563,13 @@ msgstr ""
 msgid "list"
 msgstr ""
 
+msgid "Display above header"
+msgstr ""
+
 msgid "Full width"
 msgstr ""
 
-msgid "Small"
-msgstr ""
-
-msgid "Medium"
-msgstr ""
-
-msgid "Large"
-msgstr ""
-
-msgid "Display above header"
+msgid "Grid Size"
 msgstr ""
 
 msgid "Grid gutter"
@@ -3556,6 +3582,12 @@ msgid "Grid image title"
 msgstr ""
 
 msgid "Exclude from the main collection?"
+msgstr ""
+
+msgid "Filter by Categories"
+msgstr ""
+
+msgid "Filter by Tags"
 msgstr ""
 
 msgid "Icons"

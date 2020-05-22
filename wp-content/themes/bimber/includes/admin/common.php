@@ -423,3 +423,40 @@ function bimber_show_menu_metaboxes( $result ) {
 
 	return $result;
 }
+
+/**
+ * Add a post display state for special theme pages in the page list table
+ *
+ * @param array   $post_states  An array of post display states.
+ * @param WP_Post $post         The current post object.
+ *
+ * @return array
+ */
+function bimber_add_display_post_states( $post_states, $post ) {
+    // Link landing page.
+    if ( 'landing_page' === bimber_get_theme_option( 'post_link', 'open_method' ) && $post->ID === (int) bimber_get_theme_option( 'post', 'link_landing_page' ) ) {
+        $post_states['bimber_link_landing_page'] = _x( 'Bimber, Link Landing Page', 'Admin page label', 'bimber' );
+    }
+
+    // Top 10.
+    if ( $post->ID === bimber_get_top_page_id() ) {
+        $post_states['bimber_top_posts_page'] = _x( 'Bimber, Top Posts Page', 'Admin page label', 'bimber' );
+    }
+
+    // Trending page.
+    if ( $post->ID === bimber_get_trending_page_id() ) {
+        $post_states['bimber_trending_posts_page'] = _x( 'Bimber, Trending Posts Page', 'Admin page label', 'bimber' );
+    }
+
+    // Hot page.
+    if ( $post->ID === bimber_get_hot_page_id() ) {
+        $post_states['bimber_hot_posts_page'] = _x( 'Bimber, Hot Posts Page', 'Admin page label', 'bimber' );
+    }
+
+    // Popular page.
+    if ( $post->ID === bimber_get_popular_page_id() ) {
+        $post_states['bimber_popular_posts_page'] = _x( 'Bimber, Popular Posts Page', 'Admin page label', 'bimber' );
+    }
+
+    return $post_states;
+}

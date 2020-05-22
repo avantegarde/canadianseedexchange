@@ -82,7 +82,7 @@ function bimber_get_top_page_id() {
 		$page_id = - 1;
 	}
 
-	return apply_filters( 'bimber_top_page_id', $page_id );
+	return (int) apply_filters( 'bimber_top_page_id', $page_id );
 }
 
 /**
@@ -218,7 +218,7 @@ function bimber_get_hot_page_id() {
 		$page_id = - 1;
 	}
 
-	return apply_filters( 'bimber_hot_page_id', $page_id );
+	return (int) apply_filters( 'bimber_hot_page_id', $page_id );
 }
 
 /**
@@ -279,7 +279,7 @@ function bimber_get_popular_page_id() {
 		$page_id = - 1;
 	}
 
-	return apply_filters( 'bimber_popular_page_id', $page_id );
+	return (int) apply_filters( 'bimber_popular_page_id', $page_id );
 }
 
 /**
@@ -340,7 +340,7 @@ function bimber_get_trending_page_id() {
 		$page_id = - 1;
 	}
 
-	return apply_filters( 'bimber_trending_page_id', $page_id );
+	return (int) apply_filters( 'bimber_trending_page_id', $page_id );
 }
 
 /**
